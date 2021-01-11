@@ -50,12 +50,14 @@ nav li {
   font-family: 'Cabin', Helvetica, sans-serif;
   font-size: 1.5em;
 }
+/*
 xnav ul {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(6em, 1fr));
   margin: 0;
   list-style: inside;       
 }
+*/
 
 nav a:hover {
    background-color: #0086b3;
@@ -67,6 +69,7 @@ nav a:hover {
 
 img {
   max-width: 100%;
+  float: right;
 }
 
 .logo {
@@ -181,11 +184,11 @@ footer {
 
 
 /* Rivers page */
-.rivers-grid {
+/*.rivers-grid {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   grid-gap: 1em;
-}
+} */
 
 .rivers-right-img {
   width: 350px;
