@@ -22,7 +22,24 @@ h1, h2, h3, h4, h5, h6 {
 border-top: 5px double;
  border-bottom: 5px double;
 }
+h1 {
+  background-color: #ff86b3;
+  border-radius: 3px 0 0 3px;
+   margin-bottom: 10px;
+}
 
+.pagetitle {
+  font-size: 2em;
+  border: none;
+  float: left;
+}
+img {
+  max-width: 100%;
+  float: right;
+}
+h2 {
+  background-color: #e6f9ff;
+}
 p {
   font-family: 'Piazzolla', Helvetica, serif;
   font-size: 1.15em;
@@ -44,20 +61,28 @@ nav a {
   color:#0086b3;
   line-height: 1.5em;
   padding: .25em .25em;
-  text-decoration: none;
+  /*text-decoration: none;*/
 }
 nav li {
   font-family: 'Cabin', Helvetica, sans-serif;
   font-size: 1.5em;
 }
-/*
+
 xnav ul {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(6em, 1fr));
   margin: 0;
   list-style: inside;       
 }
-*/
+
+
+
+
+
+
+
+
+
 
 nav a:hover {
    background-color: #0086b3;
@@ -67,23 +92,18 @@ nav a:hover {
 
 
 
-img {
-  max-width: 100%;
-  float: right;
-}
-
-.logo {
+/*.logo {
   width:200px;
   position: relative;
    box-shadow: 2px 6px 12px rgba(0, 0, 0, 0.15);
-}
-.banner {
+} */
+/*.banner {
     width: 100%;
 }
 .banner-img {
   width: 100%;
   position: right;
-}
+}*/
 #info {
   font-style:normal;
   font-size: 1.em;
@@ -103,8 +123,11 @@ img {
 
   header {
   display: grid;
- grid-template-columns: 125px auto;
-align-items: center;       
+  grid-template-columns: 125px auto;
+  align-items: center; 
+  background-color: #ff86b3;  
+  border-radius: 3px 0 0 3px;
+  margin-bottom: 10px;   
 }
 
 footer {
@@ -114,6 +137,8 @@ footer {
   align-items: center;
   justify-content: center;
   line-height: 3.5em;
+  border-radius: 3px 0 0 3px;
+   margin-bottom: 10px;
   }  
 
 
@@ -188,7 +213,7 @@ footer {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   grid-gap: 1em;
-} */
+} 
 
 .rivers-right-img {
   width: 350px;
@@ -210,15 +235,12 @@ footer {
   box-shadow: 2px 6px 12px rgba(0, 0, 0, 0.15);
   grid-column: 4 / 6;
   grid-row: 7/9;
-}
+} */
 
 
-.pagetitle {
-  font-size: 3em;
-  border: none;
-}
 
-.rivers-headline-1 {
+
+ /*.rivers-headline-1 {
      grid-column: 1 / 4;
   grid-row: 1 / 1;
 }
@@ -248,4 +270,4 @@ footer {
     grid-column: 1 / 4;
   grid-row: 8 / 9;
     font-size: .75em;
-}
+} */
