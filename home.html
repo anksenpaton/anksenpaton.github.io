@@ -4,11 +4,11 @@
   <title>Margaret Yamada WDD 230</title>
   <meta charset="uti-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" type="text/css" href="styles.css">
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
   
 </head>
 
-<body>
+<body onload="getLastUpdateDate()">
     
     <div id="content">
     <header> 
@@ -16,8 +16,8 @@
        <h1 class="pagetitle"> Margaret Yamada </h1>
            
        
-       
-     <img class="home-right-img" src="classpicture.jpg" alt="a woman's face with a hat">
+
+     <img class="home-right-img" src="images/classpicture.jpg" alt="a woman's face with a hat">
     
     </header>
 </div>
@@ -46,12 +46,9 @@
         <br>
    
     
-    Last Updated <span id="datetime"></span>
+        <div id="updateDate"></div>
 
-<script>
-var dt = new Date();
-document.getElementById("datetime").innerHTML = dt.toLocaleDateString();
-</script>
+
 </center>
     </p>
 
@@ -59,5 +56,6 @@ document.getElementById("datetime").innerHTML = dt.toLocaleDateString();
 
  
 </div>
+<script src="js/javascript.js"></script>
 </body>
 </html>

@@ -3,7 +3,7 @@
 <head>
   <title>Your Name</title>
 </head>
-<body>
+ <body onload="getLastUpdateDate()">
  <h1>Your Name myamada</h1>
 </body>
 </html> <!DOCTYPE html>
@@ -13,7 +13,7 @@
   <title>Margaret Yamada WDD 230</title>
   <meta charset="uti-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" type="text/css" href="styles.css">
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
 </head>
 
 <body>
@@ -24,7 +24,7 @@
        <h1 class="pagetitle"> Margaret Yamada</h1>
            
     <div class="banner-img">
-     <img class="home-right-img" src="classpicture.jpg" alt="a woman's face with a hat">
+     <img class="home-right-img" src="images/classpicture.jpg" alt="a woman's face with a hat">
     
     </header>
 </div>
@@ -51,7 +51,9 @@
             &copy; 2021 | Margaret Yamada | California | 
          <a href="https://www.byui.edu/online">BYUI Online Learning</a>
         <br>
-    Last Updated 01/09/2021
+        
+          <div id="updateDate"></div>
+      
 </center>
     </p>
 
@@ -59,6 +61,7 @@
 
  
 </div>
+<script src="js/javascript.js"></script>
 </body>
 </html>
   <head>
