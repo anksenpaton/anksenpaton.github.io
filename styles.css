@@ -158,7 +158,7 @@ footer {
   }  
 
 
- .home-grid {
+ /*.home-grid {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   grid-gap: 1em;
@@ -220,7 +220,7 @@ footer {
   grid-row: 8 / 8;
   margin: 0 25px 15px 25px;
 }
-
+*/
 
 
 
