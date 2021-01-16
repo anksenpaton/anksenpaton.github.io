@@ -69,10 +69,10 @@ padding: 1em;
 }
 
 nav a {
-  color:#0086b3;
+  color:#b30068;
   line-height: 1.5em;
   padding: .25em .25em;
-  /*text-decoration: none;*/
+  
 }
 nav li {
   font-family: 'Cabin', Helvetica, sans-serif;
@@ -95,26 +95,16 @@ xnav ul {
 
 
 
+
 nav a:hover {
-   background-color: #0086b3;
+   background-color: #3000b3;
   color: #e6f9ff;
    box-shadow: 2px 6px 12px rgba(0, 0, 0, 0.15);
 }
 
 
 
-/*.logo {
-  width:200px;
-  position: relative;
-   box-shadow: 2px 6px 12px rgba(0, 0, 0, 0.15);
-} */
-/*.banner {
-    width: 100%;
-}
-.banner-img {
-  width: 100%;
-  position: right;
-}*/
+
 #info {
   font-style:normal;
   font-size: 1.em;
@@ -124,39 +114,41 @@ nav a:hover {
     padding: 10px;
 }
 
-.icon {
+/*.icon {
   width: 55px;
   height: 55px;
   margin: 15px 10px 0 0;
    box-shadow: 2px 6px 12px rgba(0, 0, 0, 0.15);
   
- }
+ }*/
 
 
   header {
-  display: grid;
-  grid-template-columns: 70%;
+ /* display: grid;
+  grid-template-columns: 70%;*/
   align-items: center; 
   background-color: #ff86b3;  
   border-radius: 3px 0 0 3px;
-  margin-bottom: 10px;   
+  margin-bottom: 10px; 
+  border-radius: 3px 0 0 3px;
 }
 
-footer {
+  footer {
+  color: #ff86b3;
   
-  display: grid;
-  grid-template-columns: 1fr;
+  /*display: grid;
+  grid-template-columns: 1fr;*/
+  text-align: center;
   align-items: center;
-  justify-content: center;
+   justify-content: center;
   line-height: 3.5em;
-  background-color: #ff86b3;
-  border-radius: 3px 0 0 3px;
+   border-radius: 3px 0 0 3px;
    margin-bottom: 10px;
    width: 350px;
   height: 375px;
   box-shadow: 2px 6px 12px rgba(0, 0, 0, 0.15);
   }  
-
+  
 
  /*.home-grid {
   display: grid;
