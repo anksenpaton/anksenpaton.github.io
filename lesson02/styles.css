@@ -31,12 +31,12 @@ h1 {
 .pagetitle {
   font-size: 2em;
   border: none;
-  float: right;
+  float: left;
 }
 
 img {
   max-width: 100%;
-  /*float: center;*/
+  float: right;
 }
 
 h2 {
