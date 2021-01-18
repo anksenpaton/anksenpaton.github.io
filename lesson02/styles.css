@@ -82,6 +82,7 @@ header {
 
 img {
   max-width: 100%;
+  Height: auto;
   align-items: center;
   justify-content: center;
 }
