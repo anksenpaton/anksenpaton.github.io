@@ -14,7 +14,7 @@ h1, h2 {
   font-family: 'Roboto Slab', Helvetica, sans-serif;
   font-size: 1.75em;
   line-height: 3.5em;
-  color: #0086b3;
+  color: white;
   text-align: center;
   padding: 10px;
   margin-bottom: 0;
@@ -96,7 +96,7 @@ nav a:hover {
 
 header {
   text-align: left;
-  background-color: #ff86b3;
+  background-color: hsl(291, 84%, 43%);
   border-radius: 10px 3px 0, 0, 3px;
   margin-bottom: 10px;
 }
