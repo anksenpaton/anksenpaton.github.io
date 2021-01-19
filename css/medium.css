@@ -17,7 +17,7 @@
     height: auto;
     box-shadow: 0 0 30px rgba(0, 0, 0, 0.15);
     float: right;
-    border-radius: 0, 10px 0, 0;
+    border-radius: 10px;
   }
   footer {
     max-width: 100%;
