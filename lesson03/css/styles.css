@@ -10,44 +10,37 @@ body {
   background-color: #e6f9ff;
 }
 
-h1, h2 {
+h1, h2, h3 {
   font-family: 'Roboto Slab', Helvetica, sans-serif;
   font-size: 1.75em;
   line-height: 1.1em;
   color: #1200b3;
-  text-align: center;
+  text-align: left;
   padding: 10px;
   margin-bottom: 0;
   border-bottom: 5px double;
   border-radius: 3px 0, 0, 3px;
 }
 .logo {
-  width:100px;
+  width:200px;
   position: relative;
    box-shadow: 2px 6px 12px rgba(0, 0, 0, 0.15);
-   display: block;
- margin-left: auto;
- margin-right: auto;
-  text-align: center;
-  display: flex;
-   justify-content: center;
-    align-items: center;
 }
-/*img {
+img {
   width: 100%;
   height: auto;
-}*/
-/*h1 {
-  /*background-color: #ff86b3;
+}
+h1 {
+ /* background-color: #ff86b3;*/
   text-align: left;
   font-family: 'Roboto Slab', Helvetica, sans-serif;
-  font-size: 1.75em;
+  font-size: 2em;
   line-height: 1.1em;
-  color: white;
+  color: #1200b3;
   margin-bottom: 10px;
-  width: 350px;
+ /* width: 350px;
   height: 375px;
-  box-shadow: 2px 6px 12px rgba(0, 0, 0, 0.15);
+  box-shadow: 2px 6px 12px rgba(0, 0, 0, 0.15);*/
 }
 
 .pagetitle {
@@ -96,6 +89,7 @@ nav a:hover {
   background-color: #3000b3;
   color: #e6f9ff;
   box-shadow: 2px 6px 12px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
 }
 
 #info {
