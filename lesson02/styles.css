@@ -67,7 +67,7 @@ header {
   align-items: center;
   background-color: #9E003A;
   
-  border-radius: 10px;
+  /*border-radius: 10px;*/
   margin-bottom: 10px;
 }
 
@@ -107,6 +107,7 @@ img {
   background-color: white;
   margin: 0 auto;
   display: grid;
+  grid-template-row: 
   grid-template-columns: 100%;
   grid-gap: 20px;
   font-family: 'Roboto Slab';
