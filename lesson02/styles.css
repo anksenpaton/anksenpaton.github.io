@@ -17,9 +17,9 @@ h1, h2, h4, h5, h6 {
   text-align: center;
   padding: 10px;
   margin-bottom: 0;
-  border-top: 5px double;
+  /*border-top: 5px double;
   border-bottom: 5px double;
-  border-radius: 10px;
+  border-radius: 10px;*/
 }
 
 h3 {
