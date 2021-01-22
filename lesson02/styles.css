@@ -31,7 +31,7 @@ h3 {
 
 h1 {
   background-color: #9E003A;
-  border-radius: 3px 0 0 3px;
+  border-radius: 10px;
   margin-bottom: 10px;
 }
 
@@ -67,18 +67,18 @@ header {
   align-items: center;
   background-color: #c886ff;
   ;
-  border-radius: 3px 0 0 3px;
+  border-radius: 10px;
   margin-bottom: 10px;
 }
 
 .row {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: 100%;
   padding: 0 4px;
 }
 
 .column {
-  flex: 30%;
+  grid-template-columns: 100%;
   padding: 0 4px;
 }
 
@@ -107,7 +107,7 @@ img {
   background-color: white;
   margin: 0 auto;
   display: grid;
-  /*grid-template-columns: 1px 1fr;*/
+  grid-template-columns: 100%;
   grid-gap: 20px;
   font-family: 'Roboto Slab';
   
