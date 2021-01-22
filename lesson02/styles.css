@@ -13,7 +13,7 @@ h1, h2, h4, h5, h6 {
   font-family: 'Roboto Slab', Helvetica, sans-serif;
   font-size: 1.75em;
   line-height: 1.1em;
-  color: #0086b3;
+  color: #ffffff;
   text-align: center;
   padding: 10px;
   margin-bottom: 0;
@@ -30,7 +30,7 @@ h3 {
 }
 
 h1 {
-  background-color: #ff86b3;
+  background-color: #9E003A;
   border-radius: 3px 0 0 3px;
   margin-bottom: 10px;
 }
