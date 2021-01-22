@@ -107,7 +107,7 @@ img {
   background-color: white;
   margin: 0 auto;
   display: grid;
-  grid-template: 1fr;
+  grid-template-columns: 1fr;
   grid-gap: 20px;
   font-family: 'Roboto Slab';
   
