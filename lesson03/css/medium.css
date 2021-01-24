@@ -1,4 +1,4 @@
-@media only screen and (min-width: 32.5em) {
+@media only screen and (max-width: 32.5em) {
   h1 {
     font-size: 2.5rem;
     /*margin: 0.15rem;*/
@@ -19,6 +19,16 @@
     float: right;
     border-radius: 10px;
   }
+
+  .navigation ul {
+    flex-wrap: wrap;
+ }
+ 
+ .navigation li {
+    
+    flex: 1 100%;
+ }
+
   nav li {
     flex: 3;
     font-family: 'Cabin', Helvetica, sans-serif;
