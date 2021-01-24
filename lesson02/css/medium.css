@@ -1,13 +1,7 @@
-@media only screen and (max-width: 768px)
-
-
-
-section {
- 
-  grid-template-columns: 1fr 1fr 1fr;
-}
-
- 
+@media only screen and (min-width: 32.5em) {
+  section {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
   h1 {
     font-size: 2.5rem;
     /*margin: 0.15rem;*/
