@@ -2,6 +2,7 @@
 body {
   /*background-color: #ff86b3;*/
   background-color: #e6f9ff;
+  display: block;
 }
 
 #content {
@@ -71,20 +72,31 @@ p {
 
 nav {
   background-color: #e6f9ff;
-  padding: 1em;
+  text-align: center;
+  /*padding: 1em;*/
 }
 
 nav a {
+  display: flexbox;
   color: #b30068;
   line-height: 1.5em;
   padding: .25em .25em;
 }
 
 nav li {
+  flex: 3;
   font-family: 'Cabin', Helvetica, sans-serif;
   font-size: 1.5em;
 }
 
+
+nav ul {
+  display: grid;
+ /* grid-template-columns: repeat(auto-fit, minmax(6em, 1fr));*/
+  margin: 0;
+  list-style: none;  
+  text-decoration: none;    
+}
 nav a:hover {
   background-color: #3000b3;
   color: #e6f9ff;
@@ -102,7 +114,7 @@ nav a:hover {
   padding: 10px;
 }
 
-header, footer {
+/*header, footer {*/
   /*display: grid;
   grid-template-columns: 70%;*/
  /* text-align: center;

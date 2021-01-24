@@ -19,6 +19,7 @@ h1, h2 {
   text-align: center;
   padding: 10px;
   margin-bottom: 0;
+  
   border-radius: 10px;
 }
 
@@ -27,9 +28,11 @@ h1 {
   height: auto;
   background-color: hsl(291, 84%, 43%);
   border-radius: 10px;
-  text-align: left;
+  text-align: center;
   margin-bottom: 10px;
+  border-bottom: 5px double;
 }
+
 
 header img {
   max-width: 100%;
@@ -39,8 +42,8 @@ header img {
 }
 
 h2 {
-  color: #1200b3;
-  background-color: #e6f9ff;
+  color: white;
+  background-color: hsl(291, 84%, 43%);
   border-bottom: 5px double;
 }
 
@@ -56,26 +59,38 @@ p {
 
 nav {
   background-color: #e6f9ff;
-  padding: 1em;
+  box-shadow: 0 2px 15px gray;
+  
 }
 
-nav a {
+nav li a {
   display: block;
   color: #1200b3;
-  line-height: 1.5em;
-  padding: .25em .25em;
+  text-align: center;
+  text-decoration: none;
+  
+  padding: 0.75rem;
 }
 
 nav li {
+  flex: 3;
   font-family: 'Cabin', Helvetica, sans-serif;
   font-size: 1.5em;
+}
+
+nav ul {
+  display: block;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  overflow: hidden;
 }
 
 nav a:hover {
   background-color: #0086b3;
   color: #e6f9ff;
   box-shadow: 2px 6px 12px rgba(0, 0, 0, 0.15);
-  border-radius: 10px;
+ /* border-radius: 10px;*/
 }
 
 #info {
@@ -104,10 +119,16 @@ header {
   margin-bottom: 10px;
 }
 
+.logo {
+  width: 200px;
+  position: relative;
+  box-shadow: 2px 6px 12px rgba(0, 0, 0, 0.15);
+}
+
 footer {
   max-width: 100%;
   height: auto;
-  background-color:  hsl(291, 84%, 43%);
+  background-color: hsl(291, 84%, 43%);
   text-align: center;
   justify-content: center;
   line-height: 3.5em;
