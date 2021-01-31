@@ -31,7 +31,12 @@ h1 {
   margin-bottom: 10px;
   border-bottom: 5px double;
 }
-
+.moto {
+  font-style: normal;
+  font-size: 1em;
+  color: white;
+  text-align: center;
+}
 header img {
   max-width: 100%;
   height: auto;
@@ -111,6 +116,7 @@ nav a:hover {
   padding: 15px;
   background-color: #eee;
   color: #1200b3;
+  font-style: italic;
 }
 #info {
   font-style: normal;
