@@ -4,8 +4,11 @@ function getLastUpdateDate() {
    /* document.getElementById("updateDate").innerHTML =	dt.toLocaleDateString();*/
     document.getElementById("updateDate").innerHTML = dt.toDateString();
 }
-
-const hambutton = document .querySelector();
+function toggleMenu() {
+    document.getElementsByClassName("navigation")[0]
+    .classList.toggle("responsive");
+}
+/*const hambutton = document .querySelector();
 const mainnav = document .querySelector(navigation);
 hambutton .addEventListener('click'()=6);
 {
@@ -15,4 +18,4 @@ window.onresize=()=>{if(window.innerWidth>760);
 {
     mainnav.classList.remove('responsive')
 }
-};
+};*/
