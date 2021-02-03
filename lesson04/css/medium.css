@@ -30,6 +30,12 @@
     font-family: 'Cabin', Helvetica, sans-serif;
     font-size: 1.5em;
   }
+
+  /* 35em is also 560px when basefont is 16px */
+@media only screen and (min-width: 35rem) {
+
+} /*end medium */
+
   footer {
     max-width: 100%;
     height: auto;
