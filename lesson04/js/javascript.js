@@ -5,8 +5,8 @@ function getLastUpdateDate() {
     document.getElementById("updateDate").innerHTML = dt.toDateString();
 }
 function toggleMenu() {
-    document.getElementsById("primaryNav")[0].classList.toggle("hide");
-    /*alert("Hello from toggleMenu()");*/
+    document.getElementById("primaryNav").classList.toggle("hide");
+    alert("Hello from toggleMenu()");
 }
 /*const hambutton = document .querySelector();
 const mainnav = document .querySelector(navigation);
