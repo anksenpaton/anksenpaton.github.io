@@ -6,7 +6,7 @@ function getLastUpdateDate() {
 }
 function toggleMenu() {
     document.getElementById("primaryNav").classList.toggle("hide");
-    alert("Hello from toggleMenu()");
+    /*alert("Hello from toggleMenu()");*/
 }
 /*const hambutton = document .querySelector();
 const mainnav = document .querySelector(navigation);
