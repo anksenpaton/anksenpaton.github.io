@@ -84,11 +84,13 @@ a:hover {
   flex: 1 100%;
 }
 
-.navigation li:first-child {
+/*.navigation li:first-child*/ 
+
+.navigation li {
   display: block;
 }
 .navigation li {
-  display: none;
+  display: block;
 }
 /*.navigation li {
   flex: 3;
