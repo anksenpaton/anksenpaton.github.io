@@ -35,6 +35,23 @@
     display: block;
     flex: 1 1 100%;
   }
+  nav ul {
+    display: none;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    overflow: hidden;
+  }
+
+  nav ul li {
+    display: none;
+  display: flex;
+    flex-direction: row;
+  }
+
+  ul.primaryNav {
+    display: none;
+  }
 
   nav button {
     display: none;

@@ -115,7 +115,7 @@ function getLastUpdateDate() { /* returns something like: Wednesday January 1st 
     +
     dowList[dow]
     +
-    " "
+    ", "
     +
         monList[mon]
     +
