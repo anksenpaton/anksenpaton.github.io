@@ -6,6 +6,7 @@ function getLastUpdateDate() {
 }
 function toggleMenu() {
     document.getElementsByClassName("navigation")[0].classList.toggle("responsive");
+    /*alert("Hello from toggleMenu()");*/
 }
 /*const hambutton = document .querySelector();
 const mainnav = document .querySelector(navigation);
