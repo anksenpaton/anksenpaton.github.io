@@ -80,7 +80,8 @@ a:hover {
 
 .responsive li{
   display: block;
-  width: 150;
+ /* width: 150;*/
+  width: 95%;
   flex: 1 100%;
 }
 
