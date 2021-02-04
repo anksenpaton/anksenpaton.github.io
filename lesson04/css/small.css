@@ -75,7 +75,7 @@ a:hover {
   margin: 0;
   padding: 0;
   /* display: flex; */
-  display: none;
+  display: block;
 }
 
 .responsive li{
@@ -104,6 +104,7 @@ nav {
 }
 
 nav button {
+  display: block;
   margin: .2rem 2%;
   background-color: transparent;
   border: none;
@@ -124,7 +125,9 @@ nav ul {
   list-style: none;
   overflow: hidden;
 }
-
+nav ul.hide {
+  display: none;
+}
 nav li a {
   display: block;
   color: #1200b3;
@@ -143,12 +146,7 @@ nav a:hover {
 
 
 
-/*----- Clearfix: Force an Element not to collapse -----*/
-.clearfix:after {
-  content: "";
-  display: table;
-  clear: both;
-}
+
 
 .contentbox{
   display: block;
@@ -204,4 +202,10 @@ footer {
 
 footer a {
   color: white;
+}
+/*----- Clearfix: Force an Element not to collapse -----*/
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
 }
