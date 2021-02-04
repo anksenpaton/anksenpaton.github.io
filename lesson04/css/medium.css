@@ -1,4 +1,5 @@
-@media only screen and (max-width: 32.5em) {
+/* 35em is also 560px when basefont is 16px */
+@media only screen and (min-width: 35rem) {
   h1 {
     font-size: 2.5rem;
     /*margin: 0.15rem;*/
@@ -8,7 +9,8 @@
     font-size: 1.5rem;
     color: white;
   }
-  header, footer {
+  header,
+  footer {
     border-radius: 10px;
     color: #1200b3;
   }
@@ -16,29 +18,32 @@
     width: 200px;
     height: auto;
     box-shadow: 0 0 30px rgba(0, 0, 0, 0.15);
-    float: right;
+    float: left;
     border-radius: 10px;
   }
+
   .navigation ul {
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
+    display: flex; 
   }
+
+  .navigation li:first-child {
+    display: block;
+  }
+
   .navigation li {
-    flex: 1 100%;
+    display: block;
+    flex: 1 1 100%;
   }
+
   nav li {
     flex: 3;
-    font-family: 'Cabin', Helvetica, sans-serif;
+    font-family: "Cabin", Helvetica, sans-serif;
     font-size: 1.5em;
-    
-      mainnav .classList .remove('responsive')
-    }};
+
+    /*  mainnav .classList .remove('responsive')
+    }};*/
   }
-.responsive li {}
-
-  /* 35em is also 560px when basefont is 16px */
-@media only screen and (min-width: 35rem) {
-
-} /*end medium */
 
   footer {
     max-width: 100%;
@@ -48,4 +53,4 @@
   footer a {
     color: white;
   }
-}
+} /*end medium */
