@@ -44,21 +44,19 @@
   }
 
   nav ul li {
-    display: none;
+    
   display: flex;
     flex-direction: row;
   }
 
-  ul.primaryNav {
-    display: none;
-  }
+  
 
   nav button {
     display: none;
   }
 
   nav ul.hide {
-    display: block;
+    display: flex;
   }
 
   nav li {
