@@ -131,9 +131,9 @@ nav ul.hide {
   display: none;
 }
 
-nav ul li {
+/*nav ul li {
   float: left;
-}
+}*/
 nav li a {
   display: block;
   color: #1200b3;
