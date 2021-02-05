@@ -195,7 +195,11 @@ header {
   position: relative;
   box-shadow: 2px 6px 12px rgba(0, 0, 0, 0.15);
 }
-
+.hero {
+  width: 1100px;
+  /*position: relative;*/
+  /*box-shadow: 2px 6px 12px rgba(0, 0, 0, 0.15);*/
+}
 footer {
   max-width: 1100px;
   margin: 0 auto;
