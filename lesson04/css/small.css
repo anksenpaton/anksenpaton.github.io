@@ -33,7 +33,7 @@ h1 {
 }
 .moto {
   font-style: normal;
-  font-size: 1em;
+  font-size: 1.5em;
   color: white;
   text-align: center;
 }
@@ -45,6 +45,7 @@ header img {
 }
 
 h2 {
+  max-width: 1100px;
   color: white;
   background-color: hsl(291, 84%, 43%);
   border-bottom: 5px double;
@@ -155,6 +156,7 @@ nav a:hover {
 
 .contentbox{
   display: block;
+  max-width: 1100px;
   margin: 10px auto;
   border: 1px dashed #000;
   padding: 15px;
@@ -195,7 +197,7 @@ header {
 }
 
 footer {
-  max-width: 100%;
+  max-width: 1100px;
   height: auto;
   background-color: hsl(291, 84%, 43%);
   text-align: center;
