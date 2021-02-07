@@ -16,6 +16,11 @@
 
       .herodiv {
         display: block;
+        margin: 10px auto;
+        position: relative;
+        border: 1px solid  indigo;
+        width: 1100px;
+        height: 380px;
       }
      
       }
