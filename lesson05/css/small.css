@@ -65,8 +65,8 @@ h3 {
   color:  #1200b3;
   text-align: center;
   padding: 10px;
-  margin-bottom: 0;
-  border-radius: 10px;
+  margin-bottom: 10px;
+  
   background-color:lavenderblush;
 }
 h5 {
@@ -80,7 +80,7 @@ p {
   font-family: "Piazzolla", Helvetica, serif;
   font-size: 1em;
   line-height: 1em;
-  padding: 5px;
+  padding: 3px;
   color: #1200b3;
   /*text-align: justify;*/
   margin-top: 0;
@@ -90,7 +90,7 @@ p {
   font-family: "Piazzolla", Helvetica, serif;
   font-size: 1.1em;
   line-height: 1em;
-  padding: 5px;
+  padding: 10px;
   color: #1200b3;
   /*text-align: justify;*/
   margin-top: 0;
