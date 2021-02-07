@@ -64,6 +64,10 @@
     /*  mainnav .classList .remove('responsive')
     }};*/
   }
+  .banner {
+    font-size: 2em;
+  }
+
   .contentbox {
     display: block;
   }
@@ -76,7 +80,7 @@
     display: block;
   }
   .forecastdiv {
-    diaply: block;
+    display: block;
   }
   .articlediv {
     display: block;
