@@ -24,7 +24,7 @@
 
   .navigation ul {
     /* flex-wrap: wrap; */
-    display: flex; 
+    display: flex;
   }
 
   .navigation li:first-child {
@@ -44,12 +44,9 @@
   }
 
   nav ul li {
-    
-  display: flex;
+    display: flex;
     flex-direction: row;
   }
-
-  
 
   nav button {
     display: none;
@@ -70,17 +67,19 @@
   .contentbox {
     display: block;
   }
-  
+
   .contentbox {
     display: block;
     flex: 1 1 100%;
   }
-.herodiv {
-  display: flex;
-}
+  .herodiv {
+    display: flex;
+    flex-direction: row;
+  }
   .herodiv {
     display: block;
     flex: 1 1 100%;
+    flex: 3;
   }
   footer {
     max-width: 1100px;

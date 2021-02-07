@@ -164,15 +164,17 @@ nav a:hover {
   /* border-radius: 10px;*/
 }
 .banner {
+  max-width: 1100px;
+  margin: 10px auto;
   font-style: normal;
   font-size: 2em;
+  text-align:center;
   color: white;
   background-color: #0086b3;
+  border-radius: 10px;
 }
 
-banner.hide{
-  display: none;
-}
+
 .contentbox {
   display: block;
   max-width: 1100px;
