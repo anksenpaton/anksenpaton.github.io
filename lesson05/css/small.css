@@ -59,7 +59,7 @@ h2 {
 }
 h3 {
   font-family: "Roboto Slab", Helvetica, sans-serif;
-  font-size: 1.75em;
+  font-size: 1.2em;
   line-height: .1em;
   color:  #1200b3;
   text-align: center;
@@ -76,6 +76,7 @@ p {
   color: #1200b3;
   /*text-align: justify;*/
   margin-top: 0;
+  text-align: left;
 }
 
 a:hover {
@@ -118,7 +119,7 @@ a:hover {
 nav {
   margin: 0 auto;
   max-width: 100%;
-  background-color: #e6f9ff;
+  background-color:lavenderblush;
   box-shadow: 0 2px 15px gray;
 }
 
@@ -169,7 +170,7 @@ nav a:hover {
   margin: 10px auto;
   border: 1px solid indigo;
   padding: 15px;
-  background-color: #eee;
+  background-color:lavenderblush;
   color: #1200b3;
   font-style: italic;
 }
@@ -202,22 +203,23 @@ header {
 .logo {
   width: 170px;
   position: relative;
-  box-shadow: 2px 6px 12px rgba(0, 0, 0, 0.15);
+  box-shadow: 2px 6px 12px indigo; 
 }
 
 .herodiv {
+  display: block;
   margin: 10px auto;
   position: relative;
   border: 1px solid  indigo;
   width: 1100px;
-  height: 400px;
+  height: 380px;
 }
 .hero {
-  margin: 10px auto;
+  margin: 0 0 auto;
   width: 100%;
   height: 380px;
-  /*position: relative;*/
-  /*box-shadow: 2px 6px 12px rgba(0, 0, 0, 0.15);*/
+  /*position: relative;
+  box-shadow: 2px 6px 12px rgba(0, 0, 0, 0.15);*/
 }
 
 
@@ -234,20 +236,71 @@ header {
   
 }
 .forecastdiv {
+  display: block;
   margin: 10px auto;
   position: relative;
   border: 1px solid  indigo;
   width: 1100px;
-  height: 200px;
+  height: 170px;
 }
 
 .forecast {
   margin: 10px auto;
-  width: 90%;
+  width: 98%;
   height: 100px;
+ 
+  /*position: relative;
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.15);*/
+}
+.articlediv {
+  margin: 10px auto;
+  position: relative;
+  border: 1px solid  indigo;
+  width: 1100px;
+  height: 350px;
+}
+.articleimg {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  height: 275px;
+  padding: .5rem;
+  box-shadow: 0 0 30px #1200b3;
+  
+  /*float: right;*/
   /*position: relative;*/
   /*box-shadow: 2px 6px 12px rgba(0, 0, 0, 0.15);*/
 }
+.contactdiv {
+  margin: 10px auto;
+  position: relative;
+  border: 1px solid  indigo;
+  width: 1100px;
+  height: 180px;
+ 
+}
+
+.contactimg {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  height: 145px;
+  padding: .5rem;
+  box-shadow: 0 0 30px #1200b3;
+  /*position: relative;*/
+  /*box-shadow: 2px 6px 12px rgba(0, 0, 0, 0.15);*/
+}
+.contactinfo {
+  font-family: "Piazzolla", Helvetica, serif;
+  font-size: 1em;
+  line-height: 1em;
+  padding: 5px;
+  color: #1200b3;
+  /*text-align: justify;*/
+  margin-top: 0;
+  text-align: right;
+}
+
 footer {
   max-width: 1100px;
   margin: 0 auto;

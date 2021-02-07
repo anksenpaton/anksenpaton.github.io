@@ -67,7 +67,21 @@
     /*  mainnav .classList .remove('responsive')
     }};*/
   }
-
+  .contentbox {
+    display: block;
+  }
+  
+  .contentbox {
+    display: block;
+    flex: 1 1 100%;
+  }
+.herodiv {
+  display: block;
+}
+  .herodiv {
+    display: block;
+    flex: 1 1 100%;
+  }
   footer {
     max-width: 1100px;
     height: auto;
