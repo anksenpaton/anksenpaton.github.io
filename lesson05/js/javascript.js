@@ -128,5 +128,12 @@ function getLastUpdateDate() { /* returns something like: Wednesday January 1st 
     " "
     +
     year;
+    
+/* Check Friday banner add */
+if (dowList[dow] == "Friday") {  
+    document.getElementById("bannerAdd").innerHTML = "Saturday = Preson Pancakes in the Park! 9:00am Saturday at the City Park";
+ } else {
+    document.getElementById("bannerAdd").innerHTML = "&nbsp;";
+ }
 
 }
