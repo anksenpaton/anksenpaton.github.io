@@ -129,9 +129,10 @@ function getLastUpdateDate() { /* returns something like: Wednesday January 1st 
     +
     year;
 
+
  /* Check Friday banner add */
  if (dowList[dow] == "Saturday") {  
-    document.getElementById("bannerAdd").innerHTML = "</p><div class=\"banner\">"
+    document.getElementById("bannerAdd").innerHTML = "<p id='bannerAdd' class='banner'>"
  +
  "Saturday = Preston Pancakes in the Park!"
  +
@@ -139,9 +140,11 @@ function getLastUpdateDate() { /* returns something like: Wednesday January 1st 
  +
  "9:00am Saturday at the City Park";
  +
-         "</p></div>";
+ "</p>";
+         
  } else {
     document.getElementById("bannerAdd").innerHTML = "&nbsp;";
+  
  }
 
 }
