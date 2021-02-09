@@ -1,0 +1,29 @@
+
+
+
+
+
+/* 64em is also 1028px when basefont is 16px */
+@media only screen and (max-width: 64rem) {
+    .navigation li:first-child {
+        display: block;
+        
+      }
+
+      .contentbox {
+        display: block;
+      } 
+
+      .herodiv {
+        display: block;
+        margin: 10px auto;
+        position: relative;
+        border: 1px solid  indigo;
+        width: 1100px;
+        height: 380px;
+      }
+     
+      }
+} /*end large */
+
+/*nav ul li a {padding: .6rem 1rem;}*/
