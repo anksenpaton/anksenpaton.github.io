@@ -115,7 +115,7 @@ a:hover {
 
 .responsive li {
   display: block;
-  width: 150;
+  width: 150px;
   flex: 1 100%;
 }
 
@@ -235,7 +235,7 @@ header {
 }
 .herodiv {
   display: block;
-  width: 150;
+  width: 150px;
   flex: 1 100%;
 }
 .herodiv {
