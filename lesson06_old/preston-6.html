@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <title>Margaret Yamada WDD 230</title>
+    <meta charset="utf-8" />
+    <meta
+      name="description"
+      content="preston town page document for Margaret Yamada in wdd 230"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/small.css" />
+    <link rel="stylesheet" href="css/medium.css" />
+    <link rel="stylesheet" href="css/large.css" />
+  </head>
+
+  <body onload="getLastUpdateDate()">
+    
+    <bannerDiv id="bannerAdd"></bannerDiv>
+
+    <header>
+      <div class="logo-box">
+        <img
+          class="logo"
+          src="images/iconfinder_winter-activity-11_3850762.png"
+          alt="house in snow"
+        />
+      </div>
+      <h1>Lilac Mist</h1>
+      <br /><br />
+      <div class="moto">Snow Angels</div>
+    </header>
+    <nav class="navigation">
+        <nav class="clearfix">
+      <ul class="navigation responsive">
+        
+        <button>
+        <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+        <!-- <button>&#9776;</button>-->
+    </button>
+      </ul>
+      <ul id="primaryNav" class="hide">
+        <li><a href="preston-5.html">Home</a></li>
+        <li><a href="preston-5.html">Preston</a></li>
+        <li><a href="preston-5.html.html">Fish&nbsp;haven</a></li>
+        <li><a href="preston-5.html.html">Soda&nbsp;Springs</a></li>
+        <li><a href="preston-5.html.html">Storm&nbsp;Center</a></li>
+        <li><a href="preston-5.html.html">Gallery</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <h2>Preston Idaho</h2>
+    <!--<div class="contentbox">Hero w/weather</div>-->
+      <div class="herodiv">
+         <section class="hero">
+           <img
+            class="hero"
+            src="images/snow_pine_trees_2019.jpg"
+            alt="pine trees in snow"
+           />
+           </section>
+          
+         <section class="weathersummary">
+        
+         <h3>Weather Summary</h3>
+           <p>Current Temp: 36 &#176F;</p>
+           <p>High Temp: 36 &#176F;</p>
+            <p>Wind Chill: 33 &#176F;</p>
+           <p>Wind Speed: 7 mph</p>
+           <p>Humidity: 75%</p>
+           <p>Precipitation: 15%</p>
+         </section>
+        </div>  
+      <!--<div class="contentbox">5 day Forcast</div>-->
+      <div class="forecastdiv">
+          <h3>5 Day Forecast</h3>
+          <section class="forecast">
+            <img
+             class="forecast"
+             src="images/5dayforcast.jpg"
+             alt="5 days of weather"
+            />
+            </section>
+           
+      </div>
+
+     <!-- <div class="contentbox">Article</div>-->
+      <div class="articlediv">
+           <h3>Cherry Festival</h3>
+           <p class="p2">To people in the wide world, Preston Idaho is a very exotic local.<br>
+            Idaho does have an annual cherry festival. <br>
+            This takes place in Emmett Idaho about the middle of June. <br>
+            Cherries are probably my favorite fruit.<br>
+             So many products can come from the humble cherry.<br>
+            Dried cherries are fruit leather. Cherries are usually put into deserts of some kind.<br>
+            Cherry pie hot out of the oven. Cherry strudel sprinkled with crystal sugar.<br>
+            The best cherries are eaten freshly picked from the tree.<br>
+            My favortie cherry desert is Black Forest Cherry cake.<br>
+            I'll be waiting for the cherry harvest in Idaho this coming spring.<br>
+            Shall you join me?
+            Idaho in June is the place to be for the Cherry Harvest!
+
+           </p>   
+          <section class="articleimg">
+            <img
+            class="articleimg"
+            src="images/cherrycake.jpg"
+            alt="cherry cake"
+            />
+            </section>
+          </div>
+
+      <!--<div class="contentbox">Contact Information</div>-->
+
+      <div class="contactdiv">
+           <section class="contactimg">
+            <img
+             class="contactimg"
+             src="images/prestonmap.jpg"
+             alt="cherry cake"
+        />
+           </section>
+            <section class="contactinfo">
+            <h5>Contact Us</h5>
+            <p id="contactinfo">
+              Lilac Mist<br>
+              <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+              <i class="material-icons">&#xe567;</i>30 N 1st E<br>
+              Preston, ID. 83263<br>
+              <i class="material-icons">&#xe551;</i>999-999-9999<br>
+              <img
+              src="../favicon.ico"
+              alt="favicon"
+              />
+              <link rel="shortcut icon" href="../favicon.ico">lilacmist.com<br>
+             
+             <!--<div class="social">-->
+             <social id="socialmedia">
+                <a class="socialmedia" target="_blank" href="https://www.facebook.com"><img class="icon" src="https://cdn.glitch.com/5c66b284-e623-491b-997d-b9edec7a482a%2Ffacebook.png?v=1602378345819" alt="facebook"></a>
+                <a class="socialmedia" target="_blank" href="https://www.instagram.com"><img class="icon" src="https://cdn.glitch.com/5c66b284-e623-491b-997d-b9edec7a482a%2Finstagram.png?v=1602894261931" alt="instagram"></a>
+                <a class="socialmedia" target="_blank" href="https://www.youtube.com"><img class="icon" src="https://cdn.glitch.com/5c66b284-e623-491b-997d-b9edec7a482a%2Fyoutube.png?v=1602378331411​" alt="youtube"></a>   
+              </social>
+              </section>
+             
+              </div> 
+            </p>
+      </div>
+
+    </main>
+    <footer>
+      <p id="info">
+        &copy; 2021 | Margaret Yamada | California |
+        <a href="https://www.byui.edu/online">BYUI Online Learning</a>
+        <br />
+        <span id="updateDate"></span>
+      </p>
+    </footer>
+    <script src="js/getcurrentdate.js"></script>
+    <script src="js/toggleMenu.js"></script>
+    <script src="js/bannerad.js"></script>
+    <script src="js/javascript.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+  </body>
+</html>
