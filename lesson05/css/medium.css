@@ -29,6 +29,7 @@
 
   .navigation li:first-child {
     display: block;
+   
   }
 
   .navigation li {
@@ -41,6 +42,7 @@
     margin: 0;
     list-style: none;
     overflow: hidden;
+    
   }
 
   nav ul li {

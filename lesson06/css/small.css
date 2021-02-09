@@ -111,6 +111,7 @@ a:hover {
   padding: 0;
   /* display: flex; */
   display: block;
+  border-radius: 10px;
 }
 
 .responsive li {
@@ -138,6 +139,7 @@ nav {
   max-width: 100%;
   background-color:lavenderblush;
   box-shadow: 0 2px 15px gray;
+  border-radius: 10px;
 }
 
 nav button {
@@ -172,6 +174,7 @@ nav li a {
   text-align: center;
   text-decoration: none;
   padding: 0.75rem;
+  border-radius: 10px;
 }
 
 nav a:hover {

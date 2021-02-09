@@ -103,6 +103,7 @@ a:hover {
   list-style: none;
   text-align: center;
   padding: 10px;
+  
 }
 .navigation ul {
   border: 1px solid rgb(114, 59, 202);
@@ -111,6 +112,7 @@ a:hover {
   padding: 0;
   /* display: flex; */
   display: block;
+  border-radius: 10px;
 }
 
 .responsive li {
@@ -138,6 +140,7 @@ nav {
   max-width: 100%;
   background-color:lavenderblush;
   box-shadow: 0 2px 15px gray;
+  border-radius: 10px;
 }
 
 nav button {
@@ -147,6 +150,7 @@ nav button {
   border: none;
   font-size: 1.6rem;
   color: #1200b3;
+  border-radius: 10px;
 }
 
 nav li {
@@ -172,6 +176,7 @@ nav li a {
   text-align: center;
   text-decoration: none;
   padding: 0.75rem;
+  border-radius: 10px;
 }
 
 nav a:hover {
