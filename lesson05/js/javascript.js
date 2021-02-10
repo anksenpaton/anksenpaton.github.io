@@ -131,8 +131,8 @@ function getLastUpdateDate() { /* returns something like: Wednesday January 1st 
 
 
  /* Check Friday banner add */
- if (dowList[dow] == "Saturday") {  
-    document.getElementById("bannerAdd").innerHTML = "<p id='bannerAdd' class='banner'>"
+ if (dowList[dow] == "Friday") {  
+    document.getElementById("bannerAdd").innerHTML = "<p class='banner'>"
  +
  "Saturday = Preston Pancakes in the Park!"
  +
