@@ -209,7 +209,7 @@ nav a:hover {
 
 .contentbox {
   display: block;
-  max-width: auto;
+  max-width: 100%;
   margin: 10px auto;
   border: 1px solid indigo;
   padding: 10px;
@@ -296,7 +296,7 @@ header {
   flex: 1 100%;
   margin: 10px auto;
   height: 460px;
-  max-width: auto;
+  max-width: 100%;
   border: 1px solid indigo;
 }
 .articleimg {
