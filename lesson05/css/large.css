@@ -36,10 +36,11 @@
   .articlediv {
     display: block;
     margin: 10px auto;
-      position: relative;
-    border: 1px solid  indigo;
+    max-width: 1100px;
+    position: relative;
+    border: 1px solid indigo;
     width: auto;
-    height: 350px;
+    height: 460px;
   }
 }
 

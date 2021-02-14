@@ -9,6 +9,18 @@
     font-size: 1.5rem;
     color: white;
   }
+
+  .p2 {
+    font-family: "Piazzolla", Helvetica, serif;
+    font-size: 1.1em;
+    line-height: 1em;
+    padding: 10px;
+    color: #1200b3;
+    max-width: auto;
+    /*text-align: justify;*/
+    margin-top: 0;
+    text-align: left;
+  }
   header,
   footer {
     border-radius: 10px;
@@ -103,7 +115,19 @@
     position: relative;
     border: 1px solid indigo;
     width: auto;
-    height: 350px;
+    height: 460px;
+  }
+
+  .articleimg {
+    float: right;
+    top: auto;
+    right: auto;
+    bottom: auto;
+    height: 270px;
+    width: 280px;
+    padding: 0.6rem;
+    box-shadow: 0 0 30px #1200b3;
+   
   }
   .contactdiv {
     display: block;
