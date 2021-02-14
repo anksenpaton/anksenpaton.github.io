@@ -36,12 +36,13 @@
   .articlediv {
     display: block;
     margin: 10px auto;
-  
-    position: relative;
+      position: relative;
     border: 1px solid  indigo;
     width: auto;
     height: 350px;
   }
+
+  
   /*.row::after {
     content: "";
     clear: both;

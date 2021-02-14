@@ -61,19 +61,19 @@ h2 {
 h3 {
   font-family: "Roboto Slab", Helvetica, sans-serif;
   font-size: 1.2em;
-  line-height: .1em;
-  color:  #1200b3;
+  line-height: 0.1em;
+  color: #1200b3;
   text-align: center;
   padding: 10px;
   margin-bottom: 10px;
-  
-  background-color:lavenderblush;
+
+  background-color: lavenderblush;
 }
 h5 {
   font-family: "Roboto Slab", Helvetica, sans-serif;
   font-size: 1.2em;
-  line-height: .1em;
-  color:  #1200b3;
+  line-height: 0.1em;
+  color: #1200b3;
   text-align: left;
 }
 p {
@@ -104,7 +104,6 @@ a:hover {
   list-style: none;
   text-align: center;
   padding: 10px;
-  
 }
 .navigation ul {
   border: 1px solid rgb(114, 59, 202);
@@ -145,7 +144,7 @@ a:hover {
 nav {
   margin: 0 auto;
   max-width: 100%;
-  background-color:lavenderblush;
+  background-color: lavenderblush;
   box-shadow: 0 2px 15px gray;
   border-radius: 10px;
 }
@@ -199,12 +198,11 @@ nav a:hover {
   margin: 10px auto;
   font-style: normal;
   font-size: 1em;
-  text-align:center;
+  text-align: center;
   color: white;
   background-color: #0086b3;
   border-radius: 10px;
 }
-
 
 .contentbox {
   display: block;
@@ -212,7 +210,7 @@ nav a:hover {
   margin: 10px auto;
   border: 1px solid indigo;
   padding: 10px;
-  background-color:lavenderblush;
+  background-color: lavenderblush;
   color: #1200b3;
   font-style: italic;
 }
@@ -245,7 +243,7 @@ header {
 .logo {
   width: 170px;
   position: relative;
-  box-shadow: 2px 6px 12px indigo; 
+  box-shadow: 2px 6px 12px indigo;
 }
 
 .herodiv {
@@ -254,8 +252,8 @@ header {
   flex: 1 100%;
   margin: 10px auto;
   position: relative;
-  border: 1px solid  indigo;
- /* width: 1100px;
+  border: 1px solid indigo;
+  /* width: 1100px;
   height: 380px;*/
 }
 .hero {
@@ -267,24 +265,22 @@ header {
   box-shadow: 2px 6px 12px rgba(0, 0, 0, 0.15);*/
 }
 
-
 .weathersummary {
   position: absolute;
   top: 10px;
   left: 10px;
   height: 275px;
-  padding: .5rem;
+  padding: 0.5rem;
   box-shadow: 0 0 30px #1200b3;
-  background-color:lavenderblush;
-  border: 1px solid indigo; 
-  opacity: .8;
-  
+  background-color: lavenderblush;
+  border: 1px solid indigo;
+  opacity: 0.8;
 }
 .forecastdiv {
   display: block;
   margin: 10px auto;
   position: relative;
-  border: 1px solid  indigo;
+  border: 1px solid indigo;
   width: auto;
   height: 170px;
 }
@@ -293,7 +289,7 @@ header {
   margin: 10px auto;
   width: 95%;
   height: 100px;
- 
+
   /*position: relative;
   box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.15);*/
 }
@@ -302,7 +298,7 @@ header {
   margin: 10px auto;
   max-width: 1100px;
   position: relative;
-  border: 1px solid  indigo;
+  border: 1px solid indigo;
   width: auto;
   height: 350px;
 }
@@ -312,9 +308,9 @@ header {
   right: 10px;
   height: 270px;
   width: 270px;
-  padding: .6rem;
+  padding: 0.6rem;
   box-shadow: 0 0 30px #1200b3;
-  
+
   /*float: right;*/
   /*position: relative;*/
   /*box-shadow: 2px 6px 12px rgba(0, 0, 0, 0.15);*/
@@ -322,10 +318,9 @@ header {
 .contactdiv {
   margin: 10px auto;
   position: relative;
-  border: 1px solid  indigo;
+  border: 1px solid indigo;
   width: auto;
   height: 250px;
- 
 }
 
 .contactimg {
@@ -333,7 +328,7 @@ header {
   top: 10px;
   right: 40px;
   height: 145px;
-  padding: .5rem;
+  padding: 0.5rem;
   box-shadow: 0 0 30px #1200b3;
   /*position: relative;*/
   /*box-shadow: 2px 6px 12px rgba(0, 0, 0, 0.15);*/
