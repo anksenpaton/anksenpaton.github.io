@@ -121,7 +121,9 @@ a:hover {
   width: 150px;
   flex: 1 100%;
 }
-
+.menuHide {
+  display: block;
+}
 
 /*.responsive herodiv {
   display: block;
@@ -133,9 +135,7 @@ a:hover {
 .navigation li {
   display: block;
 }
-.navigation li {
-  display: block;
-}
+
 /*.navigation li {
   flex: 3;
 }*/

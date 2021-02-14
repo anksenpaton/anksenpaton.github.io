@@ -69,9 +69,13 @@
   .banner {
     font-size: 2em;
   }
-  menu.hide {
+  .menuHide {
     display: none;
   }
+  .responsive li {
+    display: none;
+  }
+
   .contentbox {
     display: block;
   }

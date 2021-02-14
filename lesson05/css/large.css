@@ -3,7 +3,7 @@
   .navigation li:first-child {
     display: block;
   }
-  menu.hide {
+  .menuHide {
     display: none;
   }
   .contentbox {
