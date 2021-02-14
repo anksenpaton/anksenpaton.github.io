@@ -71,9 +71,9 @@
   .banner {
     font-size: 2em;
   }
-  .menuHide {
+  /*.menuHide {
     display: none;
-  }
+  }*/
   .responsive li {
     display: none;
   }

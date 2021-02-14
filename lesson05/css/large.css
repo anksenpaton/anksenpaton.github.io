@@ -3,18 +3,18 @@
   .navigation li:first-child {
     display: block;
   }
-  .menuHide {
+  /*.menuHide {
     display: none;
-  }
+  }*/
   .contentbox {
     display: block;
   }
   .responsive li {
     display: none;
   }
-  nav ul.responsive {
+  /*nav ul.responsive {
     display: none;
-  }
+  }*/
   .herodiv {
     display: block;
     
