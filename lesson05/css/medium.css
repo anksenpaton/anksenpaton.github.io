@@ -57,7 +57,9 @@
   nav ul.hide {
     display: flex;
   }
-
+  nav ul.responsive {
+    display: hide;
+  }
   nav li {
     flex: 3;
     font-family: "Cabin", Helvetica, sans-serif;

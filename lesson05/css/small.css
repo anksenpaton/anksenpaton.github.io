@@ -176,7 +176,9 @@ nav ul {
 nav ul.hide {
   display: none;
 }
-
+nav ul.responsive {
+  display: flex;
+}
 nav li a {
   display: block;
   color: #1200b3;

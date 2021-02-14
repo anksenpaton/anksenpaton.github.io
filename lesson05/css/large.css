@@ -9,7 +9,12 @@
   .contentbox {
     display: block;
   }
-
+  .responsive li {
+    display: none;
+  }
+  nav ul.responsive {
+    display: hide;
+  }
   .herodiv {
     display: block;
     
