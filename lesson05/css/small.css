@@ -133,16 +133,6 @@ a:hover {
   width: 150px;
   flex: 1 100%;
 }
-/*.menuHide {
-  display: block;
-}*/
-
-/*.responsive herodiv {
-  display: block;
-  width: 150px;
-  flex: 1 100%;
-}*/
-/*.navigation li:first-child*/
 
 .navigation li {
   display: block;
@@ -307,8 +297,7 @@ header {
   margin: 10px auto;
   height: 460px;
   max-width: auto;
-    border: 1px solid indigo;
-  
+  border: 1px solid indigo;
 }
 .articleimg {
   float: right;
@@ -318,7 +307,6 @@ header {
   width: 280px;
   padding: 0.6rem;
   box-shadow: 0 0 30px #1200b3;
- 
 }
 .contactdiv {
   margin: 10px auto;
