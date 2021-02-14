@@ -41,8 +41,8 @@
     width: auto;
     height: 350px;
   }
+}
 
-  
   /*.row::after {
     content: "";
     clear: both;
