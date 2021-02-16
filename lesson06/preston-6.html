@@ -51,12 +51,25 @@
       <h2>Preston Idaho</h2>
       <!--<div class="contentbox">Hero w/weather</div>-->
       <div class="herodiv">
-        <img
-          class="hero"
-          src="images/snow_pine_trees_2019.jpg"
-          alt="pine trees in snow"
-        />
-
+        <picture>
+          <source
+            srcset="images/wdd230_image_franklinOriginal_medium.jpg"
+            media="(min-width: 35rem) and (max-width: 63rem)"
+          />
+          <source
+            srcset="images/wdd230_image_franklinOriginal_large.jpg"
+            media="(min-width: 64rem)"
+          />
+          <img
+            class="hero"
+            src="images/wdd230_image_franklinOriginal_small.jpg"
+            
+            alt="landscape green"
+            
+            
+          
+          />
+        </picture>
         <section class="weathersummary">
           <h3>Weather Summary</h3>
           <p>Current Temp: 36&deg;F</p>
