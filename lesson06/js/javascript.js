@@ -18,6 +18,7 @@ window.onresize=()=>{if(window.innerWidth>760);
 
 
 function getLastUpdateDate() { /* returns something like: Wednesday January 1st 2021 */
+    windChill();
     var timeNow = new Date();
     var dow = timeNow.getDay();
     var dowList = ["Sunday",
