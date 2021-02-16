@@ -1,0 +1,45 @@
+/* 64em is also 1028px when basefont is 16px */
+@media only screen and (max-width: 64rem) {
+  .navigation li:first-child {
+    display: block;
+  }
+  /*.menuHide {
+    display: none;
+  }*/
+  .contentbox {
+    display: block;
+  }
+  .responsive li {
+    display: none;
+  }
+  /*nav ul.responsive {
+    display: none;
+  }*/
+  .herodiv {
+    display: block;
+
+    margin: 10px auto;
+    position: relative;
+    border: 1px solid indigo;
+    /*width: auto;*/
+    /*width: 1100px;*/
+    height: 380px;
+  }
+  .forecastdiv {
+    display: block;
+    margin: 10px auto;
+    position: relative;
+    border: 1px solid indigo;
+    width: auto;
+    height: 170px;
+  }
+  .articlediv {
+    display: block;
+    margin: 10px auto;
+    max-width: 1100px;
+    position: relative;
+    border: 1px solid indigo;
+    width: auto;
+    height: 460px;
+  }
+}
