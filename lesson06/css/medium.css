@@ -102,7 +102,7 @@
     margin: 10px auto;
     position: relative;
     border: 1px solid indigo;
-    height: 380px;
+    height: auto;
   }
   .forecastdiv {
     display: block;
