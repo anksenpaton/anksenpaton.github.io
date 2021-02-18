@@ -28,17 +28,17 @@
     width: 100%;
     height: auto;
   }
-  /*.weathersummary {
+  .weathersummary {
     position: absolute;
     top: 10px;
     left: 10px;
     height: 135px;
-    padding: 0.5rem;
+    padding: 0.3rem;
     box-shadow: 0 0 30px #1200b3;
     background-color: lavenderblush;
     border: 1px solid indigo;
     opacity: 0.8;
-  }*/
+  }
 
   .forecastdiv {
     display: block;
