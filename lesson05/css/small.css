@@ -277,17 +277,19 @@ header {
 }
 .forecastdiv {
   display: block;
-  margin: 10px auto;
-  position: relative;
+  flex: 1 100%;
+  margin: 0 auto;
   border: 1px solid indigo;
   width: auto;
-  height: 170px;
+  height: 180px;
 }
 
 .forecast {
-  margin: 10px auto;
+  margin: 0 auto;
+  top: auto;
+  left: auto;
   width: 19%;
-  height: auto;
+  height: 130px;
 }
 .articlediv {
   display: block;
@@ -306,6 +308,7 @@ header {
   box-shadow: 0 0 30px #1200b3;
 }
 .contactdiv {
+  flex: 1 100%;
   margin: 10px auto;
   position: relative;
   border: 1px solid indigo;

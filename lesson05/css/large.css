@@ -44,11 +44,18 @@
   .forecastdiv {
     display: block;
     margin: 10px auto;
-    position: relative;
+   /* position: relative;*/
     border: 1px solid indigo;
     width: auto;
     height: 170px;
   }
+  .forecast {
+    margin: 0 auto;
+    top: auto;
+    width: 18%;
+    height: 130px;
+  }
+
   .articlediv {
     display: block;
     margin: 10px auto;
