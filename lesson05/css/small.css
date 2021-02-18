@@ -286,8 +286,8 @@ header {
 
 .forecast {
   margin: 10px auto;
-  width: 95%;
-  height: 100px;
+  width: 19%;
+  height: auto;
 }
 .articlediv {
   display: block;
@@ -316,12 +316,11 @@ header {
 .contactimg {
   position: absolute;
   top: 10px;
-  right: 40px;
+  right: 500px;
   height: 145px;
   padding: 0.5rem;
   box-shadow: 0 0 30px #1200b3;
-  /*position: relative;*/
-  /*box-shadow: 2px 6px 12px rgba(0, 0, 0, 0.15);*/
+  
 }
 .contactinfo {
   font-family: "Piazzolla", Helvetica, serif;
