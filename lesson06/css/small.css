@@ -295,16 +295,15 @@ header {
   display: block;
   flex: 1 100%;
   margin: 10px auto;
-  height: 460px;
+  height: auto;
   max-width: 100%;
   border: 1px solid indigo;
 }
 .articleimg {
-  float: right;
   top: auto;
   right: auto;
-  height: 270px;
-  width: 280px;
+  height: auto;
+  width: 140px;
   padding: 0.6rem;
   box-shadow: 0 0 30px #1200b3;
 }
