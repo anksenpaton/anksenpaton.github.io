@@ -42,6 +42,7 @@ h1 {
   color: white;
   text-align: center;
   padding: 30px;
+  border-radius: 10px;
 }
 header img {
   max-width: 100%;
@@ -64,9 +65,8 @@ h3 {
   line-height: 0.1em;
   color: #1200b3;
   text-align: center;
-  padding: 10px;
+  padding: 5px;
   margin-bottom: 10px;
-
   background-color: lavenderblush;
 }
 h4 {
@@ -75,9 +75,8 @@ h4 {
   line-height: 0.1em;
   color: #1200b3;
   text-align: left;
-  padding: 10px;
+  padding: 5px;
   margin-bottom: 10px;
-
   background-color: lavenderblush;
 }
 
@@ -86,27 +85,35 @@ h5 {
   font-size: 1.2em;
   line-height: 0.1em;
   color: #1200b3;
-  text-align: left;
+  text-align: right;
 }
 p {
   font-family: "Piazzolla", Helvetica, serif;
   font-size: 1em;
-  line-height: 1em;
+  line-height: 0.9em;
   padding: 3px;
   color: #1200b3;
-  /*text-align: justify;*/
   margin-top: 0;
-  text-align: left;
-  word-wrap: break-word;
+  text-align: right;
+ 
+}
+
+.p {
+  font-family: "Piazzolla", Helvetica, serif;
+  font-size: 1em;
+  line-height: 0.9em;
+  padding: 3px;
+  color: #1200b3;
+  margin-top: 0;
+  text-align: right;
+ 
 }
 .p2 {
   font-family: "Piazzolla", Helvetica, serif;
   font-size: 1em;
   line-height: 0.9em;
-  padding: 10px;
+  padding: 5px;
   color: #1200b3;
- 
-  /*text-align: justify;*/
   margin-top: 0;
   text-align: left;
 }
@@ -138,12 +145,6 @@ a:hover {
   display: block;
 }
 
-/*.navigation li {
-  flex: 3;
-}*/
-/*.navigation li {
-  display: none;
-}*/
 nav {
   margin: 0 auto;
   max-width: 100%;
@@ -287,55 +288,48 @@ header {
   margin: 10px auto;
   width: 95%;
   height: 100px;
-
-  /*position: relative;
-  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.15);*/
 }
 .articlediv {
   display: block;
   flex: 1 100%;
   margin: 10px auto;
-  height: 460px;
+  height: auto;
   max-width: 100%;
   border: 1px solid indigo;
 }
 .articleimg {
-  float: right;
   top: auto;
   right: auto;
-  height: 270px;
-  width: 280px;
+  height: auto;
+  width: 140px;
   padding: 0.6rem;
   box-shadow: 0 0 30px #1200b3;
 }
 .contactdiv {
   margin: 10px auto;
-  position: relative;
   border: 1px solid indigo;
   width: auto;
   height: 250px;
+  text-align: justify;
 }
 
 .contactimg {
-  position: absolute;
-  top: 10px;
-  right: 40px;
-  height: 145px;
+  top: auto;
+  right: auto;
+  height: auto;
+  width: 170px;
   padding: 0.5rem;
   box-shadow: 0 0 30px #1200b3;
-  /*position: relative;*/
-  /*box-shadow: 2px 6px 12px rgba(0, 0, 0, 0.15);*/
 }
-.contactinfo {
+/*.contactinfo {
   font-family: "Piazzolla", Helvetica, serif;
   font-size: 1em;
   line-height: 1em;
   padding: 5px;
   color: #1200b3;
-  /*text-align: justify;*/
   margin-top: 0;
   text-align: right;
-}
+}*/
 
 footer {
   max-width: 1100px;
