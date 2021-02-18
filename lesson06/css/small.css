@@ -60,13 +60,12 @@ h2 {
 }
 h3 {
   font-family: "Roboto Slab", Helvetica, sans-serif;
-  font-size: 1.2em;
+  font-size: 1em;
   line-height: 0.1em;
   color: #1200b3;
   text-align: center;
   padding: 10px;
   margin-bottom: 10px;
-
   background-color: lavenderblush;
 }
 h4 {
@@ -90,9 +89,9 @@ h5 {
 }
 p {
   font-family: "Piazzolla", Helvetica, serif;
-  font-size: 1em;
-  line-height: 1em;
-  padding: 3px;
+  font-size: 0.7em;
+  line-height: 0.1em;
+  padding: 2px;
   color: #1200b3;
   /*text-align: justify;*/
   margin-top: 0;
@@ -267,7 +266,7 @@ header {
   position: absolute;
   top: 10px;
   left: 10px;
-  height: 275px;
+  height: 135px;
   padding: 0.5rem;
   box-shadow: 0 0 30px #1200b3;
   background-color: lavenderblush;
@@ -276,7 +275,7 @@ header {
 }
 .forecastdiv {
   display: block;
-  margin: 10px auto;
+  margin: 2px auto;
   position: relative;
   border: 1px solid indigo;
   width: auto;
@@ -294,15 +293,15 @@ header {
 .articlediv {
   display: block;
   flex: 1 100%;
-  margin: 10px auto;
+  margin: 2px auto;
   height: auto;
   max-width: 100%;
   border: 1px solid indigo;
 }
 .articleimg {
-  top: auto;
-  right: auto;
-  height: auto;
+  top: 10px;
+  right: 10px;
+  height: 135px;
   width: 140px;
   padding: 0.6rem;
   box-shadow: 0 0 30px #1200b3;
