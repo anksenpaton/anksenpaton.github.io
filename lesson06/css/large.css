@@ -29,10 +29,10 @@
     height: auto;
   }
   .weathersummary {
-    position: absolute;
+    /*position: absolute;*/
     top: 10px;
     left: 10px;
-    height: 240px;
+    height: 220px;
     padding: 0.5rem;
     box-shadow: 0 0 30px #1200b3;
     background-color: lavenderblush;
