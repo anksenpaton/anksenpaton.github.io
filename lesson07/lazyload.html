@@ -2,11 +2,11 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<meta name="description" content="Fill Me In">
-<meta name="author" content="John Doe">
+<meta name="description" content="lazyload">
+<meta name="author" content="">
 
-<!-- This start file was build by Paul Cheney  -->
-<title>HTML5 Start Site by Paul Cheney</title>
+
+<title>Progressive Loading of Images</title>
 
 <!-- TELLS PHONES NOT TO LIE ABOUT THEIR WIDTH & stops the font from enlarging when a phone is turned sideways-->
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -29,33 +29,38 @@
 <body>
 <!-- HEADER HERE -->
 	<header>
- <h1>Company Name Here</h1>
-        <h2>Possible Slogan or Tagline</h2>
+ <h1>Progressive Loading of Images</h1>
+       
     </header>
     
     
-<!-- NAVIGATION HERE -->
-    <nav>
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Products</a></li>
-            <li><a href="#">Location</a></li>
-            <li><a href="#">Contact</a></li>    
-        </ul>
-    </nav>
+
     
     
 <!-- CONTENT HERE -->
     <main>
-        <h1>Products</h1>
-        <p>The page name shoud almost exactly match the menu item. </p>
+        
+        <p> <img class="lazy" src="images/fuzzy.jpg" data-src="images/weather1.jpg" />
+            <img class="lazy" src="images/fuzzy.jpg" data-src="images/weather2.jpg" />
+            <img class="lazy" src="images/fuzzy.jpg" data-src="images/weather3.jpg" />
+            <img class="lazy" src="images/fuzzy.jpg" data-src="images/weather4.jpg" />
+            <img class="lazy" src="images/fuzzy.jpg" data-src="images/weather5.jpg" />
+            <img class="lazy" src="images/fuzzy.jpg" data-src="images/weather6.jpg" />
+            <img class="lazy" src="images/fuzzy.jpg" data-src="images/weather7.jpg" />
+            <img class="lazy" src="images/fuzzy.jpg" data-src="images/weather8.jpg" />
+            <img class="lazy" src="images/fuzzy.jpg" data-src="images/weather9.jpg" /></p>
     </main>
     
 <!-- FOOTER HERE -->   
     <footer>
-        <p>&copy; 201x &bull; Paul Cheney &bull; 123-555-6789</p>
+        <p id="info">
+            &copy; 2021 | Margaret Yamada | California |
+            <a href="https://www.byui.edu/online">BYUI Online Learning</a>
+            <br />
+            <span id="updateDate"></span>
+          </p>
     </footer>
-    
+    <script src="js/lazyload.js"></script>
 <script src="js/scripts.js"></script>
 </body>
 </html>
