@@ -48,7 +48,7 @@
       }
       img.src = src;
     }
-
+ 
     function elementInViewport(el) {
       var rect = el.getBoundingClientRect()
 
