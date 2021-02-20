@@ -12,10 +12,10 @@ article img {
   border-width: 5px;
   border-style: solid;
   border-color: #247397;
-  align-content: center;
+  /*justify-content: center;*/
   filter: blur(0em);
   transition: filter 0.5s;
-  text-align: center;
+  margin: auto;
 }
 
 p {
@@ -24,8 +24,8 @@ p {
   line-height: 0.9em;
   padding: 2px;
   color: #1200b3;
-  /*text-align: justify;*/
+  text-align: justify;
   margin-top: 0;
   text-align: center;
- /* word-wrap: break-word;*/
-}
+  word-wrap: break-word;
+    }
