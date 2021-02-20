@@ -16,3 +16,14 @@ article img {
   filter: blur(0em);
   transition: filter 0.5s;
 }
+
+p {
+  font-family: "Piazzolla", Helvetica, serif;
+  font-size: 1em;
+  line-height: 1em;
+  padding: 3px;
+  color: #1200b3;
+  /*text-align: justify;*/
+  margin-top: 0;
+  text-align: center;
+}
