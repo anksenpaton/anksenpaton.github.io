@@ -17,7 +17,16 @@ article img {
   transition: filter 0.5s;
   margin: auto;
 }
-
+h1 {
+  font-size: 1.8em;
+  max-width: 100%;
+  height: auto;
+  background-color: hsl(291, 84%, 43%);
+  border-radius: 10px;
+  text-align: center;
+  margin-bottom: 10px;
+  border-bottom: 5px double;
+}
 p {
   font-family: "Piazzolla", Helvetica, serif;
   font-size: 0.9em;
