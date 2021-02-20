@@ -8,7 +8,7 @@ function windChill() {
     wind = 7;
     var chill;
     chill = Math.round((0.0817 * (3.71 * (Math.pow(wind, 0.5)) + 5.81 - 0.25 * wind) * (temp - 91.4) + 91.4));
- 
+
     if (temp > 50) {
         chill = "N/A";
     }

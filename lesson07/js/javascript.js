@@ -110,7 +110,7 @@ function getLastUpdateDate() { /* returns something like: Wednesday January 1st 
             break;
         default: st = "th";
     };
- 
+
 
     document.getElementById("updateDate").innerHTML = " "
     +
