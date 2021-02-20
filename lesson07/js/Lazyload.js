@@ -1,90 +1,29 @@
+let loaded = 0
 
-    /* lazyload.js (c) Lorenzo Giuliani
-    * MIT License (http://www.opensource.org/licenses/mit-license.html)
-    *
-    * expects a list of:  
-    * `<img src="blank.gif" data-src="my_image.png" width="600" height="400" class="lazy">`
-    */
+const config = {
+  rootMargin: '0px 0px 50px 0px',
+  threshold: 1
+}
 
-   !function (window) {
-    var $q = function (q, res) {
-      if (document.querySelectorAll) {
-        res = document.querySelectorAll(q);
-      } else {
-        var d = document
-          , a = d.styleSheets[0] || d.createStyleSheet();
-        a.addRule(q, 'f:b');
-        for (var l = d.all, b = 0, c = [], f = l.length; b < f; b++)
-          l[b].currentStyle.f && c.push(l[b]);
+const images = document.querySelectorAll('[data-src]')
 
-        a.removeRule(0);
-        res = c;
-      }
-      return res;
+let observer = new IntersectionObserver(function (entries, self) {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      preloadImage(entry.target)
+      self.unobserve(entry.target)
     }
-      , addEventListener = function (evt, fn) {
-        window.addEventListener
-          ? this.addEventListener(evt, fn, false)
-          : (window.attachEvent)
-            ? this.attachEvent('on' + evt, fn)
-            : this['on' + evt] = fn;
-      }
-      , _has = function (obj, key) {
-        return Object.prototype.hasOwnProperty.call(obj, key);
-      }
-      ;
+  })
+}, config)
 
-    function loadImage(el, fn) {
-      sleep(20);
-      var img = new Image()
-        , src = el.getAttribute('data-src');
-      img.onload = function () {
-        if (!!el.parent)
-          el.parent.replaceChild(img, el)
-        else
-          el.src = src;
+images.forEach(image => {
+  observer.observe(image)
+})
 
-        fn ? fn() : null;
-      }
-      img.src = src;
-    }
- 
-    function elementInViewport(el) {
-      var rect = el.getBoundingClientRect()
-
-      return (
-        rect.top >= 0
-        && rect.left >= 0
-        && rect.top <= (window.innerHeight || document.documentElement.clientHeight)
-      )
-    }
-
-    var images = new Array()
-      , query = $q('img.lazy')
-      , processScroll = function () {
-        for (var i = 0; i < images.length; i++) {
-          if (elementInViewport(images[i])) {
-            loadImage(images[i], function () {
-              images.splice(i, i);
-            });
-          }
-        };
-      }
-      ;
-    // Array.prototype.slice.call is not callable under our lovely IE8 
-    for (var i = 0; i < query.length; i++) {
-      images.push(query[i]);
-    };
-
-    processScroll();
-    addEventListener('scroll', processScroll);
-
-  }(this);
-
-  function sleep(milliseconds) {
-    const date = Date.now();
-    let currentDate = null;
-    do {
-      currentDate = Date.now();
-    } while (currentDate - date < milliseconds);
+function preloadImage (img) {
+  const src = img.getAttribute('data-src')
+  if (!src) {
+    return
   }
+  img.src = src
+}
