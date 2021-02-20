@@ -15,15 +15,17 @@ article img {
   align-content: center;
   filter: blur(0em);
   transition: filter 0.5s;
+  text-align: center;
 }
 
 p {
   font-family: "Piazzolla", Helvetica, serif;
-  font-size: 1em;
-  line-height: 1em;
-  padding: 3px;
+  font-size: 0.9em;
+  line-height: 0.9em;
+  padding: 2px;
   color: #1200b3;
-  
+  /*text-align: justify;*/
   margin-top: 0;
   text-align: center;
+ /* word-wrap: break-word;*/
 }

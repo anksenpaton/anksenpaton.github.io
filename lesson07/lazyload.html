@@ -7,9 +7,7 @@
       name="author"
       content="progressive loading of images page document for Margaret Yamada in wdd 230"
     />
-
     <title>Progressive Loading of Images</title>
-
     <meta
       name="viewport"
       content="width=device-width, initial-scale=1, maximum-scale=1"
@@ -25,7 +23,6 @@
     <link href="css/large.css" rel="stylesheet" />
     <!-- lazy load -->
     <link href="css/lazyload.css" rel="stylesheet" />
-
   </head>
   <body onload="getLastUpdateDate()">
     <div id="bannerAdd"></div>
@@ -35,12 +32,12 @@
     </header>
 
     <!-- CONTENT HERE -->
-        <!-- class="lazy" -->
+    <!-- class="lazy" -->
     <main>
-      <p>
+      <article>
         <img
           src="images/fuzzy.jpg"
-          data-src="images/weather1.jpg" 
+          data-src="images/weather1.jpg"
           alt="weather1"
         />
         <img
@@ -83,7 +80,7 @@
           data-src="images/weather9.jpg"
           alt="weather9"
         />
-      </p>
+      </article>
 
       <!--<section class="hidden">
         <h3>Weather Summary</h3>
@@ -105,7 +102,7 @@
         <span id="updateDate"></span>
       </p>
     </footer>
-    
+
     <!--
     <script src="js/getcurrentdate.js"></script>
     <script src="js/toggleMenu.js"></script>
@@ -115,9 +112,8 @@
 
     <script src="js/Lazyload.js"></script>
     <script src="js/windchill.js"></script>
-    <script src="js/javascript.js"></script> 
-   
-    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="js/javascript.js"></script>
 
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
   </body>
 </html>
