@@ -270,6 +270,10 @@ figcaption{
   font-size:smaller;
   color: #1200b3;
 }
+
+norm:hover {
+  box-shadow: 0 0 50px #333
+}
 /*.herodiv {
   display: block;
   width: auto;
