@@ -252,9 +252,8 @@ header {
 .container {
   margin: 1rem auto;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  
-  flex: 1 100%;
+  grid-template-columns: 1fr;
+  /*flex: 1 100%;*/
 }
 
 img {
@@ -274,7 +273,7 @@ figcaption{
   color: #1200b3;
 }
 
-norm:hover {
+.norm:hover {
   box-shadow: 0 0 50px #333
 }
 /*.herodiv {

@@ -16,7 +16,6 @@
     line-height: 1em;
     padding: 10px;
     color: #1200b3;
-    
     /*text-align: justify;*/
     margin-top: 0;
     text-align: left;
@@ -132,6 +131,13 @@
   .contactdiv {
     display: grid;
     max-width: 1100px;
+  }
+
+  .container {
+    margin: 1rem auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
   }
   footer {
     max-width: 1100px;
