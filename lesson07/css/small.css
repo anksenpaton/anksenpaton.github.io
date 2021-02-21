@@ -266,6 +266,10 @@ img {
   margin: .5rem;
   flex: 1 100%;
 }
+figcaption{
+  font-size:smaller;
+  color: #1200b3;
+}
 /*.herodiv {
   display: block;
   width: auto;
