@@ -29,14 +29,17 @@
   }
 }
 
+.pwclass {
+    border: 2pc solid blue;
+}
+
+
+/* input box */
 input:invalid {
   border: 2px solid red;
 }
 
+/* input box NOT valid */
 input:valid {
   border: 2px solid green;
-}
-
-.pwclass {
-    border: 2pc solid blue;
 }
