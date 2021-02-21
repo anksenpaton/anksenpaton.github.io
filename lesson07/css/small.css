@@ -252,8 +252,8 @@ header {
 .container {
   margin: 1rem auto;
   display: grid;
-  grid-template-columns: 1fr;
-  /*flex: 1 100%;*/
+  grid-template-columns: 1fr 1fr;
+  flex: 1 100%;
 }
 
 img {
