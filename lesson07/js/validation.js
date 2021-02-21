@@ -20,6 +20,8 @@ function pwCompare() {
 
     if (enabled) {
         document.getElementById('submit').disabled = false; /* submit button enabled */
+    } else {
+        document.getElementById('submit').disabled = true; /* submit button not enabled */
     }
 }
 
@@ -29,7 +31,7 @@ function charCheck() {
     var enabled = false;
 
 
-    /* if pw1 is the same as pw2 then enable the submit button */
+    /* if input1 container thiese characters then enable the submit button */
     if (input1.includes("!") || 
         input1.includes("@") ||                    
         input1.includes("#") ||                    
