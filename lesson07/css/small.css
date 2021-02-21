@@ -359,7 +359,7 @@ figcaption{
   /*position: relative;*/
   /*box-shadow: 2px 6px 12px rgba(0, 0, 0, 0.15);*/
 }
-..contactinfo {
+.contactinfo {
   font-family: "Piazzolla", Helvetica, serif;
   font-size: 1em;
   line-height: 1em;
