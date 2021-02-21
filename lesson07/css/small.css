@@ -253,7 +253,7 @@ header {
   margin: 1rem auto;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  min-width: 150px;
+  max-width: 1048px;
   flex: 1 100%;
 }
 
