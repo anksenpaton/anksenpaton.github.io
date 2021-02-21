@@ -226,11 +226,15 @@ nav a:hover {
 .socialmedia {
   padding: 10px;
 }
-
+.favicon {
+  width: 40px;
+  height: 40px;
+  margin: 10px 10px 0 0;
+}
 .icon {
-  width: 55px;
-  height: 55px;
-  margin: 15px 10px 0 0;
+  width: 40px;
+  height: 40px;
+  margin: 10px 10px 0 0;
   color: white;
   box-shadow: 2px 6px 12px rgba(0, 0, 0, 0.15);
 }

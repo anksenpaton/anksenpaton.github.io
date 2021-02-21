@@ -76,7 +76,6 @@ h4 {
   text-align: left;
   padding: 10px;
   margin-bottom: 10px;
-
   background-color: lavenderblush;
 }
 
@@ -95,7 +94,7 @@ p {
   color: #1200b3;
   /*text-align: justify;*/
   margin-top: 0;
-  text-align: right;
+  text-align: left;
   word-wrap: break-word;
 }
 .p2 {
@@ -225,11 +224,15 @@ nav a:hover {
 .socialmedia {
   padding: 10px;
 }
-
+.favicon {
+  width: 40px;
+  height: 40px;
+  margin: 10px 10px 0 0;
+}
 .icon {
-  width: 50px;
-  height: 50px;
-  margin: 15px 10px 0 0;
+  width: 40px;
+  height: 40px;
+  margin: 10px 10px 0 0;
   color: white;
   box-shadow: 2px 6px 12px rgba(0, 0, 0, 0.15);
 }
@@ -340,18 +343,15 @@ norm:hover {
   margin: 1rem auto;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  max-width: 1048;
   flex: 1 100%;
  /* position: relative;*/
   border: 1px solid indigo;
   width: auto;
-  height: 250px;
+  height: 260px;
   flex: 1 100%;
 }
 
 .contactimg {
-  
- /* position: absolute;*/
   top: 10px;
   right: 40px;
   height: 140px;
