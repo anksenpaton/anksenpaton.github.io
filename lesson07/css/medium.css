@@ -96,7 +96,7 @@
     display: block;
     flex: 1 1 100%;
   }
-  .herodiv {
+  /*.herodiv {
     display: block;
     max-width: 1100px;
     margin: 10px auto;
@@ -128,7 +128,7 @@
     padding: 0.6rem;
     box-shadow: 0 0 30px #1200b3;
    
-  }
+  }*/
   .contactdiv {
     display: block;
     max-width: 1100px;

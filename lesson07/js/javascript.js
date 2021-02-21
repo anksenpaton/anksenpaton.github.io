@@ -18,7 +18,7 @@ window.onresize=()=>{if(window.innerWidth>760);
 
 
 function getLastUpdateDate() { /* returns something like: Wednesday January 1st 2021 */
-    windChill();
+  /* windChill();*/
     var timeNow = new Date();
     var dow = timeNow.getDay();
     var dowList = ["Sunday",
@@ -147,31 +147,5 @@ function getLastUpdateDate() { /* returns something like: Wednesday January 1st 
     document.getElementById("bannerAdd").innerHTML = "&nbsp;";
   
  }
- const config = {
-    rootMargin: '0px 0px 50px 0px',
-    threshold: 1
-  }
-  
-  const images = document.querySelectorAll('[data-src]')
-  
-  let observer = new IntersectionObserver(function (entries, self) {
-    entries.forEach(entry => {
-      if (entry.isIntersecting) {
-        preloadImage(entry.target)
-        self.unobserve(entry.target)
-      }
-    })
-  }, config)
-  
-  images.forEach(image => {
-    observer.observe(image)
-  })
-  
-  function preloadImage (img) {
-    const src = img.getAttribute('data-src')
-    if (!src) {
-      return
-    }
-    img.src = src
-  }
+ 
 }
