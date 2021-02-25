@@ -12,6 +12,7 @@ td {
 
 table {
   width: 25%;
+  height:auto;
   border-collapse: collapse;
 }
 .trhead1 {
