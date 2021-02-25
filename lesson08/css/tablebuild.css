@@ -4,16 +4,15 @@ table,
 td {
   font-family: "Ubuntu", Helvetica, sans-serif;
   color: black;
-  border: 1px solid white;
-  border: 1px solid #628ca6;
+  border: 2px solid grey;
   /*border: 5px solid black;*/
   margin: auto;
   border-collapse: collapse;
   text-align: center;
-  padding: 12px;
+  padding: 9px;
 }
 th {
-  padding: 12px;
+  padding: 9px;
 }
 table {
   width: 25%;
@@ -39,17 +38,26 @@ tr:nth-child(5) {
 }
 .trhead2 {
   font-family: "Ubuntu", Helvetica, sans-serif;
+  font-weight: bold;
   background-color: #628ca6;
-  color: white;
   text-align: center;
   border: 1px solid white;
 }
-
+.tdhead2 {
+  color: white;
+  border: 1px solid rgb(209, 208, 208);
+}
+.special {
+  background-color: #628ca6; color: white;
+}
 
 .blackfriday {
   font-style: italic;
 }
 
+.lastrow {
+  background-color:  #e7ffed;
+}
 .tdfoot {
   font-family: "Ubuntu", Helvetica, sans-serif;
   color: black;
