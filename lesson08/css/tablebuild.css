@@ -7,18 +7,20 @@ td {
         font-family: 'Ubuntu', Helvetica, sans-serif;
     color: black;
    border: 3px solid #e7f0ed;
+   padding: 10px;
+   border-collapse: collapse;
 }
 
 table {
-   width: 20%;
+   width: 25%;
    border-collapse: collapse;
   }
-.trhead1{
+.trhead1 {
     font-family: 'Ubuntu', Helvetica, sans-serif;
     color: black;
     background-color: #7fb9c2;
 }
-.trhead2{
+.trhead2 {
     font-family: 'Ubuntu', Helvetica, sans-serif;
     background-color: #628ca6;
     color: white;
@@ -27,13 +29,20 @@ tr:nth-child(even) {
     background-color: #e7f0ed;
   }
 
+  .col {
+      background-color: #628ca6;
+  }
+.colspan {
+padding-left: 10px;
+}
 
-.trfoot{
+.trfoot {
     font-family: 'Ubuntu', Helvetica, sans-serif;
     color: black;
     background-color: #628ca6;
+    text-align: center;
 }
 
-table{
-    box-shadow: 1px 1px 4px 1px  #628ca6;
+table {
+    box-shadow: 2px 2px 4px 2px  #628ca6;
 }
