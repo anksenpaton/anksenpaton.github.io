@@ -1,0 +1,150 @@
+/* 35em is also 560px when basefont is 16px */
+@media only screen and (min-width: 35rem) {
+  h1 {
+    font-size: 2.5rem;
+    /*margin: 0.15rem;*/
+    color: white;
+  }
+  h2 {
+    font-size: 1.5rem;
+    color: white;
+  }
+
+  .p2 {
+    font-family: "Piazzolla", Helvetica, serif;
+    font-size: 1.1em;
+    line-height: 1em;
+    padding: 10px;
+    color: #1200b3;
+    /*text-align: justify;*/
+    margin-top: 0;
+    text-align: left;
+  }
+  header,
+  footer {
+    border-radius: 10px;
+    color: #1200b3;
+  }
+  header img {
+    width: 200px;
+    height: auto;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.15);
+    float: left;
+    border-radius: 10px;
+  }
+
+  .navigation ul {
+    /* flex-wrap: wrap; */
+    display: flex;
+  }
+
+  .navigation li:first-child {
+    display: block;
+  }
+
+  .navigation li {
+    display: block;
+    flex: 1 1 100%;
+  }
+  nav ul {
+    display: none;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    overflow: hidden;
+  }
+
+  nav ul li {
+    display: flex;
+    flex-direction: row;
+  }
+
+  nav button {
+    display: none;
+  }
+
+  nav ul.hide {
+    display: flex;
+  }
+  nav ul.responsive {
+    display: none;
+  }
+  nav li {
+    flex: 3;
+    font-family: "Cabin", Helvetica, sans-serif;
+    font-size: 1.5em;
+
+    /*  mainnav .classList .remove('responsive')
+    }};*/
+  }
+  .banner {
+    font-size: 2em;
+  }
+  /*.menuHide {
+    display: none;
+  }*/
+  .responsive li {
+    display: none;
+  }
+
+  .contentbox {
+    display: block;
+  }
+
+  .contentbox {
+    display: block;
+    flex: 1 1 100%;
+  }
+  /*.herodiv {
+    display: block;
+    max-width: 1100px;
+    margin: 10px auto;
+    position: relative;
+    border: 1px solid indigo;
+    height: auto;
+  }
+  .forecastdiv {
+    display: block;
+    max-width: 1100px;
+  }
+  .articlediv {
+    display: block;
+    margin: 10px auto;
+    max-width: 1100px;
+    position: relative;
+    border: 1px solid indigo;
+    width: auto;
+    height: 460px;
+  }
+
+  .articleimg {
+    float: right;
+    top: auto;
+    right: auto;
+    bottom: auto;
+    height: 270px;
+    width: 280px;
+    padding: 0.6rem;
+    box-shadow: 0 0 30px #1200b3;
+   
+  }*/
+  .contactdiv {
+    display: grid;
+    max-width: 1100px;
+  }
+
+  .container {
+    /*margin: 1rem auto;*/
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+  }
+  footer {
+    max-width: 1100px;
+    height: auto;
+    font-size: 0.8rem;
+  }
+  footer a {
+    color: white;
+  }
+} /*end medium */
