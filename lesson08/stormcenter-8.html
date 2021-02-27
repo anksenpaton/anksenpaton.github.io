@@ -51,99 +51,119 @@
       <h2>Storm Center</h2>
       
       <div class="container">
-        <figure>
-          <img
-            class="norm"
-            src="images/fuzzy.jpg"
-            data-src="images/weather1.jpg"
-            alt="weather1"
-          />
-          <figcaption>words words 1</figcaption>
-        </figure>
+        <form method="post" action="#" class="grid">
+          <fieldset>
+            <label>Enter Full Name:<br>
+              <input type="text"  name="username" required pattern="[A-Za-z]{15}"
+              minlength="5" maxlength="13" size="15">
+            </label><br>
+            <label>eMail:<br>
+              <input type="email" name="email" placeholder="user@email.org"></label><br>
+          	<label>Phone:<br>
+              <input type="tel" name="phone" placeholder="###-###-####">	</label><br> 
+              <label for="zip">Zip Code:<br>
+                <input type="text" id="zip" name="zip" pattern="(\d{5}([\-]\d{4})?)"
+                 autocomplete="shipping postal-codep"></label><br>  
+          </fieldset>
 
-        <figure>
-          <img
-            class="norm"
-            src="images/fuzzy.jpg"
-            data-src="images/weather2.jpg"
-            alt="weather2"
-          />
+          <fieldset>
+            <label>
+             Storm Date:<br>
+             <label for="search">Search:<br> </label><input type="search" id="search"><br>
+             <label for="month">Month:<br> </label> <input type="month" id="month"><br>
+             <label for="week">Week: <br></label> <input type="week" id="week"><br>
+             <label for="day">Day: <br></label><input type="day" id="day"><br>
+             </label>
+          </fieldset>
 
-          <figcaption>words words 2</figcaption>
-        </figure>
-        <figure>
-          <img
-            class="norm"
-            src="images/fuzzy.jpg"
-            data-src="images/weather3.jpg"
-            alt="weather3"
-          />
+          <fieldset>
+            <label>
+              Storm Type:<br>
+            </label>
+            <label for="storm">Choose your storm type from the list:</label>
+            <input list="storms" name="storm" id="storm">
 
-          <figcaption>words words 3</figcaption>
-        </figure>
-        <figure>
-          <img
-            class="norm"
-            src="images/fuzzy.jpg"
-            data-src="images/weather4.jpg"
-            alt="weather4"
-          />
+             <datalist id="storms">
+             <option value="Flash Flood">
+             <option value="Hail">
+             <option value="Hurricane">
+             <option value="Thumderstorm">
+             <option value="Tornado">
+             </datalist>
+          </fieldset>
+        
+          <fieldset>
+            <label>
+              Storm Severity:<br>
+            </label>
+            <label class="flexly" for="rating">Rating: &nbsp;&nbsp;&nbsp;
+              <input type="range" id="rating" value="5" min="1" max="10" step="1" 
+              list="tickmarks" oninput="adjustRating(this.value)"
+               onchange="adjustRating(this.value)">
+              <span id="ratingvalue">?</span>
+            </label>
+        
+            <datalist id="tickmarks">
+              <option value="0">
+              <option value="1">
+              <option value="2">
+              <option value="3">
+              <option value="4">
+              <option value="5">
+              <option value="6">
+              <option value="7">
+              <option value="8">
+              <option value="9">
+              <option value="10">
+            </datalist>
+          </fieldset>
+          
+          <fieldset>
+            <label>
+              Storm Region:<br>
+            </label>
+            <label for="stormregions">Choose your storm region from the list:</label>
+                   
+            <select name="stormregions" id="stormregions">
+              <option value="preston">Preston</option>
+              <option value="sodasprings">Soda Springs</option>
+              <option value="fishhaven">Fish Haven</option>
+            </select>
+          </fieldset>
+          
 
-          <figcaption>words words 4</figcaption>
-        </figure>
-        <figure>
-          <img
-            class="norm"
-            src="images/fuzzy.jpg"
-            data-src="images/weather5.jpg"
-            alt="weather5"
-          />
+        <fieldset>
+          <label>
+            User-in Danger Level:<br>
+            <fieldset class="nestedfieldset">
+			<legend>Radio Buttons <em>(Choose one)</em></legend>
+			<div class="selection">
+				<input type="radio" id="danger1" name="danger"value="yes">
+         <label for="danger1">yes</label>
+			</div>
+			<div class="selection">
+				<label><input type="radio"id="danger2" name="danger" value="no">no</label>
+			</div>
+			<div class="selection">
+				<input type="radio" id="danger3" name="danger" value="maybe">
+				<label for="time3">maybe</label>
+        </fieldset>
+			</div>
+      <fieldset> 
+      <form action="/action_page.php">
+      <label for="comments">Comments:</label><br>
+      <textarea id="comments" name="comments" rows="4" cols="40">
+         
+        </textarea>
+        <br><br>
+        <input type="submit" value="Submit">
+      </form>
+			</div>
+          </label>
+        </fieldset>
 
-          <figcaption>words words5</figcaption>
-        </figure>
-
-        <figure>
-          <img
-            class="norm"
-            src="images/fuzzy.jpg"
-            data-src="images/weather6.jpg"
-            alt="weather6"
-          />
-
-          <figcaption>words words6</figcaption>
-        </figure>
-
-        <figure>
-          <img
-            class="norm"
-            src="images/fuzzy.jpg"
-            data-src="images/weather7.jpg"
-            alt="weather7"
-          />
-
-          <figcaption>words words 7</figcaption>
-        </figure>
-
-        <figure>
-          <img
-            class="norm"
-            src="images/fuzzy.jpg"
-            data-src="images/weather8.jpg"
-            alt="weather8"
-          />
-          <figcaption>words words 8</figcaption>
-        </figure>
-
-        <figure>
-          <img
-            class="norm"
-            src="images/fuzzy.jpg"
-            data-src="images/weather9.jpg"
-            alt="weather9"
-          />
-
-          <figcaption>words words 9</figcaption>
-        </figure>
+                
+        
       </div>
 
       <!--<div class="contentbox">Contact Information</div>-->
