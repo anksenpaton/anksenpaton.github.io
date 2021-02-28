@@ -51,15 +51,20 @@
       <h2>Storm Center</h2>
       <div class="grid">
       <!--<div class="container">-->
-        
+       
+          
+      
         <form method="post" action="#" class="grid">
+          
           <fieldset>
             <label>Enter Full Name:<br>
-              <input type="text"  name="username" required pattern="[A-Za-z]{15}"
-              minlength="4" maxlength="13" size="15">
+              <input type="text"  name="username" required pattern="[A-Za-z]{1,13}">
+                          
             </label><br>
             <label>eMail:<br>
-              <input type="email" name="email" placeholder="user@email.org"></label><br>
+              <input type="email" name="email" placeholder="user@email.org">
+              
+            </label><br>
           	<label>Phone:<br>
               <input type="tel" name="phone" placeholder="###-###-####">	</label><br> 
               <label for="zip">Zip Code:<br>
@@ -87,8 +92,8 @@
              <datalist id="storms">
              <option value="Flash Flood">
              <option value="Hail">
-             <option value="Hurricane">
-             <option value="Thumderstorm">
+             <option value="Snowstorm">
+             <option value="Thunderstorm">
              <option value="Tornado">
              </datalist>
           </fieldset>
@@ -159,12 +164,12 @@
         </textarea>
         <br><br>
         <input type="submit" value="Submit">		
-      <div class="buttons_bottom">
+      <!--<div class="buttons_bottom">
 
           <input type="submit" class="sbutton"><br>
           <input type="button" value="Button Value" class="sbutton"><br>
           <button type="button" class="sbutton">Button Text</button>
-      </div>
+      </div>-->
     </fieldset>
   </form>
   
@@ -174,9 +179,8 @@
           </label>
         </fieldset>
       </div>
-                
-      
-      </div>
+              
+   </div>
 
       <!--<div class="contentbox">Contact Information</div>-->
 
