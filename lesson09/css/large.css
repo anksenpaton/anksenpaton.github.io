@@ -1,0 +1,74 @@
+/* 64em is also 1028px when basefont is 16px */
+@media only screen and (min-width: 64rem) {
+  .navigation li:first-child {
+    display: block;
+  }
+  /*.menuHide {
+    display: none;
+  }*/
+  .contentbox {
+    display: block;
+  }
+  .responsive li {
+    display: none;
+  }
+  /*.container {
+    margin: 1rem auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+   
+  }*/
+  .grid {
+    display: grid;
+    margin: 1rem auto;
+    grid-gap: .5rem;
+    /*grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));*/
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 1048px;
+  }
+  /*nav ul.responsive {
+    display: none;
+  }*/
+  /*.herodiv {
+    display: block;
+    width: auto;
+    flex: 1 100%;
+    margin: 10px auto;
+    position: relative;
+    border: 1px solid indigo;
+  }
+  .hero {
+    margin: 0 0 auto;
+    width: 100%;
+    height: auto;
+  }
+  .weathersummary {
+    /*position: absolute;*/
+   /* top: 10px;
+    left: 10px;
+    height: 220px;
+    padding: 0.5rem;
+    box-shadow: 0 0 30px #1200b3;
+    background-color: lavenderblush;
+    border: 1px solid indigo;
+    opacity: 0.8;
+  }
+
+  .forecastdiv {
+    display: block;
+    margin: 10px auto;
+    position: relative;
+    border: 1px solid indigo;
+    width: auto;
+    height: 170px;
+  }
+  .articlediv {
+    display: block;
+    margin: 10px auto;
+    max-width: 1100px;
+    position: relative;
+    border: 1px solid indigo;
+    width: auto;
+    height: 460px;
+  }*/
+}
