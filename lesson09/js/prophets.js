@@ -30,4 +30,5 @@ fetch(requestURL)
     card.appendChild(h2);
 
     document.querySelector('div.cards').appendChild(card);
+    }
 }
