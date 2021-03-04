@@ -273,7 +273,7 @@ header {
   position: relative;
   box-shadow: 2px 6px 12px indigo;
 }
-.container {
+.cards {
   margin: 1rem auto;
   display: grid;
   grid-template-columns: 1fr;

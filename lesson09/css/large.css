@@ -12,7 +12,7 @@
   .responsive li {
     display: none;
   }
-  .container {
+  .cards {
     margin: 1rem auto;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
