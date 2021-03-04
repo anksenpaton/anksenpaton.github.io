@@ -12,20 +12,25 @@ fetch(requestURL)
          let h2 = document.createElement('h2');
          h2.textContent = prophets[i].name + ' ' + prophets[i].lastname;
          card.appendChild(h2);
-        /* let dateOfBirth = document.createElement('dateOfBirth');
+        
+         let dateOfBirth = document.createElement('dateOfBirth');
          dateOfBirth.textContent = prophets[i].dateOfBirth + ' ';
          card.appendChild(dateOfBirth);
+        
+        
          let birthPlace = document.createElement('birthPlace');
          birthPlace.textContent = prophets[i].birthPlace + ' ';
          card.appendChild(birthPlace);
-         let img = document.createElement('img');
+        
+        /*
+         let img = image.setAttribute('src', prophets[i].imageurl); alt="Joseph Smith-0";
          img.textContent = prophets[i].img + ' ';
          card.appendChild(img);
+        */
 
 
 
-
-         image.setAttribute('src', prophets[i].imageurl); alt="Joseph Smith-0";*/
+        
          document.querySelector('div.cards').appendChild(card);
       }
    });
