@@ -231,24 +231,7 @@ nav a:hover {
   border-radius: 10px;
 }
 
-/*.contentbox {
-  display: block;
-  max-width: 100%;
-  margin: 10px auto;
-  border: 1px solid indigo;
-  padding: 10px;
-  background-color: lavenderblush;
-  color: #1200b3;
-  font-style: italic;
-}*/
-/*.grid {
-	display: grid;
-  margin: 1rem auto;
-	grid-gap: .5rem;
-/*grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));*/
- /* grid-template-columns: 1fr;
-  max-width: 1048px;
-}*/
+
 .flexly {
 	display: flex;
 	align-items: center;
@@ -295,7 +278,7 @@ header {
   display: grid;
   grid-template-columns: 1fr;
   max-width: 1048px;
- 
+ background-color: cyan;
 }
 
 .norm:hover {
