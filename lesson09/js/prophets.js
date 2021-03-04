@@ -16,7 +16,10 @@ fetch(requestURL)
          h2.textContent = prophets[i].name + ' ' + prophets[i].lastname;
          card.appendChild(h2);
          dob.textContent = prophets[i].dob + ' ' + prophets[i].dob;
+
+
          
+         image.setAttribute('src', prophets[i].imageurl); alt=" ";
          document.querySelector('div.cards').appendChild(card);
       }
    });
