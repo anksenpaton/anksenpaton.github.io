@@ -1,15 +1,17 @@
 section {
-    width: 200px;
-    margin: 1rem auto;
+    width: 250px;
+    margin: .8rem auto;
     display: grid;
+    font-size:smaller;
+    color: #1200b3;
      max-width: 1048px;
     box-shadow: 1px 1px 4px 1px #888;
     overflow: hidden;
-    border-radius: 3px 0 0 3px;
+    border-radius: 10px;
     margin-bottom: 10px;
     background-color: white;
     margin: 0 auto;
-    grid-gap: 20px;
+    grid-gap: 5px;
     text-align: center;
     margin-bottom: 0;
     padding: 5px;
