@@ -87,58 +87,16 @@
     display: none;
   }
 
-  .contentbox {
-    display: block;
-  }
+ 
+  
 
-  .contentbox {
-    display: block;
-    flex: 1 1 100%;
-  }
-  /*.herodiv {
-    display: block;
-    max-width: 1100px;
-    margin: 10px auto;
-    position: relative;
-    border: 1px solid indigo;
-    height: auto;
-  }
-  .forecastdiv {
-    display: block;
-    max-width: 1100px;
-  }
-  .articlediv {
-    display: block;
-    margin: 10px auto;
-    max-width: 1100px;
-    position: relative;
-    border: 1px solid indigo;
-    width: auto;
-    height: 460px;
-  }
-
-  .articleimg {
-    float: right;
-    top: auto;
-    right: auto;
-    bottom: auto;
-    height: 270px;
-    width: 280px;
-    padding: 0.6rem;
-    box-shadow: 0 0 30px #1200b3;
-   
-  }*/
-  .contactdiv {
+  .container {
+    margin: 1rem auto;
     display: grid;
-    max-width: 1100px;
-  }
-
-  /*.container {
-   
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 1048px;
     
-  }*/
+  }
   .grid {
     display: grid;
     margin: 1rem auto;

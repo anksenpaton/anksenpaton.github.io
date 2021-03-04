@@ -290,13 +290,13 @@ header {
   position: relative;
   box-shadow: 2px 6px 12px indigo;
 }
-/*.container {
+.container {
   margin: 1rem auto;
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   max-width: 1048px;
   
-}*/
+}
 
 .norm:hover {
   box-shadow: 0 0 50px #333
