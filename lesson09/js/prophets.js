@@ -19,10 +19,13 @@ fetch(requestURL)
          birthPlace.textContent = prophets[i].birthPlace + ' ';
          card.appendChild(birthPlace);
          let img = document.createElement('img');
+         img.textContent = prophets[i].img + ' ';
+         card.appendChild(img);
+         
 
 
 
-         image.setAttribute('src', prophets[i].imageurl); alt=" ";
+         image.setAttribute('src', prophets[i].imageurl); alt="Joseph Smith-0";
          document.querySelector('div.cards').appendChild(card);
       }
    });
