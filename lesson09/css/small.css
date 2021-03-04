@@ -231,7 +231,7 @@ nav a:hover {
   border-radius: 10px;
 }
 
-.contentbox {
+/*.contentbox {
   display: block;
   max-width: 100%;
   margin: 10px auto;
@@ -240,7 +240,7 @@ nav a:hover {
   background-color: lavenderblush;
   color: #1200b3;
   font-style: italic;
-}
+}*/
 .grid {
 	display: grid;
   margin: 1rem auto;
