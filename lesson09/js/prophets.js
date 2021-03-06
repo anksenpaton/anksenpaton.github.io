@@ -20,13 +20,13 @@ fetch(requestURL)
                 
 
          let p2 = document.createElement('p2');
-         p2.textContent = `Place of Birth:${prophets[i].birthplace}  `;
+         p2.textContent = `Place of Birth:${prophets[i].birthplace} `;
          card.appendChild(p2);
         
 
          let img = document.createElement('img');
          img.setAttribute('src', prophets[i].imageurl);
-         alt="Joseph Smith-0, Brigham Young-1";
+         alt="Joseph Smith-0, Brigham Young-1, John Taylor-3, Wilford Woodruff-4, Lorenzo Snow-5, Joseph F. Smith-6";
          img.style.width= '200px';
          card.appendChild(img);
         
