@@ -5,7 +5,7 @@ section {
     height: 0 auto;
     /*margin: .8rem auto;*/
     display: grid;
-
+    justify-content: center;
     font-size:smaller;
     color: white;
      max-width: 1048px;

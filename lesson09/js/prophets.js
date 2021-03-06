@@ -28,7 +28,7 @@ fetch(requestURL)
          img.setAttribute('src', prophets[i].imageurl);
 
          img.alt = `${prophets[i].name} ${prophets[i].lastname}`;
-
+         
          img.style.width = '200px';
          card.appendChild(img);
 
