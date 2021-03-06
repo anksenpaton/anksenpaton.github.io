@@ -5,29 +5,31 @@ fetch(requestURL)
       return response.json();
    })
    .then(function (dataObject) {
-      /*console.table(dataObject);*/
+      console.table(dataObject);
       const prophets = dataObject['prophets'];
       for (let i = 0; i < prophets.length; i++) {
          let card = document.createElement('section');
+         
          let h2 = document.createElement('h2');
          h2.textContent = prophets[i].name + ' ' + prophets[i].lastname;
          card.appendChild(h2);
         
-         let dateOfBirth = document.createElement('dateOfBirth');
-         dateOfBirth.textContent = prophets[i].dateOfBirth + ' ';
-         card.appendChild(h2);
-         card.appendChild(dateOfBirth);
+         let p1 = document.createElement('p1');
+         p1.textContent = 'Date of Birth:' + prophets[i].birthdate + ' ';
+         card.appendChild(p1);
         
         
-         let birthPlace = document.createElement('birthPlace');
-         birthPlace.textContent = prophets[i].birthPlace + ' ';
-         card.appendChild(birthPlace);
+         let p2 = document.createElement('p2');
+         p2.textContent = `Place of Birth:${prophets[i].birthplace} `;
+         card.appendChild(p2);
         
-        /*
-         let img = image.setAttribute('src', prophets[i].imageurl); alt="Joseph Smith-0";
-         img.image.setAttribute = prophets[i].img + ' ';
+         let img = document.createElement('img');
+          
+         img.setAttribute('src', prophets[i].imageurl);
+         alt="Joseph Smith-0, Brigham Young-1";
+         img.style.width= '200px';
          card.appendChild(img);
-        */
+        
 
 
 

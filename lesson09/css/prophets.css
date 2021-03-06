@@ -1,19 +1,36 @@
 section {
+
+    
     width: 250px;
     /*margin: .8rem auto;*/
     display: block;
     font-size:smaller;
-    color: #1200b3;
+    color: white;
      max-width: 1048px;
     box-shadow: 1px 1px 4px 1px #888;
     /*overflow: hidden;*/
     border-radius: 10px;
     /*margin-bottom: 10px;*/
-    background-color: white;
+    background-color: hsl(291, 84%, 43%);
     margin: 0 auto;
     grid-gap: 5px;
     text-align: center;
     /*margin-bottom: 0;*/
     padding: 5px;
     /*grid-template-columns: 1fr;*/
-   }
+   
+  /* birthdate {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 10px;
+    border-bottom: 5px double;
+  }
+  birthplace {
+    max-width: 1100px;
+    margin: 0 auto;
+    color: white;
+    padding: 10px;
+    background-color: hsl(291, 84%, 43%);
+    border-bottom: 5px double;
+    */
+  }
