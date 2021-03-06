@@ -15,6 +15,7 @@ fetch(requestURL)
         
          let dateOfBirth = document.createElement('dateOfBirth');
          dateOfBirth.textContent = prophets[i].dateOfBirth + ' ';
+         card.appendChild(h2);
          card.appendChild(dateOfBirth);
         
         
