@@ -1,10 +1,11 @@
 section {
 
     
-    width: 230px;
+    width: 300px;
     height: 0 auto;
     /*margin: .8rem auto;*/
-    display: block;
+    display: grid;
+
     font-size:smaller;
     color: white;
      max-width: 1048px;
@@ -13,10 +14,9 @@ section {
     border-radius: 10px;
     background-color: hsl(291, 84%, 43%);
     margin: 0 auto;
-    grid-gap: 15px;
+    
     text-align: center;
     padding: 10px;
-    /*grid-template-columns: 1fr;*/
    
   
   }

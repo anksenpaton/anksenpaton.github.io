@@ -26,7 +26,11 @@ fetch(requestURL)
 
          let img = document.createElement('img');
          img.setAttribute('src', prophets[i].imageurl);
-         alt="Joseph Smith-0, Brigham Young-1, John Taylor-3, Wilford Woodruff-4, Lorenzo Snow-5, Joseph F. Smith-6";
+         
+         img.alt= `${prophets[i].name} ${prophets[i].lastname}`;
+/*
+         img.alt= prophets[i].name + ' ' + prophets[i].lastname;
+*/
          img.style.width= '200px';
          card.appendChild(img);
         
