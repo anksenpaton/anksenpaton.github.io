@@ -25,7 +25,7 @@ fetch(requestURL)
         
         /*
          let img = image.setAttribute('src', prophets[i].imageurl); alt="Joseph Smith-0";
-         img.textContent = prophets[i].img + ' ';
+         img.image.setAttribute = prophets[i].img + ' ';
          card.appendChild(img);
         */
 
