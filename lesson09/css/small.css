@@ -230,7 +230,31 @@ nav a:hover {
   background-color: #0086b3;
   border-radius: 10px;
 }
+.herodiv {
+  display: block;
+  width: auto;
+  flex: 1 100%;
+  margin: 10px auto;
+  position: relative;
+  border: 1px solid indigo;
+}
+.hero {
+  margin: 0 0 auto;
+  width: 100%;
+  height: auto;
+}
 
+.weathersummary {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  height: 250px;
+  padding: 0.5rem;
+  box-shadow: 0 0 30px #1200b3;
+  background-color: lavenderblush;
+  border: 1px solid indigo;
+  opacity: 0.8;
+}
 
 .flexly {
 	display: flex;
