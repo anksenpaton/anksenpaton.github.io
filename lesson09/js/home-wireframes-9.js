@@ -17,15 +17,15 @@ fetch(requestURL)
             let card = document.createElement('section');
 
             let h2 = document.createElement('h2');
-            h2.textContent = towns[i].name + ' ';
+            h2.textContent = `${towns[i].name} `;
             card.appendChild(h2);
 
             let p1 = document.createElement('p1');
-            p1.textContent = 'motto: ' + towns[i].motto + ' ';
+            p1.textContent = `motto: ${towns[i].motto} `;
             card.appendChild(p1);
 
             let p2 = document.createElement('p2');
-            p2.textContent = 'Year Founded: ' + towns[i].yearFounded + ' ';
+            p2.textContent = `Year Founded: ${towns[i].yearFounded} `;
             card.appendChild(p2);
 
 
