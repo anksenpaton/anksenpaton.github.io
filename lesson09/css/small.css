@@ -254,9 +254,11 @@ nav a:hover {
 }
 
 .weathersummary {
+  display:grid;
   position: absolute;
   top: 10px;
   left: 10px;
+  max-width:fit-content;
   height: 250px;
   padding: 0.5rem;
   box-shadow: 0 0 30px #1200b3;
