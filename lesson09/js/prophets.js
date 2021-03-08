@@ -5,7 +5,7 @@ fetch(requestURL)
       return response.json();
    })
    .then(function (dataObject) {
-      console.table(dataObject);
+      /*console.table(dataObject);*/
       const prophets = dataObject['prophets'];
       for (let i = 0; i < prophets.length; i++) {
          let card = document.createElement('section');
