@@ -1,8 +1,8 @@
 section {
+  display: flex;
   width: 320px;
   height: 0 auto;
   /*margin: .8rem auto;*/
-  display: grid;
   justify-content: center;
   font-size: smaller;
   color: white;
@@ -16,9 +16,8 @@ section {
   padding: 10px;
 }
 .h2 {
-
- 
   font-size: 1.5em;
+  text-align: center;
 }
 
 /* alternating articles*/
@@ -26,6 +25,7 @@ section {
   padding: 0.35rem;
 }
 h2 {
+  font-size: 1.5em;
   text-align: center;
 }
 
