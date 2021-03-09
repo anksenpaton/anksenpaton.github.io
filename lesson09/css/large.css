@@ -17,7 +17,8 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     max-width: 1048px;
-    background-color: chartreuse;
+    /*background-color: chartreuse;*/
+    background-color: hsl(291, 84%, 43%);
   }
   /*.grid {
     display: grid;

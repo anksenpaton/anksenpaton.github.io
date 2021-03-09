@@ -116,6 +116,7 @@ h2 {
     background-color: hsl(291, 84%, 43%);
     display: flex;
     flex-wrap: wrap;
+    border-radius: 10px;
   }
   
   article {
@@ -129,9 +130,10 @@ h2 {
   }
   
   .articleimg {
-    border: 1px solid #000080;
+    /*border: 1px solid #000080;*/
     width: 55%;
     height: auto;
+    border-radius: 10px;
   }
   .data {
     background-color: hsl(291, 84%, 43%);
