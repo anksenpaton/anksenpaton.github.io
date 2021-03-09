@@ -23,17 +23,18 @@ fetch(requestURL)
 
         let h2 = '<h2>' + towns[i].name + '</h2>'
 
-        let p1 = '<p>' + 'Motto: ' + towns[i].motto + '</p>' 
-        let p2 = '<p>' + 'Year Founded: ' + towns[i].yearFounded + '</p>' 
-        let p3 = '<p>' + 'Population: ' + towns[i].currentPopulation + '</p>' 
-        let p4 = '<p>' + 'Annual Rain Fall: ' + towns[i].averateRainfall + '</p>' 
-        let img = '<img src=images/' 
+        let p1 = '<p class=\"articletext\">' + 'Motto: ' + towns[i].motto + '</p>' 
+        let p2 = '<p class=\"articletext\">' + 'Year Founded: ' + towns[i].yearFounded + '</p>' 
+        let p3 = '<p class=\"articletext\">' + 'Population: ' + towns[i].currentPopulation + '</p>' 
+        let p4 = '<p class=\"articletext\">' + 'Annual Rain Fall: ' + towns[i].averateRainfall + '</p>' 
+        let img = '<img class=\"articleimg\" src=images/' 
           + towns[i].photo 
           + ' alt=\"' 
           + towns[i].name 
           + '\" style=\"width: 200px;\">'
 
         card.innerHTML = openart 
+           + img
            + opendiv 
            + h2 
            + p1 
@@ -41,7 +42,7 @@ fetch(requestURL)
            + p3 
            + p4 
            + closediv 
-           + img;
+           ;
            /*
            + closeart;
            */
