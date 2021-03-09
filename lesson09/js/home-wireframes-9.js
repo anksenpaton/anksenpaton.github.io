@@ -13,18 +13,19 @@ fetch(requestURL)
             (towns[i].name == 'Soda Springs') ||
             (towns[i].name == 'Fish Haven')) {
 
+            let card = document.createElement('section');
 
-            let card = document.createElement('article');
-
-            /* let div = document.createElement('div');*/
-            /*let carddiv = document.write('<div class=\"data\">');*/
-
-           
+            /*
+                       let div = document.createElement('div');
+                       div.className = 'data';
+                       div.appendChild(div);
+                      */
 
             let h2 = document.createElement('h2');
             h2.textContent = `${towns[i].name} `;
             card.appendChild(h2);
 
+            /* let section = document.createElement('article');*/
             let p1 = document.createElement('p1');
             p1.textContent = `motto: ${towns[i].motto} `;
             card.appendChild(p1);
@@ -48,11 +49,16 @@ fetch(requestURL)
             img.style.width = '200px';
             card.appendChild(img);
 
-            /* card.appendChild(div);*/
-           /* let carddiv = document.write('</div>');*/
+
 
 
             document.querySelector('div.cards').appendChild(card);
          }
       }
    });
+
+/*function newFunction(card) {
+   const newLocal = card.innerHTML = '<div class=\"data\">';
+   card.innerHTML = '</div>';
+}
+*/
