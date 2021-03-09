@@ -97,7 +97,7 @@
     display: grid;
     grid-template-columns: 1fr;
     max-width: 1048px;
-    background-color: crimson;
+    background-color: hsl(291, 84%, 43%);
   }
   
   /* alternating articles*/
