@@ -9,7 +9,9 @@
     font-size: 1.5rem;
     color: white;
   }
-
+  p {
+    color: white;
+  }
   .p2 {
     font-family: "Piazzolla", Helvetica, serif;
     font-size: 1.1em;
@@ -99,12 +101,12 @@
   }
   
   /* alternating articles*/
-  /*
+  
 * {
   padding: 0.35rem;
 }
 h2 {
-  font-size: 1.5em;
+  font-size: 1em;
   text-align: center;
 }
   section {
@@ -118,24 +120,25 @@ h2 {
   
   article {
     display: flex;
-    /*flex-direction: row;*/
-  /*  
+    flex-direction: row;
+    
   }
-  /*
+  
   article:nth-child(odd) {
     flex-direction: row-reverse;
   }
   
-  img {
+  .articleimg {
     border: 1px solid #000080;
-    width: 100%;
+    width: 55%;
     height: auto;
   }
   .data {
-    background-color: #000;
+    background-color: hsl(291, 84%, 43%);
     color: #fff;
   }
-  */
+  
+ 
   /*.grid {
     display: grid;
     margin: 1rem auto;
