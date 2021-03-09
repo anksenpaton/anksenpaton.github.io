@@ -119,6 +119,7 @@ h2 {
   article {
     display: flex;
     /*flex-direction: row;*/
+  /*  
   }
   /*
   article:nth-child(odd) {
