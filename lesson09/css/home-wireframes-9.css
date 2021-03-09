@@ -29,7 +29,7 @@ h2 {
   text-align: center;
 }
 
-section {
+/*section {
   max-width: 600px;
   margin: 0.5rem auto;
   border: 1px solid #bbb;
@@ -43,7 +43,7 @@ article {
   /*flex-direction: row;*/
 }
 
-article:nth-child(odd) {
+/*article:nth-child(odd) {
   flex-direction: row-reverse;
 }
 
@@ -55,4 +55,4 @@ img {
 .data {
   background-color: #000;
   color: #fff;
-}
+}*/
