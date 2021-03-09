@@ -33,15 +33,14 @@ fetch(requestURL)
          + towns[i].name
          + '\" style=\"width: 200px;\">'
 
-       card.innerHTML = img
-          + opendiv
+       card.innerHTML = opendiv
           + h2
           + p1
           + p2
           + p3
           + p4
           + closediv
-
+          + img
        document.querySelector('div.cards').appendChild(card)
      }
    }
