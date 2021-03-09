@@ -14,7 +14,12 @@ fetch(requestURL)
             (towns[i].name == 'Fish Haven')) {
 
 
-            let card = document.createElement('section');
+            let card = document.createElement('article');
+
+            /* let div = document.createElement('div');*/
+            /*let carddiv = document.write('<div class=\"data\">');*/
+
+           
 
             let h2 = document.createElement('h2');
             h2.textContent = `${towns[i].name} `;
@@ -39,11 +44,12 @@ fetch(requestURL)
 
             let img = document.createElement('img');
             img.setAttribute('src', `images/${towns[i].photo}`);
-
             img.alt = `${towns[i].name} ${towns[i].name}`;
-
             img.style.width = '200px';
             card.appendChild(img);
+
+            /* card.appendChild(div);*/
+           /* let carddiv = document.write('</div>');*/
 
 
             document.querySelector('div.cards').appendChild(card);
