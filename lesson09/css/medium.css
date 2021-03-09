@@ -9,15 +9,15 @@
     font-size: 1.5rem;
     color: white;
   }
-  p {
+  /*p {
     color: white;
-  }
+  }*/
   .p2 {
     font-family: "Piazzolla", Helvetica, serif;
     font-size: 1.1em;
     line-height: 1em;
     padding: 10px;
-    color: #1200b3;
+    color: white;
     /*text-align: justify;*/
     margin-top: 0;
     text-align: left;
