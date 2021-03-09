@@ -41,9 +41,9 @@ h2 {
 
 article {
   display: flex;
-  /*flex-direction: row;*/
+  flex-direction: row;
 }
-
+*/
 /*article:nth-child(odd) {
   flex-direction: row-reverse;
 }
