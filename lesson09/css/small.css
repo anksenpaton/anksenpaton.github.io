@@ -315,10 +315,11 @@ header {
   display: grid;
   grid-template-columns: 1fr;
   max-width: 1048px;
- background-color: cyan;
+  background-color: hsl(291, 84%, 43%);
 }
 .articletext {
   color: white;
+  background-color: hsl(291, 84%, 43%);
 }
 .norm:hover {
   box-shadow: 0 0 50px #333

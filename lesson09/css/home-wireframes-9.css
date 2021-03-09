@@ -21,7 +21,7 @@ section {
 }
 
 /* alternating articles*/
-
+/*
 * {
   padding: 0.35rem;
 }
@@ -30,7 +30,7 @@ h2 {
   text-align: center;
 }
 */
-section {
+/*section {
   max-width: 600px;
   margin: 0.5rem auto;
   border: 1px solid #bbb;
@@ -44,7 +44,7 @@ article {
   flex-direction: row;
 }
 */
-article:nth-child(odd) {
+/*article:nth-child(odd) {
   flex-direction: row-reverse;
 }
 
@@ -57,3 +57,4 @@ img {
   background-color: hsl(291, 84%, 43%);
   color: #fff;
 }
+*/
