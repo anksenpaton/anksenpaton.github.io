@@ -35,5 +35,25 @@
     max-width: 1048px;
   }*/
   
-  
+  /*.cards {
+    margin: 1rem auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    max-width: 1048px;
+    /*background-color: hsl(291, 84%, 43%);*/
+   /* border-radius: 10px;
+  }*/
+  /*.articletext {
+    color: white;
+    /*background-color: hsl(291, 84%, 43%);*/
+    /*border-radius: 10px;
+  }*/
+  .articleimg {
+    /*border: 1px solid #000080;*/
+    width: 20%;
+    height: auto;
+    border-radius: 10px;
+  }
+
+
 }

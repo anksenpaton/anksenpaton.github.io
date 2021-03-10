@@ -122,9 +122,8 @@ h2 {
   article {
     display: flex;
     flex-direction: row;
-    border: 1px solid #bbb;
+   /* border: 1px solid #bbb;*/
     border-radius: 10px;
-
 
   }
   
