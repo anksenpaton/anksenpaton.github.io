@@ -314,13 +314,24 @@ header {
   margin: 1rem auto;
   display: grid;
   grid-template-columns: 1fr;
-  max-width: 1048px;
+  max-width: 650px;
   /*background-color: hsl(291, 84%, 43%);*/
   border-radius: 10px;
 }
+article {
+  display:grid;
+  /*display: flex;
+  flex-direction: row;*/
+  border: 1px solid #bbb;
+  border-radius: 10px;
+  background-color: hsl(291, 84%, 43%);
+  justify-content: center;
+  text-align: center;
+}
+
 .articletext {
   color: white;
-  /*background-color: hsl(291, 84%, 43%);*/
+  background-color: hsl(291, 84%, 43%);
   border-radius: 10px;
 }
 .articleimg {

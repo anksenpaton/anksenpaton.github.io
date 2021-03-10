@@ -20,7 +20,17 @@
     /*background-color: chartreuse;*/
     background-color: hsl(291, 84%, 43%);
   }
-
+  article {
+    display:grid;
+    /*display: flex;
+    flex-direction: row;
+   */
+    border: 1px solid #bbb;
+    border-radius: 10px;
+    background-color: hsl(291, 84%, 43%);
+    justify-content: center;
+    text-align: center;
+  }
   .articletext {
     color: white;
     background-color: hsl(291, 84%, 43%);
