@@ -91,69 +91,7 @@
 
  
   
-/*
-  .cards {
-    margin: 1rem auto;
-    display: grid;
-    grid-template-columns: 1fr;
-    max-width: 1048px;
-    /*background-color: hsl(291, 84%, 43%);*/
-    /*
-  }
-  */
-  /* alternating articles*/
-  /*
-* {
-  padding: 0.35rem;
-}
-h2 {
-  font-size: 1em;
-  text-align: center;
-}
-*/
-/*
-  section {
-    display: grid;
-    max-width: 600px;
-    margin: 0.5rem auto;
-    /*border: 10px solid #bbb;*/
-    /*background-color: hsl(291, 84%, 43%);
-    display: flex;
-    flex-wrap: wrap;
-    border-radius: 10px;
-  }
-  */
-  /*
-  article {
-    display: flex;
-    flex-direction: row;
-   /* border: 1px solid #bbb;*/
-   /* border-radius: 10px;
-    background-color: hsl(291, 84%, 43%);
-  }
-  
-  article:nth-child(odd) {
-    flex-direction: row-reverse;
-  }
-  
-  
-  .articleimg {
-    /*border: 1px solid #000080;*/
-   /* width: 50%;
-    height: 0 auto;
-    border-radius: 10px;
-  }
 
-  .articletext {
-    color: white;
-    /*background-color: hsl(291, 84%, 43%);*/
-    /*border-radius: 10px;*/
-  }
-  /*
-  .data {
-   /* background-color: hsl(291, 84%, 43%);*/
-   /* color: #fff;
-  }*/
   .forecastdiv {
     display: block;
     max-width: 1100px;
