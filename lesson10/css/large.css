@@ -26,19 +26,21 @@
     width: 100%;
     height: auto;
   }
+  /*
   .cards {
     margin: 1rem auto;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     max-width: 1100px;
     /*background-color: chartreuse;*/
-    background-color: hsl(291, 84%, 43%);
+   /* background-color: hsl(291, 84%, 43%);
   }
   article {
     display:grid;
     /*display: flex;
     flex-direction: row;
    */
+   /*
     border: 1px solid #bbb;
     border-radius: 10px;
     background-color: hsl(291, 84%, 43%);
