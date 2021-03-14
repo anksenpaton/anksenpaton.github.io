@@ -91,7 +91,7 @@
 
  
   
-
+/*
   .cards {
     margin: 1rem auto;
     display: grid;
@@ -99,9 +99,9 @@
     max-width: 1048px;
     /*background-color: hsl(291, 84%, 43%);*/
   }
-  
+  */
   /* alternating articles*/
-  
+  /*
 * {
   padding: 0.35rem;
 }
@@ -109,16 +109,19 @@ h2 {
   font-size: 1em;
   text-align: center;
 }
+*/
+/*
   section {
     display: grid;
     max-width: 600px;
     margin: 0.5rem auto;
     /*border: 10px solid #bbb;*/
-    background-color: hsl(291, 84%, 43%);
+    /*background-color: hsl(291, 84%, 43%);
     display: flex;
     flex-wrap: wrap;
     border-radius: 10px;
   }
+  */
   /*
   article {
     display: flex;
