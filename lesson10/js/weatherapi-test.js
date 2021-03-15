@@ -1,41 +1,13 @@
-let cityID = 5604473;  /* Preston ID id=5604473 */
-let appid = 'cf6255e7d3643d472202cab287a3b281';
+const apiURL =
+'http://api.openweathermap.org/data/2.5/weather?id=5604473&units=imperial&appid=cf6255e7d3643d472202cab287a3b281'
 
-const apiwURL =
-'http://api.openweathermap.org/data/2.5/forecast?id=${cityID}&units=imperial&appid=${appid}';
+ /* Preston ID id=5604473 */
 
-fetch(apiwURL)
+fetch(apiURL)
  .then(response => response.json())
  .then(jsObject => {
-   console.log(jsObject)
-   let day = 0;
-   const dayofWeek = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
+  /* console.log(jsObject)*/
 
-/*
-let d = new Date(jsobject.list[4].dt_txt);*/
-/*
-thefive.forEach( days => {
-
-  let d = new Date(days.dt_txt);
- 
-console.log(d);
-document.getElementById('dayofweek${day+1}').textContent = dayofWeek[d.getDay()];
-document.getElementById('forecast${day+1}').textContent = jsObject.list[4].main.temp;
-day++
- */
-});
-
-/*
- let img = document.createElement('img');
- img.setAttribute('src', prophets[i].imageurl);
-
- img.alt = `${prophets[i].name} ${prophets[i].lastname}`;
- 
- img.style.width = '200px';
- card.appendChild(img);
-*/
-
-/*
    document.getElementById('current-temp').textContent = jsObject.main.temp
    document.getElementById('high-temp').textContent = jsObject.main.temp_max
    document.getElementById('wind-chill').textContent = jsObject.main.feels_like
@@ -43,10 +15,7 @@ day++
    document.getElementById('humidity').textContent = jsObject.main.humidity
    document.getElementById('weather').textContent = jsObject.weather[0].description
 
-
-
-
-
+   document.getElementById('current-temp2').textContent = jsObject.main.temp
    const imagesrc = 'https://openweathermap.org/img/w/' + jsObject.weather[0].icon + '.png';  // note the concatenation
    const desc = jsObject.weather[0].description;  // note how we reference the weather array
    document.getElementById('imagesrc').textContent = imagesrc;  // informational specification only
@@ -54,4 +23,3 @@ day++
    document.getElementById('icon').setAttribute('alt', desc);
 
  })
- */
