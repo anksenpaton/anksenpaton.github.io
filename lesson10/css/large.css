@@ -89,11 +89,11 @@
   .forecastdiv {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    margin: 0 auto;
+    margin: auto;
     border: 1px solid indigo;
     max-width: 1048px;
     width: auto;
-    height: 200px;
+    height: 280px;
   }
   .articlediv {
     display: block;

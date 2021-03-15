@@ -71,7 +71,7 @@ h2 {
 }
 h3 {
   font-family: "Roboto Slab", Helvetica, sans-serif;
-  font-size: 1em;
+  font-size: 1.2em;
   line-height: 0.1em;
   color: #1200b3;
   text-align: center;
@@ -361,7 +361,6 @@ article {
   top: auto;
   left: auto;
   width: auto;
-
   height: auto;
 }
 
