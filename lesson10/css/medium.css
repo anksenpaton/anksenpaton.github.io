@@ -94,6 +94,7 @@
 
   .forecastdiv {
     display: grid;
+    
     max-width: 1048px;
   }
   .articlediv {

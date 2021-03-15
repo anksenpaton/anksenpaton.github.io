@@ -88,6 +88,7 @@
   */
   .forecastdiv {
     display: grid;
+    
     margin: 10px auto;
     position: relative;
     border: 1px solid indigo;
