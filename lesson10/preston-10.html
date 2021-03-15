@@ -69,12 +69,12 @@
 
         <section class="weathersummary">
           <h3>Weather Summary</h3>
-          <p>Current Temp: 36&deg;F<br /></p>
-          <p>High Temp: 36&#176;F<br /></p>
-          <p>Wind Chill: 33&#176;F<br /></p>
-          <p>Wind Speed: 7 mph<br /></p>
-          <p>Humidity: 75%<br /></p>
-          <p>Precipitation: 15%</p>
+          <p>Current Temp: <span id="current-temp"></span>&deg;F<br /></p>
+          <p>High Temp: <span id="high-temp"></span>&#176;F<br /></p>
+          <p>Wind Chill: <span id="wind-chill"></span>&#176;F<br /></p>
+          <p>Wind Speed: <span id="wind-speed"></span> mph<br /></p>
+          <p>Humidity: <span id="humidity"></span>%<br /></p>
+          <p>Weather: <span id="weather"></span></p>
         </section>
       </div>
 
@@ -105,32 +105,13 @@
       <!--<div class="contentbox">Contact Information</div>-->
       <div class="forecastdiv">
         <h3>5 Day Forecast</h3>
-
-        <img
-          class="forecast"
-          src="images/forecast-friday.jpg"
-          alt="5 days of weather"
-        />
-        <img
-          class="forecast"
-          src="images/forecast-saturday.jpg"
-          alt="5 days of weather"
-        />
-        <img
-          class="forecast"
-          src="images/forecast-sunday.jpg"
-          alt="5 days of weather"
-        />
-        <img
-          class="forecast"
-          src="images/forecast-monday.jpg"
-          alt="5 days of weather"
-        />
-        <img
-          class="forecast"
-          src="images/forecast-tuesday.jpg"
-          alt="5 days of weather"
-        />
+         <p><span id="dayofweek1"></span> : <span id="forecast1"></span>&deg; F</p>
+         <!--<p>image icon test: <span id="imagesrc"></span></p>-->
+         <p><img id="icon" src" " alt" " /></p>
+         <p><span id="dayofweek2"></span> : <span id="forecast2"></span>&deg; F</p>
+         <p><span id="dayofweek3"></span> : <span id="forecast3"></span>&deg; F</p>
+         <p><span id="dayofweek4"></span> : <span id="forecast4"></span>&deg; F</p>
+         <p><span id="dayofweek5"></span> : <span id="forecast5"></span>&deg; F</p>
       </div>
 
       <!-- <div class="contentbox">Article</div>-->
@@ -226,8 +207,12 @@
     <script src="js/getcurrentdate.js"></script>
     <script src="js/toggleMenu.js"></script>
     <script src="js/bannerad.js"></script>
-    -->
     <script src="js/home-wireframes-9.js"></script>
+    <script src="js/prophets.js"></script>
+    -->
+    
+    <script src="js/weatherapi.js"></script>
+    <script src="js/forecast.js"></script>
     <script src="js/Lazyload.js"></script>
     <script src="js/windchill.js"></script>
     <script src="js/javascript.js"></script>
