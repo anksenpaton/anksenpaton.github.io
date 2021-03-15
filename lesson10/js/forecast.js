@@ -27,9 +27,15 @@ document.getElementById('forecast${day+1}').textContent = jsObject.list[4].main.
 day++
 });
  });
+/*
+ let img = document.createElement('img');
+ img.setAttribute('src', prophets[i].imageurl);
 
-
-
+ img.alt = `${prophets[i].name} ${prophets[i].lastname}`;
+ 
+ img.style.width = '200px';
+ card.appendChild(img);
+*/
 
 /*
    document.getElementById('current-temp').textContent = jsObject.main.temp
