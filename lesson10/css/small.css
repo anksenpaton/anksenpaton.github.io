@@ -354,6 +354,7 @@ article {
 }
 
 .forecast {
+  display: grid;
   margin: 0 auto;
   top: auto;
   left: auto;

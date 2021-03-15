@@ -93,8 +93,8 @@
   
 
   .forecastdiv {
-    display: block;
-    max-width: 1100px;
+    display: grid;
+    max-width: 1048px;
   }
   .articlediv {
     display: block;
