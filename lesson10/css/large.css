@@ -89,6 +89,7 @@
   .forecastdiv {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 40px 40px;
     margin: auto;
     border: 1px solid indigo;
     max-width: 1048px;
