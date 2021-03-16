@@ -3,7 +3,7 @@ let appid_w = '00000000000000000000000000000000000';
 
 /* 'https://api.openweathermap.org/data/2.5/forecast?id=${cityID_w}&units=imperial&appid=${appid_w}';   */
 
-const apiURL_w = '/js/weather.json'
+const apiURL_w = 'js/weather.json'
 
  /* Preston ID id=5604473 */
 
@@ -13,6 +13,14 @@ fetch(apiURL_w)
    // console.log(jsObject)
 
    document.getElementById('current-temp').textContent = jsObject.main.temp
+   document.getElementById('high-temp').textContent = jsObject.main.temp_max
+   document.getElementById('wind-chill').textContent = jsObject.main.feels_like
+   document.getElementById('wind-speed').textContent = jsObject.wind.speed
+   document.getElementById('humidity').textContent = jsObject.main.humidity
+   document.getElementById('weather').textContent = jsObject.weather[0].description
+
+
+
 
    const imagesrc = 'https://openweathermap.org/img/w/' + jsObject.weather[0].icon + '.png';  // note the concatenation
    const desc = jsObject.weather[0].description;  // note how we reference the weather array

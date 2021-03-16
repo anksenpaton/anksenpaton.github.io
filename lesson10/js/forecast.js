@@ -6,7 +6,7 @@ const apiURL_f =
 'https://api.openweathermap.org/data/2.5/forecast?id=${cityID_f}&units=imperial&appid=${appid_f}';
 */
 
-const apiURL_f = '/js/forecast.json'
+const apiURL_f = 'js/forecast.json'
 
 fetch(apiURL_f)
  .then(function (response) {
@@ -14,14 +14,15 @@ fetch(apiURL_f)
  })
 
  .then(function (dataObject) {
-   console.log(dataObject)
+   // console.log(dataObject)
    // console.log(dataObject.cnt)
    for (let i = 0; i < dataObject.cnt; i++) {
      if (dataObject.list[i].dt_txt.includes('18:00:00')) {
        let card = document.createElement('section')
+       card.setAttribute('class', 'forecastsection')
        var date = new Date(dataObject.list[i].dt_txt)
        const dayOfWeek = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat']
-       document.querySelector('div.cards').appendChild(card)
+       document.querySelector('div.cardsforecast').appendChild(card)
 
        let p1 = document.createElement('p')
        p1.textContent = dayOfWeek[date.getDay()]

@@ -39,7 +39,11 @@
         </ul>
         <ul id="primaryNav" class="hide">
           <li><a href="../lesson09/index.html">Home</a></li>
-          <li><a href="../lesson10/preston-10.html" class="active-page">Preston</a></li>
+          <li>
+            <a href="../lesson10/preston-10.html" class="active-page"
+              >Preston</a
+            >
+          </li>
           <!--
             <li><a href="../lesson06/preston-6.html">Preston</a></li>
           -->
@@ -50,8 +54,6 @@
           </li>
           <li><a href="../lesson07/gallery-7.html">Gallery</a></li>
           <!--<li><a href="../lesson07/gallery-7.html" class="active-page">Gallery</a></li>-->
-
-          
         </ul>
       </nav>
     </nav>
@@ -75,15 +77,14 @@
           <p>Wind Speed: <span id="wind-speed"></span> mph<br /></p>
           <p>Humidity: <span id="humidity"></span>%<br /></p>
           <p>Weather: <span id="weather"></span></p>
+          <span class="hidden" id="imagesrc"></span> &nbsp;
+          <img src="" alt="" id="icon" />
         </section>
       </div>
 
       <!--
       <div class="cards"></div>
       -->
-
-    
-    
 
       <!--<div class="herodiv">
         <picture>
@@ -105,8 +106,13 @@
       <!--<div class="contentbox">Contact Information</div>-->
       <div class="forecastdiv">
         <h3>5 Day Forecast</h3>
-        <!--<p>image icon test: <span id="imagesrc"></span></p>-->
-          <forecastsection>
+        <div class="cardsforecast"></div>
+      </div>
+
+      <!--
+    <p>image icon test: <span id="imagesrc"></span></p>
+      
+        <forecastsection>
          <p><span id="dayofweek1"></span>
           <p><img id="icon" src"... " alt"... " /></p>
            : <span id="forecast1"></span>&deg; F</p>
@@ -123,18 +129,19 @@
           <p><img id="icon" src"... " alt"... " /></p> 
           : <span id="forecast3"></span>&deg; F</p>
         </forecastsection>
-
+        
+        <forecastsection>
          <p><span id="dayofweek4"></span>
           <p><img id="icon" src"... " alt"... " /></p> 
           : <span id="forecast4"></span>&deg; F</p>
-          <forecastsection>
+         </forecastsection>
 
+         <forecastsection>
          <p><span id="dayofweek5"></span>
           <p><img id="icon" src"... " alt"... " /></p> 
           : <span id="forecast5"></span>&deg; F</p>
         </forecastsection>
-        <div class="cards"></div>
-      </div>
+-->
 
       <!-- <div class="contentbox">Article</div>-->
       <div class="articlediv">
@@ -232,7 +239,7 @@
     <script src="js/home-wireframes-9.js"></script>
     <script src="js/prophets.js"></script>
     -->
-    
+
     <script src="js/weatherapi.js"></script>
     <script src="js/forecast.js"></script>
     <script src="js/Lazyload.js"></script>

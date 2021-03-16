@@ -91,13 +91,29 @@
  
   .forecastdiv {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 40px 40px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 75px 160px;
     margin: auto;
     border: 1px solid indigo;
     max-width: 1048px;
     width: auto;
     height: 280px;
+  }
+
+  .cardsforecast {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    margin: 1rem auto;    
+   /* background-color: hsl(291, 84%, 43%);*/
+    
+  }
+
+  .forecastsection {
+    text-align: center;
+    justify-content: center;
+    border: 2px solid indigo;
+  
+  
   }
   .articlediv {
     display: block;

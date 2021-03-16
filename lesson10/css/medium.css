@@ -94,9 +94,18 @@
 
   .forecastdiv {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     max-width: 1048px;
   }
+
+  .forecastsection {
+    text-align: center;
+    justify-content: center;
+    border: 2px solid indigo;
+  
+  
+  }
+
   .articlediv {
     display: block;
     margin: 10px auto;
