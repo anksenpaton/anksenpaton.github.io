@@ -1,16 +1,20 @@
-section {
+/*section {
   display: grid;
-  width: 320px;
-  height: auto;
+  width: 130px;
+  height: 130px;
+  border: 1.5px solid indigo;
   /*margin: .8rem auto;*/
-  justify-content: center;
+  /*justify-content: center;
   font-size: smaller;
   color: white;
   max-width: 1048px;
-  box-shadow: 1px 1px 4px 1px #888;
+  box-shadow: 1px 1px 4px 1px #888;*/
   /*overflow: hidden;*/
+  /*
   border-radius: 10px;
+
   background-color: hsl(291, 84%, 43%);
+  
   margin: auto;
   text-align: center;
   padding: 10px;

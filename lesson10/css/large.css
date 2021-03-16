@@ -86,6 +86,9 @@
     border-radius: 10px;
   }
   */
+
+ 
+ 
   .forecastdiv {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
