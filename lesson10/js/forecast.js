@@ -25,6 +25,7 @@ fetch(apiURL_f)
        document.querySelector('div.cardsforecast').appendChild(card)
 
        let p1 = document.createElement('p')
+       p1.setAttribute('class', 'forecastfont')
        p1.textContent = dayOfWeek[date.getDay()]
        card.appendChild(p1)
 
@@ -39,6 +40,7 @@ fetch(apiURL_f)
      card.appendChild(img)
 
        let p3 = document.createElement('p')
+       p3.setAttribute('class', 'forecastfont')
        p3.textContent = dataObject.list[i].main.temp
        card.appendChild(p3)
 

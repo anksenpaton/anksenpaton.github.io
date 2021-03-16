@@ -118,6 +118,13 @@ p {
   margin-top: 0;
   text-align: left;
 }
+
+.forecastfont {
+  font-size: 1.2em;
+  line-height: 0.2em;
+  text-align: center;
+  padding: 3px;
+}
 input[type="button"] {
 	color: blue;
 
@@ -359,7 +366,7 @@ header {
   display: grid;
   /*margin: 1rem auto;*/
   
-  background-color: hsl(291, 84%, 43%);
+  background-color: lavenderblush;
   max-width: 650px;
   border: 2px solid indigo;
   /*background-color: hsl(291, 84%, 43%);*/
@@ -370,7 +377,7 @@ header {
   text-align: center;
   justify-content: center;
   border: 2px solid indigo;
-
+  font-size:smaller;
 
 }
 
