@@ -109,6 +109,23 @@ h2 {
   font-size: 1em;
   text-align: center;
 }
+
+.herodiv {
+  display: block;
+  max-width: 1048px;
+  flex: 1 100%;
+  margin: 0 0 auto;
+  position: relative;
+  border: 1px solid indigo;
+}
+
+.hero {
+  margin: 0 0 auto;
+  width: 100%;
+  height: auto;
+}
+
+
   section {
     display: grid;
     max-width: 600px;

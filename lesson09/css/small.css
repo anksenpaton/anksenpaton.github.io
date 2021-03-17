@@ -243,7 +243,7 @@ nav a:hover {
 }
 .herodiv {
   display: block;
-  width: auto;
+  max-width: 1048px;
   flex: 1 100%;
   margin: 0 0 auto;
   position: relative;
@@ -251,7 +251,7 @@ nav a:hover {
 }
 .hero {
   margin: 0 0 auto;
-  width: 100%;
+  width: 1048px;
   height: auto;
 }
 
@@ -344,7 +344,13 @@ article {
 .norm:hover {
   box-shadow: 0 0 50px #333
 }
-
+.contactdiv {
+  margin: 10px auto;
+  position: relative;
+  border: 1px solid indigo;
+  width: auto;
+  height: 250px;
+}
 
 .contactdiv {
   margin: 10px auto;
