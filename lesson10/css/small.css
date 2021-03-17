@@ -272,6 +272,7 @@ nav a:hover {
   padding: 0.5rem;
   box-shadow: 0 0 30px #1200b3;
   background-color: lavenderblush;
+  border-radius: 10px;
   border: 1px solid indigo;
   opacity: 0.8;
 }
@@ -365,10 +366,8 @@ header {
 .cardsforecast {
   display: grid;
   /*margin: 1rem auto;*/
-  
-  background-color: lavenderblush;
   max-width: 650px;
-  border: 2px solid indigo;
+ /*border: 2px solid indigo;*/
   /*background-color: hsl(291, 84%, 43%);*/
   /*border-radius: 10px;*/
 }
@@ -376,8 +375,11 @@ header {
 .forecastsection {
   text-align: center;
   justify-content: center;
-  border: 2px solid indigo;
+  border: 3px solid indigo;
+  background-color: lavenderblush;
   font-size:smaller;
+  border-radius: 10px;
+  
 
 }
 

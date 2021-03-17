@@ -103,7 +103,8 @@
   .cardsforecast {
     display: grid;
     grid-template-columns: auto auto auto auto auto;
-    min-width: 70%;
+    grid-gap: 1em;
+    min-width: 75%;
     margin: 1rem auto;    
    /* background-color: hsl(291, 84%, 43%);*/
     
@@ -112,7 +113,7 @@
   .forecastsection {
     text-align: center;
     justify-content: center;
-    border: 2px solid indigo;
+    border: 3px solid indigo;
   
   
   }
