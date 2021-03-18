@@ -1,7 +1,8 @@
-let cityID_f = 5604473 /* Preston ID id=5604473 */
-let appid_f = '0cf6255e7d3643d472202cab287a3b281'
+let cityID_f = 5604473; /* Preston ID id=5604473 */
+let appid_f = 'cf6255e7d3643d472202cab287a3b281';
 
-const apiURL_f = `https://api.openweathermap.org/data/2.5/forecast?id=${cityID_f}&units=imperial&appid=${appid_f}`
+const apiURL_f = `https://api.openweathermap.org/data/2.5/forecast?id=${cityID_f}&units=imperial&appid=${appid_f}`;
+// const apiURL_f = 'https://api.openweathermap.org/data/2.5/forecast?id=5604473&units=imperial&appid=cf6255e7d3643d472202cab287a3b281';
 // const apiURL_f = 'js/forecast_preston.json'
 
 fetch(apiURL_f)
@@ -37,9 +38,9 @@ fetch(apiURL_f)
 
         let p3 = document.createElement('p')
         p3.setAttribute('class', 'forecastfont')
-        p3.textContent = dataObject.list[i].main.temp
+        p3.textContent = ' ' + Math.round(dataObject.list[i].main.temp) + '°F'
         card.appendChild(p3)
-
+        
       }
     }
   })
