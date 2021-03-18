@@ -12,13 +12,13 @@ fetch(apiURL_w)
  .then(jsObject => {
     console.log(jsObject)
 
-   document.getElementById('current-temp').textContent = jsObject.main.temp
-   document.getElementById('high-temp').textContent = jsObject.main.temp_max
-   document.getElementById('wind-chill').textContent = windChill(jsObject.main.temp,jsObject.wind.speed)
-   document.getElementById('wind-speed').textContent = jsObject.wind.speed
-   document.getElementById('humidity').textContent = jsObject.main.humidity
-   document.getElementById('weather').textContent = jsObject.weather[0].description
-
+    document.getElementById('current-temp').textContent = Math.round(jsObject.main.temp)
+    document.getElementById('high-temp').textContent = Math.round(jsObject.main.temp_max)
+    document.getElementById('wind-chill').textContent = windChill(jsObject.main.temp,jsObject.wind.speed)
+    document.getElementById('wind-speed').textContent = Math.round(jsObject.wind.speed)
+    document.getElementById('humidity').textContent = Math.round(jsObject.main.humidity)
+    document.getElementById('weather').textContent = jsObject.weather[0].description
+ 
 
 
 
