@@ -17,5 +17,4 @@ fetch(apiURL_w)
    document.getElementById('humidity').textContent = Math.round(jsObject.main.humidity)
    document.getElementById('weather').textContent = jsObject.weather[0].description
 
-
  })
