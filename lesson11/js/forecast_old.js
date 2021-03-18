@@ -1,8 +1,9 @@
 let cityID = 5604473;  /* Preston ID id=5604473 */
 let appid = 'cf6255e7d3643d472202cab287a3b281';
 
-const apiwURL =
-'https://api.openweathermap.org/data/2.5/forecast?id=${cityID}&units=imperial&appid=${appid}';
+const apiwURL = `https://api.openweathermap.org/data/2.5/forecast?id=${cityID}&units=imperial&appid=${appid}`;
+// const apiURL_f = 'https://api.openweathermap.org/data/2.5/forecast?id=5607916&units=imperial&appid=cf6255e7d3643d472202cab287a3b281';
+// const apiURL_f = 'js/forecast.json'
 
 fetch(apiwURL)
  .then(response => response.json())
