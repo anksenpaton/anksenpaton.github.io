@@ -10,7 +10,7 @@ const apiURL_w = `https://api.openweathermap.org/data/2.5/weather?id=${cityID_w}
 fetch(apiURL_w)
  .then(response => response.json())
  .then(jsObject => {
-    console.log(jsObject)
+    //console.log(jsObject)
 
    document.getElementById('current-temp').textContent = jsObject.main.temp
    document.getElementById('high-temp').textContent = jsObject.main.temp_max
