@@ -1,4 +1,5 @@
-let cityID_f = 5604473; /* Preston ID id=5604473 */
+let cityID_f = 5585010; /* Bear Lake Sands ID id=5585010 */
+
 let appid_f = 'cf6255e7d3643d472202cab287a3b281';
 
 const apiURL_f =
