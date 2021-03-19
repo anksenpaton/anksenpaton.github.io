@@ -115,7 +115,17 @@
     max-width: 35%;
   }*/
 
-  
+  .eventsdiv {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 65px;
+    margin: auto;
+    border: 1px solid indigo;
+    max-width: 1048px;
+    width: auto;
+    height: 280px;
+  }
+
   .articlediv {
     display: block;
     margin: 10px auto;

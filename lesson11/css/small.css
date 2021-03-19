@@ -456,6 +456,40 @@ header {
   padding: 3px;
 }
 
+
+.eventsdiv {
+  display: grid;
+  grid-template-columns: 1fr;
+  margin: 0 auto;
+  
+}
+.cardsevent {
+  display: grid;
+  margin: 1rem auto;
+  min-width: 35%;
+  grid-gap: 1em;
+  /*max-width: 650px;*/
+ /*border: 2px solid indigo;*/
+  /*background-color: hsl(291, 84%, 43%);*/
+  /*border-radius: 10px;*/
+}
+
+.eventssection {
+  display: grid;
+  text-align: center;
+  justify-content: center;
+  border: 3px solid indigo;
+  background-color: lavenderblush;
+  font-size:smaller;
+  border-radius: 10px;
+}
+
+.eventsfont {
+  font-size: 1.5em;
+  line-height: 1.2em;
+  text-align: center;
+  padding: 3px;
+}
 /*
 .norm:hover {
   box-shadow: 0 0 50px #333
