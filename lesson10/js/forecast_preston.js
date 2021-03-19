@@ -3,7 +3,7 @@ let appid_f = 'cf6255e7d3643d472202cab287a3b281';
 
 // const apiURL_f = `https://api.openweathermap.org/data/2.5/forecast?id=${cityID_f}&units=imperial&appid=${appid_f}`;
 // const apiURL_f = 'https://api.openweathermap.org/data/2.5/forecast?id=5604473&units=imperial&appid=cf6255e7d3643d472202cab287a3b281';
-const apiURL_f = 'js/forecast_preston.json'
+const apiURL_f = 'js/forecast_preston.json' 
 
 fetch(apiURL_f)
   .then(function (response) {

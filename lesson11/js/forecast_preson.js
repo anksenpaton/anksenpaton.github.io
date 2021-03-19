@@ -33,7 +33,7 @@ fetch(apiURL_f)
         img.setAttribute('src', imagesrc)
         img.alt = `$dataObject.list[i].weather[0].description`
         img.setAttribute('id', 'icon')
-        img.style.width = '60px'
+        img.style.width = '65px'
         card.appendChild(img)
 
         let p3 = document.createElement('p')
