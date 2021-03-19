@@ -426,7 +426,7 @@ header {
   display: grid;
   grid-template-columns: 1fr;
   margin: 0 auto;
-  
+  border: 1px solid indigo;
 }
 .cardsforecast {
   display: grid;
@@ -461,7 +461,7 @@ header {
   display: grid;
   grid-template-columns: 1fr;
   margin: 0 auto;
-  
+  border: 1px solid indigo;
 }
 .cardsevent {
   display: grid;

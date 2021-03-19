@@ -105,7 +105,7 @@
     grid-template-columns: 1fr;
     grid-template-rows: 65px;
     margin: auto;
-    border: 1px solid indigo;
+    
     max-width: 1048px;
     width: auto;
     height: 280px;
@@ -120,7 +120,7 @@
     grid-template-columns: 1fr;
     grid-template-rows: 65px;
     margin: auto;
-    border: 1px solid indigo;
+    
     max-width: 1048px;
     width: auto;
     height: 280px;
