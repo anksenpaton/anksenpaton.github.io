@@ -59,6 +59,13 @@
     max-width: 1048px;
   }
 
+  .forecastsection {
+    width: 6em;
+  }
+  .forecastimg {
+    width: 90px;
+  }
+
   article {
     display: grid;
     /*display: flex;

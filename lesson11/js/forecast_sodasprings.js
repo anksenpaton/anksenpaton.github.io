@@ -30,10 +30,10 @@ fetch(apiURL_f)
         //p2.textContent = `<img src="${imagesrc}" alt="${dataObject.list[i].weather[0].description}" id="icon">`;
 
         let img = document.createElement('img')
+        img.setAttribute('class', 'forecastimg')
         img.setAttribute('src', imagesrc)
         img.alt = `$dataObject.list[i].weather[0].description`
         img.setAttribute('id', 'icon')
-        img.style.width = '60px'
         card.appendChild(img)
 
         let p3 = document.createElement('p')

@@ -445,6 +445,8 @@ header {
   margin: 1rem auto;
   min-width: 35%;
   grid-gap: 1em;
+  text-align: center;
+  justify-content: center;
   /*max-width: 650px;*/
  /*border: 2px solid indigo;*/
   /*background-color: hsl(291, 84%, 43%);*/
@@ -457,12 +459,17 @@ header {
   justify-content: center;
   border: 3px solid indigo;
   background-color: lavenderblush;
-  font-size:smaller;
   border-radius: 10px;
+  margin: 0.1em;
+  width: 6em;
+}
+
+.forecastimg {
+  width: 70px;
 }
 
 .forecastfont {
-  font-size: 1.5em;
+  font-size: 1.0em;
   line-height: 1.2em;
   text-align: center;
   padding: 3px;
