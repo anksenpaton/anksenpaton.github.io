@@ -60,7 +60,7 @@
   }
 
   .forecastsection {
-    width: 6em;
+    width: 10em;
   }
   .forecastimg {
     width: 90px;
@@ -86,14 +86,7 @@
     background-color: hsl(291, 84%, 43%);
     color: #fff;
   }
-  .articleimg {
-    /*border: 1px solid #000080;*/
-    width: 50%;
-    height: 0 auto;
-    border-radius: 10px;
-    background-color: hsl(291, 84%, 43%);
-    justify-content: center;
-  }
+
   /*.grid {
     display: grid;
     margin: 1rem auto;
@@ -112,15 +105,7 @@
     width: auto;
   }
 
-  .articleimg {
-    top: auto;
-    right: auto;
-    height: auto;
-    width: 280px;
-    padding: 0.6rem;
-    box-shadow: 0 0 30px #1200b3;
-  }
-
+ 
   .contactdiv {
     max-width: 1048px;
   }
