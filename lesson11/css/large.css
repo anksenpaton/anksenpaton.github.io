@@ -42,11 +42,10 @@
     margin: 1rem auto;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-   
   }
 
-  figcaption{
-    font-size:smaller;
+  figcaption {
+    font-size: smaller;
     color: #1200b3;
     text-align: center;
   }
@@ -54,16 +53,14 @@
   .grid {
     display: grid;
     margin: 1rem auto;
-    grid-gap: .5rem;
+    grid-gap: 0.5rem;
     /*grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));*/
     grid-template-columns: 1fr 1fr 1fr;
     max-width: 1048px;
   }
 
-
-
   article {
-    display:grid;
+    display: grid;
     /*display: flex;
     flex-direction: row;
    */
@@ -89,52 +86,25 @@
     border-radius: 10px;
     background-color: hsl(291, 84%, 43%);
     justify-content: center;
-  }   
+  }
   /*.grid {
     display: grid;
     margin: 1rem auto;
     grid-gap: .5rem;
     /*grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));*/
-   /* grid-template-columns: 1fr 1fr 1fr;
+  /* grid-template-columns: 1fr 1fr 1fr;
     max-width: 1048px;
   }*/
-  
-      
-  .forecastdiv {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 65px;
-    margin: auto;
-    
-    max-width: 1048px;
-    width: auto;
-    height: 280px;
-  }
-
-  /*.cardsforecast {
-    max-width: 35%;
-  }*/
-
-  .eventsdiv {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 65px;
-    margin: auto;
-    max-width: 1048px;
-    width: auto;
-    height: 280px;
-  }
 
   .articlediv {
     display: block;
     margin: 10px auto;
-    max-width: 1048px;
+
     position: relative;
     border: 1px solid indigo;
     width: auto;
-    
   }
-  
+
   .articleimg {
     top: auto;
     right: auto;
@@ -143,7 +113,6 @@
     padding: 0.6rem;
     box-shadow: 0 0 30px #1200b3;
   }
- 
 
   .contactdiv {
     max-width: 1048px;

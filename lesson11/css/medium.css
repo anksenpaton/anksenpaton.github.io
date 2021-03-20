@@ -169,30 +169,13 @@
     color: #fff;
   }
   
-  .forecastdiv {
-    display: grid;
-    grid-template-columns: 1fr;
-    max-width: 1048px;
+  
+  .cardsforecast {
+    grid-gap: 1em;
+    /* max-width: auto; */
+    grid-template-columns: auto auto auto auto auto;
   }
 
-  .cardsforecast {
-    display: grid;
-    grid-gap: 1em;
-    max-width: 35%;
-    grid-template-columns: auto auto auto auto auto;
-    
-  }
-/*
-  .articlediv {
-    display: block;
-    margin: 10px auto;
-    max-width: 1100px;
-    position: relative;
-    border: 1px solid indigo;
-    width: auto;
-    height: 460px;
-  }
-*/
   .articleimg {
     float: right;
     top: auto;

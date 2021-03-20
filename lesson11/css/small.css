@@ -438,6 +438,7 @@ header {
   grid-template-columns: 1fr;
   margin: 0 auto;
   border: 1px solid indigo;
+  max-width: 1048px;
 }
 .cardsforecast {
   display: grid;
@@ -473,6 +474,7 @@ header {
   grid-template-columns: 1fr;
   margin: 0 auto;
   border: 1px solid indigo;
+  max-width: 1048px;
 }
 .cardsevent {
   display: grid;
@@ -512,10 +514,9 @@ header {
   margin: 0 auto;
   height: auto;
   padding: 10px;
-  
   border: 1px solid indigo;
- /* max-width: 1048px;*/
     width: auto;
+    max-width: 1048px;
 }
 .articleimg {
   top: 10px;
