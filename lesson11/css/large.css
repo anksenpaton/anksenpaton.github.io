@@ -120,7 +120,6 @@
     grid-template-columns: 1fr;
     grid-template-rows: 65px;
     margin: auto;
-    
     max-width: 1048px;
     width: auto;
     height: 280px;
@@ -133,7 +132,7 @@
     position: relative;
     border: 1px solid indigo;
     width: auto;
-    height: 460px;
+    
   }
   
   .articleimg {
