@@ -32,7 +32,7 @@ fetch(apiURL_f)
         let img = document.createElement('img')
         img.setAttribute('class', 'forecastimg')
         img.setAttribute('src', imagesrc)
-        img.alt = `$dataObject.list[i].weather[0].description`
+        img.alt = dayOfWeek[date.getDay()] + ' ' + dataObject.list[i].weather[0].description;
         img.setAttribute('id', 'icon')
         card.appendChild(img)
 
