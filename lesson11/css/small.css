@@ -533,31 +533,7 @@ header {
   padding: 0.6rem;
   box-shadow: 0 0 30px #1200b3;
 }
-/*medium view*/
-/*
-.articleimg {
-  float: right;
-  top: auto;
-  right: auto;
-  bottom: auto;
-  height: 270px;
-  width: 280px;
-  padding: 0.6rem;
-  box-shadow: 0 0 30px #1200b3;
- }
- */
 
- /*large view*/
- /*
-.articleimg {
-  top: auto;
-  right: auto;
-  height: auto;
-  width: 280px;
-  padding: 0.6rem;
-  box-shadow: 0 0 30px #1200b3;
-}
-*/
 
 .contactdiv {
   margin: 10px auto;
