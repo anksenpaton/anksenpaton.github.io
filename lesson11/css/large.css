@@ -1,5 +1,6 @@
-/* 64em is also 1028px when basefont is 16px */
-@media only screen and (min-width: 64rem) {
+/* 64em is also 1024px when basefont is 16px */
+/* @media only screen and (min-width: 1024px) { */
+@media only screen and (min-width: 64em) {
   .navigation li:first-child {
     display: block;
   }
@@ -58,12 +59,9 @@
     grid-template-columns: 1fr 1fr 1fr;
     max-width: 1048px;
   }
-
+ 
   .forecastsection {
-    width: 10em;
-  }
-  .forecastimg {
-    width: 90px;
+    width: 8em;
   }
 
   article {
