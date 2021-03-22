@@ -516,7 +516,7 @@ header {
 .towndata {
   background-color: hsl(291, 84%, 43%);
   color: #fff;
-  justify-content: center
+  justify-content: center;
   text-align: center;
 }
 
