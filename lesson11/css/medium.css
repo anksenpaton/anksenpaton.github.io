@@ -38,16 +38,17 @@
 
   .navigation ul {
     /* flex-wrap: wrap; */
-    display: flex;
+    display: block;
   }
 
   .navigation li:first-child {
-    display: block;
+    display: flex;
   }
 
   .navigation li {
-    display: block;
-    flex: 1 1 100%;
+    display: flex;
+    /* flex: 1 1 100%; */
+    justify-content: center;
   }
   nav ul {
     display: none;
@@ -60,6 +61,7 @@
   nav ul li {
     display: flex;
     flex-direction: row;
+    /* flex-wrap: wrap; */
   }
 
   nav button {
@@ -68,6 +70,8 @@
 
   nav ul.hide {
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
   }
   nav ul.responsive {
     display: none;
