@@ -40,7 +40,7 @@
     /* flex-wrap: wrap; */
     display: block;
   }
-
+ 
   .navigation li:first-child {
     display: flex;
   }
