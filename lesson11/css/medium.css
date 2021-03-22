@@ -172,6 +172,23 @@
     width: 280px;
   }
 
+  .townclass {
+    display: flex;
+    border-radius: 10px;
+    background-color: hsl(291, 84%, 43%);
+  }
+
+  .townclass:nth-child(odd) {
+    flex-direction: row-reverse;
+  }
+  .townimg {
+    float: right;
+    height: auto;
+    width: 280px;
+  }
+
+
+
   .contactdiv {
     max-width: 1048px;
   }

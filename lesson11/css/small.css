@@ -373,6 +373,7 @@ article {
   background-color: hsl(291, 84%, 43%);
   border-radius: 10px;
 }
+
 .data {
   background-color: hsl(291, 84%, 43%);
   color: #fff;
@@ -493,6 +494,49 @@ header {
 .norm:hover {
   box-shadow: 0 0 50px #333
 }*/
+
+.cardstown {
+  margin: 1rem auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  max-width: 650px;
+  border: 1px solid indigo;
+  border-radius: 1px;
+  max-width: 1048px;
+  padding: 0.3em;
+}
+
+.townclass {
+  display: grid;
+  flex-direction: row;
+  margin: 4px;
+  padding: 4px;
+}
+
+.towndata {
+  background-color: hsl(291, 84%, 43%);
+  color: #fff;
+  justify-content: center
+  text-align: center;
+}
+
+.towntext {
+  color: white;
+  background-color: hsl(291, 84%, 43%);
+  border-radius: 10px;
+  text-align: center;
+}
+
+.townimg {
+  border-radius: 4px;
+  justify-content: center;
+  height: auto;
+  width: 300px;
+  padding: 0.6rem;
+  background-color: hsl(291, 84%, 43%);
+  box-shadow: 0 0 10px #1200b3;
+  border: 1px solid indigo;
+}
 
 .articlediv {
   display: block;

@@ -102,8 +102,31 @@
     border: 1px solid indigo;
     width: auto;
   }
+  
+  .cardstown {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
 
+  .townclass {
+    display: grid;
+    border: 1px solid #bbb;
+    border-radius: 10px;
+    background-color: hsl(291, 84%, 43%);
+    justify-content: center;
+    text-align: center;
+  }
+
+  .townclass:nth-child(odd) {
+    flex-direction: row;
+  }
  
+  .townimg {
+    justify-content: top;
+    height: 160px;
+    width: 280px;
+  }
+
   .contactdiv {
     max-width: 1048px;
   }
