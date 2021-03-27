@@ -97,7 +97,7 @@
     max-width: 600px;
     margin: 0.5rem auto;
     /*border: 10px solid #bbb;*/
-    background-color: hsl(291, 84%, 43%);
+    background-color: #216EFA;
     display: flex;
     flex-wrap: wrap;
     border-radius: 10px;
@@ -146,7 +146,7 @@
     flex-direction: row;
     /* border: 1px solid #bbb;*/
     border-radius: 10px;
-    background-color: hsl(291, 84%, 43%);
+    background-color: #216EFA;
   }
 
   article:nth-child(odd) {
@@ -155,11 +155,11 @@
 
   .articletext {
     color: white;
-    background-color: hsl(291, 84%, 43%);
+    background-color: #216EFA;
     /*border-radius: 10px;*/
   }
   .data {
-    background-color: hsl(291, 84%, 43%);
+    background-color: #216EFA;
     color: #fff;
   }
 
@@ -178,7 +178,7 @@
   .townclass {
     display: flex;
     border-radius: 10px;
-    background-color: hsl(291, 84%, 43%);
+    background-color: #216EFA;
   }
 
   .townclass:nth-child(odd) {

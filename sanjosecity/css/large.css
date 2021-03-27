@@ -22,7 +22,7 @@
     flex: 1 100%;
     margin: 10px auto;
     position: relative;
-    border: 1px solid indigo;
+    border: 1px solid #216EFA;
   }
   .hero {
     margin: 0 0 auto;
@@ -36,7 +36,7 @@
     grid-template-columns: 1fr 1fr 1fr;
     max-width: 1048px;
     /*background-color: chartreuse;*/
-    background-color: hsl(291, 84%, 43%);
+    background-color: #216EFA;
   }
   .container {
     margin: 1rem auto;
@@ -46,7 +46,7 @@
 
   figcaption {
     font-size: smaller;
-    color: #1200b3;
+    color: #216EFA;
     text-align: center;
   }
 
@@ -70,17 +70,17 @@
    */
     border: 1px solid #bbb;
     border-radius: 10px;
-    background-color: hsl(291, 84%, 43%);
+    background-color: #216EFA;
     justify-content: center;
     text-align: center;
   }
   .articletext {
     color: white;
-    background-color: hsl(291, 84%, 43%);
+    background-color: #216EFA;
     /*border-radius: 10px;*/
   }
   .data {
-    background-color: hsl(291, 84%, 43%);
+    background-color: #216EFA;
     color: #fff;
   }
 
@@ -88,7 +88,7 @@
     display: block;
     margin: 10px auto;
     position: relative;
-    border: 1px solid indigo;
+    border: 1px solid #216EFA;
     width: auto;
   }
    
@@ -101,7 +101,7 @@
     display: grid;
     border: 1px solid #bbb;
     border-radius: 10px;
-    background-color: hsl(291, 84%, 43%);
+    background-color: #216EFA;
     justify-content: center;
     text-align: center;
   }
