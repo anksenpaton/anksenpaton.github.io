@@ -1,0 +1,122 @@
+/* 64em is also 1024px when basefont is 16px */
+@media only screen and (min-width: 64em) {
+  .navigation li:first-child {
+    display: block;
+  }
+  /*.menuHide {
+    display: none;
+  }*/
+  .contentbox {
+    display: block;
+  }
+  .responsive li {
+    display: none;
+  }
+
+  .herodiv {
+    display: block;
+    max-width: 1048px;
+    /*
+    width: auto;
+    */
+    flex: 1 100%;
+    margin: 10px auto;
+    position: relative;
+    border: 1px solid indigo;
+  }
+  .hero {
+    margin: 0 0 auto;
+    width: 100%;
+    height: auto;
+  }
+
+  .cards {
+    margin: 1rem auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 1048px;
+    /*background-color: chartreuse;*/
+    background-color: hsl(291, 84%, 43%);
+  }
+  .container {
+    margin: 1rem auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  figcaption {
+    font-size: smaller;
+    color: #1200b3;
+    text-align: center;
+  }
+
+  .grid {
+    display: grid;
+    margin: 1rem auto;
+    grid-gap: 0.5rem;
+    /*grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));*/
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 1048px;
+  }
+ 
+  .forecastsection {
+    width: 8em;
+  }
+
+  article {
+    display: grid;
+    /*display: flex;
+    flex-direction: row;
+   */
+    border: 1px solid #bbb;
+    border-radius: 10px;
+    background-color: hsl(291, 84%, 43%);
+    justify-content: center;
+    text-align: center;
+  }
+  .articletext {
+    color: white;
+    background-color: hsl(291, 84%, 43%);
+    /*border-radius: 10px;*/
+  }
+  .data {
+    background-color: hsl(291, 84%, 43%);
+    color: #fff;
+  }
+
+  .articlediv {
+    display: block;
+    margin: 10px auto;
+    position: relative;
+    border: 1px solid indigo;
+    width: auto;
+  }
+   
+  .cardstown {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .townclass {
+    display: grid;
+    border: 1px solid #bbb;
+    border-radius: 10px;
+    background-color: hsl(291, 84%, 43%);
+    justify-content: center;
+    text-align: center;
+  }
+
+  .townclass:nth-child(odd) {
+    flex-direction: row;
+  }
+ 
+  .townimg {
+    justify-content: center;
+    height: 160px;
+    width: 280px;
+  }
+
+  .contactdiv {
+    max-width: 1048px;
+  }
+}

@@ -1,0 +1,205 @@
+/* 35em is also 560px when basefont is 16px */
+@media only screen and (min-width: 35em) {
+  h1 {
+    font-size: 2.5rem;
+    /*margin: 0.15rem;*/
+    color: white;
+  }
+  h2 {
+    font-size: 1.5rem;
+    color: white;
+  }
+  /*p {
+    color: white;
+  }*/
+  .p2 {
+    font-family: "Piazzolla", Helvetica, serif;
+    font-size: 1.1em;
+    line-height: 1em;
+    padding: 10px;
+    color: #1200b3;
+    /*text-align: justify;*/
+    margin-top: 0;
+    text-align: left;
+  }
+  header,
+  footer {
+    border-radius: 10px;
+    color: #1200b3;
+  }
+  header img {
+    width: 200px;
+    height: auto;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.15);
+    float: left;
+    border-radius: 10px;
+  }
+
+  .navigation ul {
+    /* flex-wrap: wrap; */
+    display: block;
+  }
+ 
+  .navigation li:first-child {
+    display: flex;
+  }
+
+  .navigation li {
+    display: flex;
+    /*  flex: 1 1 100%;  */
+    justify-content:       center;
+  }
+  nav ul {
+    display: none;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    overflow: hidden;
+  }
+
+  nav ul li {
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+  }
+
+  nav button {
+    display: none;
+  }
+
+  nav ul.hide {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  nav ul.responsive {
+    display: none;
+  }
+  nav li {
+    flex: 3;
+    font-family: "Cabin", Helvetica, sans-serif;
+    font-size: 1.5em;
+
+    /*  mainnav .classList .remove('responsive')
+    }};*/
+  }
+  .banner {
+    font-size: 2em;
+  }
+  /*.menuHide {
+    display: none;
+  }*/
+  .responsive li {
+    display: none;
+  }
+  section {
+    display: grid;
+    max-width: 600px;
+    margin: 0.5rem auto;
+    /*border: 10px solid #bbb;*/
+    background-color: hsl(291, 84%, 43%);
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 10px;
+  }
+
+  .grid {
+    display: grid;
+    margin: 1rem auto;
+    grid-gap: 0.5rem;
+    /* grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));*/
+    grid-template-columns: 1fr 1fr;
+    max-width: 1048px;
+  }
+
+  .container {
+    /*margin: 1rem auto;*/
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .cards {
+    margin: 1rem auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    max-width: 1048px;
+    /*background-color: hsl(291, 84%, 43%);*/
+  }
+
+  * {
+    padding: 0.35rem;
+  }
+
+  h2 {
+    font-size: 1.5em;
+    text-align: center;
+  }
+
+  figcaption {
+    font-size: smaller;
+    color: #1200b3;
+    text-align: center;
+  }
+
+  article {
+    display: flex;
+    flex-direction: row;
+    /* border: 1px solid #bbb;*/
+    border-radius: 10px;
+    background-color: hsl(291, 84%, 43%);
+  }
+
+  article:nth-child(odd) {
+    flex-direction: row-reverse;
+  }
+
+  .articletext {
+    color: white;
+    background-color: hsl(291, 84%, 43%);
+    /*border-radius: 10px;*/
+  }
+  .data {
+    background-color: hsl(291, 84%, 43%);
+    color: #fff;
+  }
+
+  .cardsforecast {
+    grid-template-columns: auto auto auto auto auto;
+  }
+  .forecastsection {
+    width: 4em;
+  }
+
+  .articleimg {
+    float: right;
+    width: 280px;
+  }
+
+  .townclass {
+    display: flex;
+    border-radius: 10px;
+    background-color: hsl(291, 84%, 43%);
+  }
+
+  .townclass:nth-child(odd) {
+    flex-direction: row-reverse;
+  }
+  .townimg {
+    float: right;
+    height: auto;
+    width: 280px;
+  }
+
+  .contactdiv {
+    max-width: 1048px;
+  }
+
+  footer {
+    max-width: 1100px;
+    height: auto;
+    font-size: 0.8rem;
+  }
+  footer a {
+    color: white;
+  }
+}

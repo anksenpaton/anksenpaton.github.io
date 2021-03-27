@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <title>Margaret Yamada WDD 230</title>
+    <meta charset="utf-8" />
+    <meta
+      name="description"
+      content="preston town page document for Margaret Yamada in wdd 230"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" href="../favicon.ico" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/small.css" />
+    <link rel="stylesheet" href="css/medium.css" />
+    <link rel="stylesheet" href="css/large.css" />
+  </head>
+
+  <body onload="getLastUpdateDate()">
+    <div id="bannerAdd"></div>
+    <header>
+      <div class="logo-box">
+        <img
+          class="logo"
+          src="images/iconfinder_winter-activity-11_3850762.png"
+          alt="house in snow"
+        />
+      </div>
+      <h1>Lilac Mist</h1>
+      <br />
+      <div class="moto">Snow Angels</div>
+      <br />
+    </header>
+    <nav class="navigation">
+      <nav class="clearfix">
+        <ul class="responsive">
+          <li class="menuHide">
+            <a href="#" onclick="toggleMenu()">&#9776; Menu</a>
+          </li>
+        </ul>
+        <ul id="primaryNav" class="hide">
+          <li><a href="../lesson11/index.html">Home</a></li>
+          <li><a href="../lesson11/preston.html">Preston</a></li>
+          <li><a href="../lesson11/fishhaven.html">Fish&nbsp;haven</a></li>
+          <li><a href="../lesson11/sodasprings.html">Soda&nbsp;Springs</a></li>
+          <li>
+            <a href="../lesson11/stormcenter.html" class="active-page"
+              >Storm&nbsp;Center</a
+            >
+          </li>
+          <li><a href="../lesson11/gallery.html">Gallery</a></li>
+        </ul>
+      </nav>
+    </nav>
+
+    <main>
+      <h2>Storm Center</h2>
+      <div class="grid">
+        <form action="thanks.html" class="grid">
+          <fieldset>
+            <p>
+            <label
+              >
+              Enter Full Name:<br /><br>
+            <input
+                type="text"
+                name="username"
+                required
+                pattern="[A-Za-z]{1,13}"
+              /> </label
+            >
+          </p>
+            <br />
+            <p>
+            <label
+              >
+             eMail:<br /><br>
+              
+              <input
+                type="email"
+                name="email"
+                placeholder="user@email.org"
+              /> </label
+            >
+          </p>
+            <br />
+            <p>  
+            <label
+              >
+             Phone:<br /><br>
+             <input
+                type="tel"
+                name="phone"
+                placeholder="###-###-####"
+              /> </label
+            >
+          </p> 
+            <br />
+            <p>
+            <label for="zip"
+              >
+              Zip Code:<br /><br>
+              <input
+                type="text"
+                id="zip"
+                name="zip"
+                pattern="(\d{5}([\-]\d{4})?)" /></label
+            >
+          </p>
+            <br />
+          </fieldset>
+
+          <fieldset>
+            <p>
+            <label>
+              Storm Date:
+            </label>
+          </p>
+            <br />
+
+            <p>
+            <label for="search">
+              Search:
+            
+              <br /> </label
+            >
+          </p>
+          
+            <input type="search" id="search" /><br />
+           <p> 
+            <label for="date">Date:<br /> </label>
+          </p>
+            <input type="date" id="date" /><br />
+          </fieldset>
+
+          <fieldset>
+            <p>
+            <label> Storm Type:<br /> </label>
+          </p>
+          <p>
+            <label for="storm">Choose your storm type from the list:</label>
+           </p>
+            <input list="storms" name="storm" id="storm" />
+
+            <datalist id="storms">
+              <option value="Flash Flood"></option>
+              <option value="Hail"></option>
+              <option value="Snowstorm"></option>
+              <option value="Thunderstorm"></option>
+              <option value="Tornado"></option>
+            </datalist>
+          </fieldset>
+
+          <fieldset>
+            <p>
+            <label> Storm Severity:<br /> </label></p>
+            <p>
+            <label class="flexly" for="rating"
+              >Rating: &nbsp;&nbsp;&nbsp;
+              
+              <input
+                type="range"
+                id="rating"
+                value="5"
+                min="1"
+                max="10"
+                step="1"
+                list="tickmarks"
+                oninput="adjustRating(this.value)"
+                onchange="adjustRating(this.value)"
+              />
+              <span id="ratingvalue">1-10</span>
+            </label>
+          </p>
+            <datalist id="tickmarks">
+              <option value="0"></option>
+              <option value="1"></option>
+              <option value="2"></option>
+              <option value="3"></option>
+              <option value="4"></option>
+              <option value="5"></option>
+              <option value="6"></option>
+              <option value="7"></option>
+              <option value="8"></option>
+              <option value="9"></option>
+              <option value="10"></option>
+            </datalist>
+          </fieldset>
+
+          <fieldset>
+            <p>
+            <label> Storm Region:<br> </label></p>
+            <p>
+            <label for="stormregions"
+              >Choose your storm region from the list:<br></label
+            >
+            </p>
+            <select name="stormregions" id="stormregions">
+              <option value="preston">Preston</option>
+              <option value="sodasprings">Soda Springs</option>
+              <option value="fishhaven">Fish Haven</option>
+            </select>
+          </fieldset>
+
+          <fieldset class="nestedfieldset">
+            <p>
+              User-in Danger Level:<br>
+              Choose one<br>
+            </p>
+            <input type="radio" id="yes" name="danger" value="yes" />
+            <label for="yes">yes</label><br />
+            <input type="radio" id="no" name="danger" value="no" />
+            <label for="no">no</label><br />
+            <input type="radio" id="maybe" name="danger" value="maybe" />
+            <label for="maybe">maybe</label><br />
+          </fieldset>
+          <!--<div class="comments">-->
+          <fieldset>
+            <p>
+            <label for="comments">Comments:</label><br />
+          </p>
+            <textarea id="comments" name="comments" rows="4" cols="40">
+            </textarea>
+            <br /><br />
+            <input type="submit" value="Submit" />
+            <!--<div class="buttons_bottom">
+
+             <input type="submit" class="sbutton"><br>
+             <input type="button" value="Button Value" class="sbutton"><br>
+            <button type="button" class="sbutton">Button Text</button>
+           </div>-->
+          </fieldset>
+        </form>
+      </div>
+      <div id="selected"></div>
+
+      <!--<div class="contentbox">Contact Information</div>-->
+
+      <div class="contactdiv">
+        <img
+          class="contactimg"
+          src="images/prestonmap.jpg"
+          alt="preston city map"
+        />
+
+        <!--<section class="contactinfo">-->
+        <div class="contactinfo"></div>
+        <h5>Contact Us</h5>
+        <p class="contactinfo" >
+          <!--<p>-->
+          Lilac Mist<br />
+          <link
+            href="https://fonts.googleapis.com/icon?family=Material+Icons"
+            rel="stylesheet"
+          />
+          &#128204;30 N 1st E<br />
+          Preston, ID. 83263<br />
+          &#9742;999-999-9999<br />
+          <img src="../favicon.ico" alt="favicon" class="favicon" />
+
+          lilacmist.com<br />
+
+          <!--<div class="social">-->
+          <label id="socialmedia">
+            <a
+              class="socialmedia"
+              target="_blank"
+              href="https://www.facebook.com"
+              ><img
+                class="icon"
+                src="https://cdn.glitch.com/5c66b284-e623-491b-997d-b9edec7a482a%2Ffacebook.png?v=1602378345819"
+                alt="facebook"
+            /></a>
+            <a
+              class="socialmedia"
+              target="_blank"
+              href="https://www.instagram.com"
+              ><img
+                class="icon"
+                src="https://cdn.glitch.com/5c66b284-e623-491b-997d-b9edec7a482a%2Finstagram.png?v=1602894261931"
+                alt="instagram"
+              />
+            </a>
+            <a
+              class="socialmedia"
+              target="_blank"
+              href="https://www.youtube.com"
+              ><img
+                class="icon"
+                src="https://cdn.glitch.com/5c66b284-e623-491b-997d-b9edec7a482a%2Fyoutube.png?v=1602378331411​"
+                alt="youtube"
+              />
+            </a>
+          </label>
+        </p>
+      </div>
+    </main>
+    <footer>
+      <p id="info">
+        &copy; 2021 | Margaret Yamada | California |
+        <a href="https://www.byui.edu/online">BYUI Online Learning</a>
+        <br />
+        <span id="updateDate"></span>
+      </p>
+    </footer>
+    <!--
+    <script src="js/getcurrentdate.js"></script>
+    <script src="js/toggleMenu.js"></script>
+    <script src="js/bannerad.js"></script>
+    -->
+    <script src="js/Lazyload.js"></script>
+    <script src="js/windchill.js"></script>
+    <script src="js/javascript.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+  </body>
+</html>

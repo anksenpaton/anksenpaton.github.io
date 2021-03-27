@@ -1,0 +1,22 @@
+section {
+    
+    width: 250px;
+    height: 0 auto;
+    /*margin: .8rem auto;*/
+    display: grid;
+    justify-content: center;
+    font-size:smaller;
+    color: white;
+     max-width: 1048px;
+    box-shadow: 1px 1px 4px 1px #888;
+    /*overflow: hidden;*/
+    border-radius: 10px;
+    background-color: hsl(291, 84%, 43%);
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px;
+     
+  }
+  h2 {
+    font-size: 1.5em;
+  }
