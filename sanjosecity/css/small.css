@@ -384,6 +384,18 @@ header {
   margin-bottom: 10px;
 }
 
+
+
+#alerts {
+display: contents;
+}
+.alerts {
+  display: contents;
+}
+#alerts.hideAlerts {
+  display: none;
+}
+
 .logo {
   width: 170px;
   position: relative;

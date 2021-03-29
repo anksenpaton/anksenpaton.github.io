@@ -2,23 +2,9 @@
 
 function toggleMenu() {
     document.getElementById("primaryNav").classList.toggle("hide");
-    /*alert("Hello from toggleMenu()");*/
 }
-/*const hambutton = document .querySelector();
-const mainnav = document .querySelector(navigation);
-hambutton .addEventListener('click'()=6);
-{
-    mainnav.classList.toggle(responsive)
-},false);
-window.onresize=()=>{if(window.innerWidth>760);
-{
-    mainnav.classList.remove('responsive')
-}
-};*/
 
-
-function getLastUpdateDate() { /* returns something like: Wednesday January 1st 2021 */
-  /* windChill();*/
+function getLastUpdateDate() {
     var timeNow = new Date();
     var dow = timeNow.getDay();
     var dowList = ["Sunday",
@@ -30,18 +16,18 @@ function getLastUpdateDate() { /* returns something like: Wednesday January 1st 
         "Saturday"];
     var mon = timeNow.getMonth();
     var dom = timeNow.getDate();
-    var monList = ["January", 
-        "February", 
-        "March", 
-        "April", 
-        "May", 
-        "June", 
-        "July", 
-        "August", 
-        "September", 
-        "October", 
-        "November", 
-        "December"];  
+    var monList = ["January",
+        "February",
+        "March",
+        "April",
+        "May",
+        "June",
+        "July",
+        "August",
+        "September",
+        "October",
+        "November",
+        "December"];
     var year = timeNow.getFullYear();
 
     var st = "xx";
@@ -113,60 +99,35 @@ function getLastUpdateDate() { /* returns something like: Wednesday January 1st 
 
 
     document.getElementById("updateDate").innerHTML = " "
-    +
-    dowList[dow]
-    +
-    ", "
-    +
+        +
+        dowList[dow]
+        +
+        ", "
+        +
         monList[mon]
-    +
-    " "
-    +
-    dom
-    +
-    st
-    +
-    " "
-    +
-    year;
+        +
+        " "
+        +
+        dom
+        +
+        st
+        +
+        " "
+        +
+        year;
 
 
- /* Check Friday banner add */
- if (dowList[dow] == "Friday") {  
-    document.getElementById("bannerAdd").innerHTML = "<p class='banner'>"
- +
- "Saturday = Preston Pancakes in the Park!"
- +
- "<br>"
- +
- "9:00am Saturday at the City Park";
- +
- "</p>";
-         
- } else {
-    document.getElementById("bannerAdd").innerHTML = "&nbsp;";
-  
- }
- /*
- var daf = new disableautofill({
-    'form': '#login-form',
-    // settings...
-});
 
+    function adjustRating(rating) {
+        document.getElementById("ratingvalue").innerHTML = rating;
+    }
 
-daf.init();
-*/
+    function selectResponse() {
+        const s = document.querySelector('#selected')
+        const sel = document.querySelector('#selectbrowser');
+        s.style.display = "block";
+        s.textContent = sel.value;
 
-function adjustRating(rating) {
-    document.getElementById("ratingvalue").innerHTML = rating;
-}
-
-function selectResponse() {
-	const s = document.querySelector('#selected')
-	const sel = document.querySelector('#selectbrowser');
-	s.style.display = "block";
-	s.textContent = sel.value;
-	
-}
+    }
 
 }
