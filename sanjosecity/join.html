@@ -58,7 +58,7 @@
             <p>
             <label
               >
-              Enter Full Name:<br /><br>
+              Enter First Name:<br /><br>
             <input
                 type="text"
                 name="username"
@@ -68,6 +68,32 @@
             >
           </p>
             <br />
+            <p>
+              <label
+                >
+                Enter Last Name:<br /><br>
+              <input
+                  type="text"
+                  name="username"
+                  required
+                  pattern="[A-Za-z]{1,13}"
+                /> </label
+              >
+            </p>
+              <br />
+              <p>
+                <label
+                  >
+                  Enter Title:<br /><br>
+                <input
+                    type="text"
+                    name="username"
+                    required
+                    pattern="[A-Za-z]{1,13}"
+                  /> </label
+                >
+              </p>
+                <br />
             <p>
             <label
               >
@@ -92,7 +118,44 @@
               /> </label
             >
           </p> 
-            <br />
+            <br /> <p>
+              <label
+                >
+                Enter business name:<br /><br>
+              <input
+                  type="text"
+                  name="username"
+                  required
+                  pattern="[A-Za-z]{1,13}"
+                /> </label
+              >
+            </p>
+              <br />
+              <br /> <p>
+                <label
+                  >
+                  Enter business address:<br /><br>
+                <input
+                    type="text"
+                    name="username"
+                    required
+                    pattern="[A-Za-z]{1,13}"
+                  /> </label
+                >
+              </p>
+              <br /> <p>
+                <label
+                  >
+                  Enter business description:<br /><br>
+                <input
+                    type="text"
+                    name="username"
+                    required
+                    pattern="[A-Za-z]{1,13}"
+                  /> </label
+                >
+              </p>
+
             <p>
             <label for="zip"
               >
@@ -110,7 +173,7 @@
           <fieldset>
             <p>
             <label>
-              Storm Date:
+              Join Date:
             </label>
           </p>
             <br />
@@ -132,56 +195,34 @@
 
           <fieldset>
             <p>
-            <label> Storm Type:<br /> </label>
+            <label> Membership level Selection:<br /> </label>
           </p>
           <p>
-            <label for="storm">Choose your storm type from the list:</label>
+            <label for="membership">Choose your membership level from the list:</label>
            </p>
-            <input list="storms" name="storm" id="storm" />
+            <input list="memberships" name="membership" id="membership" />
 
-            <datalist id="storms">
-              <option value="Flash Flood"></option>
-              <option value="Hail"></option>
-              <option value="Snowstorm"></option>
-              <option value="Thunderstorm"></option>
-              <option value="Tornado"></option>
+            <datalist id="memberships">
+              <option value="Non-Profit($100)"></option>
+              <option value="Bronze($200)"></option>
+              <option value="Silver($400)"></option>
+              <option value="Gold($1000)"></option>
+              
             </datalist>
           </fieldset>
 
           <fieldset>
             <p>
-            <label> Storm Severity:<br /> </label></p>
+            <label> Level Advantages:<br />
+            </label></p>
             <p>
-            <label class="flexly" for="rating"
-              >Rating: &nbsp;&nbsp;&nbsp;
-              
-              <input
-                type="range"
-                id="rating"
-                value="5"
-                min="1"
-                max="10"
-                step="1"
-                list="tickmarks"
-                oninput="adjustRating(this.value)"
-                onchange="adjustRating(this.value)"
-              />
-              <span id="ratingvalue">1-10</span>
-            </label>
+            Directory listings<br />
+            Business trainings<br />
+            Social Media Posts<br />
+            Luncheon Tickets<br />
+            Sponshorships with lebels of advertising<br />
           </p>
-            <datalist id="tickmarks">
-              <option value="0"></option>
-              <option value="1"></option>
-              <option value="2"></option>
-              <option value="3"></option>
-              <option value="4"></option>
-              <option value="5"></option>
-              <option value="6"></option>
-              <option value="7"></option>
-              <option value="8"></option>
-              <option value="9"></option>
-              <option value="10"></option>
-            </datalist>
+           
           </fieldset>
 
           <fieldset>
@@ -236,7 +277,7 @@
       <div class="contactdiv">
         <img
           class="contactimg"
-          src="images/prestonmap.jpg"
+          src="images/mapsanjose2021-03-30.jpg"
           alt="preston city map"
         />
 

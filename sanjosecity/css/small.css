@@ -329,14 +329,14 @@ figcaption {
   grid-template-columns: 1fr;
   max-width: 650px;
   /*background-color: hsl(291, 84%, 43%);*/
-  border-radius: 10px;
+  border-radius: 1px;
 }
 
 article {
   display: flex;
   flex-direction: row;
   /* border: 1px solid #bbb;*/
-  border-radius: 10px;
+  border-radius: 1px;
   background-color: #216EFA;
   justify-content: center;
 }
@@ -480,7 +480,48 @@ display: contents;
   box-shadow: 0 0 50px #333
 }*/
 
-.cardstown {
+.cardsadverts {
+  margin: 1rem auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  max-width: 650px;
+  border: 1px solid #216EFA;
+  border-radius: 1px;
+  max-width: 1048px;
+  padding: 0.3em;
+}
+.advertsclass {
+  display: grid;
+  flex-direction: row;
+  margin: 4px;
+  padding: 4px;
+}
+
+.advertsdata {
+  background-color: #216EFA;
+  color: #fff;
+  justify-content: center;
+  text-align: center;
+}
+
+.advertstext {
+  color: white;
+  background-color: #216EFA;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.advertsimg {
+  border-radius: 4px;
+  justify-content: center;
+  height: auto;
+  width: 300px;
+  padding: 0.6rem;
+  background-color: #216EFA;
+  box-shadow: 0 0 10px #1200b3;
+  border: 1px solid #216EFA;
+}
+/*.cardstown {
   margin: 1rem auto;
   display: grid;
   grid-template-columns: 1fr;
@@ -522,7 +563,7 @@ display: contents;
   box-shadow: 0 0 10px #1200b3;
   border: 1px solid #216EFA;
 }
-
+*/
 .articlediv {
   display: block;
   flex: 1 100%;
