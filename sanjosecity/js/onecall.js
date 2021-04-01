@@ -1,7 +1,7 @@
-let appid_f = 'cf6255e7d3643d472202cab287a3b281';
+let appid = 'cf6255e7d3643d472202cab287a3b281';
 // const apiURL = `https://api.openweathermap.org/data/2.5/onecall?lat=37.3382&lon=-121.8863&units=imperial&exclude=minutely,hourly&appid=cf6255e7d3643d472202cab287a3b281`;
 // const apiURL = `https://api.openweathermap.org/data/2.5/onecall?lat=${lat}&lon=${lon}&units=imperial&exclude=minutely,hourly&appid=${appid}`
-const apiURL = 'js/onecall.json'
+ const apiURL = 'js/onecall.json'
 
 fetch(apiURL)
   .then(function (response) {
@@ -60,7 +60,7 @@ fetch(apiURL)
 
      
       for (let j = 0; j < dataObject.alerts.length; j++) {
-        console.log(dataObject.alerts[j].description)
+        // console.log(dataObject.alerts[j].description)
         document.getElementById("alerts").innerHTML = "<a href=\"#\" onclick=\"toggleAlerts()\">"
          + "<p class='alerts'>"
          + "<div class=alerttext>"
@@ -70,13 +70,13 @@ fetch(apiURL)
       }
 
     } else {
-      console.log('alert does not exist')
+      // console.log('alert does not exist')
       document.getElementById("alerts").innerHTML = "<a href=\"#\" onclick=\"toggleAlerts()\">"
       + "<p class='alerts'>"
       + "<div class=alerttext>"
       + "There are no alerts today."
       + "</div></a>";
-      alert("There are not alerts today.")
+      // alert("There are no alerts today.")
     }
   })
 

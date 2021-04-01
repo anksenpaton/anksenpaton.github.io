@@ -17,7 +17,7 @@
   </head>
 
   <body onload="getLastUpdateDate()">
-    <div id="bannerAdd"></div>
+    <div id="alerts"></div>
     <header>
       <div class="logo-box">
         <img
@@ -26,8 +26,10 @@
           alt="flower inside of a sun"
         />
       </div>
-      <h1>Sun Blossom <br />
-        San Jose Chamber of Commerce</h1>
+      <h1>
+        Sun Blossom <br />
+        San Jose Chamber of Commerce
+      </h1>
       <br />
       <div class="moto">Connecting for Growth</div>
       <br />
@@ -41,7 +43,11 @@
         </ul>
         <ul id="primaryNav" class="hide">
           <li><a href="../sanjosecity/index.html">Home</a></li>
-          <li><a href="../sanjosecity/sanjose.html" class="active-page">San Jose</a></li>
+          <li>
+            <a href="../sanjosecity/sanjose.html" class="active-page"
+              >San Jose</a
+            >
+          </li>
           <li><a href="../sanjosecity/directory.html">Directory</a></li>
           <li><a href="../sanjosecity/contact.html">Contact</a></li>
           <li>
@@ -108,19 +114,22 @@
         </p>
       </div>
       <div class="contactdiv">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d113924.5568576023!2d-121.95337669829264!3d37.34898272874005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fcae48af93ff5%3A0xb99d8c0aca9f717b!2sSan%20Jose%2C%20CA!5e0!3m2!1sen!2sus!4v1617215667769!5m2!1sen!2sus"
-           width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-        <img
-          class="contactimg"
-          alt="san jose city map"
-        />
-        
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d113924.5568576023!2d-121.95337669829264!3d37.34898272874005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fcae48af93ff5%3A0xb99d8c0aca9f717b!2sSan%20Jose%2C%20CA!5e0!3m2!1sen!2sus!4v1617215667769!5m2!1sen!2sus"
+          width="600"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+        ></iframe>
+        <img class="contactimg" alt="san jose city map" />
+
         <!--<section class="contactinfo">-->
         <div class="contactinfo"></div>
         <h5>Contact Us</h5>
-        <p class="contactinfo" >
+        <p class="contactinfo">
           <!--<p>-->
-            San Jose Chamber of Commerce<br />
+          San Jose Chamber of Commerce<br />
           <link
             href="https://fonts.googleapis.com/icon?family=Material+Icons"
             rel="stylesheet"
@@ -143,7 +152,7 @@
                 src="https://cdn.glitch.com/5c66b284-e623-491b-997d-b9edec7a482a%2Ffacebook.png?v=1602378345819"
                 alt="facebook"
             /></a>
-            <a 
+            <a
               class="socialmedia"
               target="_blank"
               href="https://www.instagram.com"
@@ -175,25 +184,17 @@
         <span id="updateDate"></span>
       </p>
     </footer>
-    <!--
-    <script src="js/getcurrentdate.js"></script>
-    <script src="js/toggleMenu.js"></script>
-    <script src="js/bannerad.js"></script>
-    <script src="js/home-wireframes-9.js"></script>
-    <script src="js/prophets.js"></script>
-    -->
+
+    <script>
+      // Lake Tahoe
+      // let lat = '37.3382'
+      // let lon = '-121.8863'
+      // San Jose
+      let lat = "37.36994";
+      let lon = "-121.88471";
+    </script>
 
     <script src="js/events_preston.js"></script>
-    <script src="js/weather_preston.js"></script>
-    <script src="js/forecast_preston.js"></script>
-    <script src="js/Lazyload.js"></script>
-    <script src="js/windchill.js"></script>
-    <script src="js/javascript.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
-    <script>
-      let lat = '37.3382'
-      let lon = '-121.8863'
-    </script>
     <script src="js/onecall.js"></script>
     <script src="js/data_towns.js"></script>
     <script src="js/Lazyload.js"></script>
