@@ -152,7 +152,7 @@ textarea {
 }
 
 a:hover {
-  background: rgba(145, 105, 139, 0.75);
+  background: rgba(211, 210, 210, 0.75);
 }
 a:active {
   color: yellow;
@@ -495,6 +495,7 @@ display: contents;
   flex-direction: row;
   margin: 4px;
   padding: 4px;
+  
 }
 
 .advertsdata {
@@ -516,11 +517,27 @@ display: contents;
   justify-content: center;
   height: auto;
   width: 300px;
-  padding: 0.6rem;
+  padding: 0.1rem;
   background-color: #216EFA;
   box-shadow: 0 0 10px #1200b3;
   border: 1px solid #216EFA;
+
+  width: 250px;
+  height: auto;
+  /* background: #5c0568;*/
+  border-width: 0px;
+  border-style: solid;
+  /*border-color: #247397;*/
+  filter: blur(0em);
+  transition: filter 0.5s;
+  margin: 0.5rem;
+  flex: 1 100%;
+
 }
+.advertsimg:hover {
+  box-shadow: 0 0 50px rgb(0, 0, 0);
+}
+
 /*.cardstown {
   margin: 1rem auto;
   display: grid;
@@ -611,25 +628,25 @@ display: contents;
   right: 40px;
   height: 145px;
   padding: 0.5rem;
-  box-shadow: 0 0 30px #1200b3;*/
-  .map-responsive{
-    overflow:hidden;
-    padding-bottom:56.25%;
-    position:relative;
-    height:0;
-    }
-    .map-responsive iframe{
-      float:right
-      position: absolute;
-      top: 10px;
-      right: 40px;
-      height: 145px;
-      padding: 0.5rem;
-      box-shadow: 0 0 30px #1200b3;
-    }
+  box-shadow: 0 0 30px #1200b3;
+}
+*/
 
-  /*
-}*/
+.map-responsive{
+  overflow:hidden;
+  position: top;
+  height:0;
+  }
+  .map-responsive iframe{
+    float:right;
+    position: absolute;
+    top: 10px;
+    right: 40px;
+    height: 245px;
+    padding: 0.5rem;
+    box-shadow: 0 0 30px #1200b3;
+    border: 0;
+  }
 
 
 footer {

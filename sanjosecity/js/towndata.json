@@ -91,6 +91,21 @@
         "July 8-12: Napoleon Dynamite Festival",
         "November 2-4: Freedom Days"
       ]
+    },
+    {
+      "name": "San Jose",
+      "photo": "sanjosecity.jpg",
+      "motto": "The Capital of Silicon Valley",
+      "yearFounded": 1777,
+      "currentPopulation": 1021795,
+      "averageRainfall": 15.82,
+      "events": [
+        "April 6: San Jose CA Job Fair - Virtual Career Fair",
+        "April 8: Gen Free Tour at San Jose State University",
+        "April 10: Open Air Atrisan Faire Makers Market - Santana Row",
+        "April 10: Alum Rock Trail Cleanup Crew - Alum Rock State Park",
+        "April 11: Indoor Sunday English Mass St. Julie Billiart Parish Church"
+      ]
     }
   ]
 }

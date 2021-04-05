@@ -8,7 +8,7 @@
       content="preston town page document for Margaret Yamada in wdd 230"
     />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="shortcut icon" href="../favicon.ico" />
+    <link rel="shortcut icon" href="favicon.ico" />
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/small.css" />
     <link rel="stylesheet" href="css/medium.css" />
@@ -114,21 +114,11 @@
         </p>
       </div>
       <div class="contactdiv">
-        <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d113924.5568576023!2d-121.95337669829264!3d37.34898272874005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fcae48af93ff5%3A0xb99d8c0aca9f717b!2sSan%20Jose%2C%20CA!5e0!3m2!1sen!2sus!4v1617215667769!5m2!1sen!2sus"
-          width="600"
-          height="450"
-          style="border: 0"
-          allowfullscreen=""
-          loading="lazy"
-        ></iframe>
-        <img class="contactimg" alt="san jose city map" />
-
         <!--<section class="contactinfo">-->
         <div class="contactinfo"></div>
         <h5>Contact Us</h5>
+
         <p class="contactinfo">
-          <!--<p>-->
           San Jose Chamber of Commerce<br />
           <link
             href="https://fonts.googleapis.com/icon?family=Material+Icons"
@@ -137,7 +127,7 @@
           &#128204;30 N 1st E<br />
           San Jose, CA. 95234<br />
           &#9742;999-999-9999<br />
-          <img src="../favicon.ico" alt="favicon" class="favicon" />
+          <img src="favicon.ico" alt="favicon" class="favicon" />
 
           sanjosechamberofcommerce.org<br />
 
@@ -174,7 +164,15 @@
             </a>
           </label>
         </p>
+        <p class="map-responsive">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d113924.5568576023!2d-121.95337669829264!3d37.34898272874005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fcae48af93ff5%3A0xb99d8c0aca9f717b!2sSan%20Jose%2C%20CA!5e0!3m2!1sen!2sus!4v1617215667769!5m2!1sen!2sus"
+            allowfullscreen=""
+            loading="lazy"
+          ></iframe>
+        </p>
       </div>
+
     </main>
     <footer>
       <p id="info">
@@ -192,11 +190,12 @@
       // San Jose
       let lat = "37.36994";
       let lon = "-121.88471";
+      let town = "San Jose";
     </script>
 
-    <script src="js/events_preston.js"></script>
+    <script src="js/events.js"></script>
     <script src="js/onecall.js"></script>
-    <script src="js/data_towns.js"></script>
+    <script src="js/towndata.js"></script>
     <script src="js/Lazyload.js"></script>
     <script src="js/windchill.js"></script>
     <script src="js/javascript.js"></script>

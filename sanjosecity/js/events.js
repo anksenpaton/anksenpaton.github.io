@@ -1,5 +1,4 @@
-let town = 'Fish Haven'
-const apiURL_e = 'https://byui-cit230.github.io/weather/data/towndata.json';
+const apiURL_e = 'js/towndata.json';
 
 fetch(apiURL_e)
   .then(function (response) {
@@ -7,7 +6,7 @@ fetch(apiURL_e)
   })
 
   .then(function (dataObject) {
-    // console.log(dataObject)    
+    console.log(dataObject)    
     for (let i = 0; i < dataObject.towns.length; i++) {
       if (dataObject.towns[i].name.includes(town)) {
         let card = document.createElement('section')
