@@ -55,14 +55,14 @@
     </nav>
 
     <main>
-      <h2>Contact</h2>
+      <h2>Contact Us</h2>
       <!--<div class="contentbox">Hero w/weather</div>-->
 
       <div class="herodiv">
         <img
           class="hero"
-          src="images/sanjoseca20171209_150227.jpg"
-          alt="meadow and mountain"
+          src="images/zoom20210329_153252.jpg"
+          alt="zoom building"
         />
 
         <section class="weathersummary">
@@ -83,42 +83,100 @@
       </div>
 <br />
       <div class="eventsdiv">
-        <h3>Upcoming Events</h3>
+        <h3>Board of Directors</h3>
         <div class="cardsevent"></div>
+        <p>
+          Professor P. Smith, Madame P. Oiseau, Colonel M. Jaune, Monsieur B. Manniquin,
+          Madmoiselle S. Rouge, Dr. G. Verte, Mrs. W. Blanche. 
+        </p>
       </div>
 
 
       <!-- <div class="contentbox">Article</div>-->
       <div class="articlediv">
-        <h4>Soda Springs Geyser</h4>
+        <h4>Contac Us</h4>
 
-        <img class="articleimg" src="images/soda-springs-1768612_640.jpg" alt="soda springs geyser" />
-        <p class="p3">
-         Soda Springs Geyser, is a captive geyser. This geyser was discovered when drilling
-         for a swimming pool. This undertaking happened almost eighty years ago. It is now 
-         capped and controled with a timer to erupt every hour on the hour. Soda Springs
-         Geyser reaches heights of up to one hundred feet, and is in action
-         three hundred and sixty-five days a year. The public is welcome, there are picnic
-         tables provided, as well as public restrooms. So bring a picnic lunch and plan
-         a day out watching thia amazing natural wonder. Interperative signs also provided,
-         and a boardwalk surround for closer viewing. Come to Soda Springs Idaho and enjoy
-         all our natural wonders. (Photo of Soda Springs GeyserImage by
-        <a href="https://pixabay.com/users/kasabubu-1559919/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1768612">Klaus Stebani</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1768612">Pixabay</a>)
-
+        <div class="grid">
+          <form action="thanks.html" class="grid">
+            <fieldset>
+              <p>
+              <label
+                >
+                Enter First Name:<br /><br>
+              <input
+                  type="text"
+                  name="username"
+                  required
+                  pattern="[A-Za-z]{1,13}"
+                /> </label
+              >
+            </p>
+              <br />
+              <p>
+                <label
+                  >
+                  Enter Last Name:<br /><br>
+                <input
+                    type="text"
+                    name="username"
+                    required
+                    pattern="[A-Za-z]{1,13}"
+                  /> </label
+                >
+              </p>
+                <br />
+                <p>
+                  <label
+                    >
+                   eMail:<br /><br>
+                    
+                    <input
+                      type="email"
+                      name="email"
+                      placeholder="user@email.org"
+                    /> </label
+                  >
+                </p>
+                  <br />
+                  <p>  
+                  <label
+                    >
+                   Phone:<br /><br>
+                   <input
+                      type="tel"
+                      name="phone"
+                      placeholder="###-###-####"
+                    /> </label
+                  >
+                </p> 
+                <fieldset>
+                  <p>
+                  <label for="comments">Comments:</label><br />
+                </p>
+                  <textarea id="comments" name="comments" rows="4" cols="40">
+                  </textarea>
+                  <br /><br />
+                  <input type="submit" value="Submit" />
+                  <!--<div class="buttons_bottom">
+      
+                   <input type="submit" class="sbutton"><br>
+                   <input type="button" value="Button Value" class="sbutton"><br>
+                  <button type="button" class="sbutton">Button Text</button>
+                 </div>-->
+                </fieldset>
+              </form>
+            </div>
         </p>
       </div>
       <div class="contactdiv">
-        <img
-          class="contactimg"
-          src="images/mapsanjose2021-03-30.jpg"
-          alt="preston city map"
-        />
+        
 
         <!--<section class="contactinfo">-->
         <div class="contactinfo"></div>
         <h5>Contact Us</h5>
         <p class="contactinfo" >
           <!--<p>-->
+            Sun Blossom
             San Jose Chamber of Commerce<br />
           <link
             href="https://fonts.googleapis.com/icon?family=Material+Icons"
@@ -129,7 +187,7 @@
           &#9742;999-999-9999<br />
           <img src="../favicon.ico" alt="favicon" class="favicon" />
 
-          sanjosechamberofcommerce.org<br />
+          sunblossom.org<br />
 
           <!--<div class="social">-->
           <label id="socialmedia">
@@ -163,6 +221,14 @@
               />
             </a>
           </label>
+        </p>
+
+        <p class="map-responsive">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d113924.5568576023!2d-121.95337669829264!3d37.34898272874005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fcae48af93ff5%3A0xb99d8c0aca9f717b!2sSan%20Jose%2C%20CA!5e0!3m2!1sen!2sus!4v1617215667769!5m2!1sen!2sus"
+            allowfullscreen=""
+            loading="lazy"
+          ></iframe>
         </p>
       </div>
     </main>
