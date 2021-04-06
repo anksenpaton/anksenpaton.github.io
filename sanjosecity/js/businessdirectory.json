@@ -2,50 +2,50 @@
     "directory": [
         {
             "name": "Western Digital",
-            "address": "5601 Great Oaks pkwy, San Jose, Ca",
-            "logo": "link",
+            "address": "5601 Great Oaks pkwy, San Jose, CA 95119",
+            "logo": "images/wd_logo.jpg",
             "url": "wdc.com"
         },
 
         {
             "name": "Cisco Systems Inc.",
             "address": "170 West Tasman Dr. San Jose, CA 95134 USA",
-            "logo": "link",
+            "logo": "images/2017-cisco-logo-4.png",
             "url": "cisco.com"
         },
 
         {
             "name": "eBay Inc.",
             "address": "2145 Hamilton Ave. San Jose, CA 95125",
-            "logo": "link",
+            "logo": "images/eBay-Logo-700x394.png",
             "url": "ebayinc.com"
         },
 
         {
             "name": "Zoom",
             "address": "55 Almaden Boulevard, Suite 400, 500, 600, San Jose, CA, 95113",
-            "logo": "link",
+            "logo": "images/zoom-logo-transparent-6.png",
             "url": "zoom.us"
         },
 
         {
             "name": "CipherCloud",
             "address": "4353 N 1 st,San Jose, CA, 95134",
-            "logo": "link",
+            "logo": "images/ciphercloud-logo-logo.png",
             "url": "ciphercloud.com"
         },
 
         {
             "name": "Adobe Inc.",
             "address": "345 Park Avenue San Jose, CA, 95110-2704",
-            "logo": "link",
+            "logo": "images/Adobe-Logo-700x394.png",
             "url": "adobe.com"
         },
 
         {
             "name": "Union Bank",
-            "address": "590 N 6th St, San Jose, 95112",
-            "logo": "link",
+            "address": "590 N 6th St, San Jose, CA 95112",
+            "logo": "images/UB_logo_color_r_rgb.jpg",
             "url": "unionbank.com"
         }
     ]
