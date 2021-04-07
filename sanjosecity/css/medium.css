@@ -39,7 +39,7 @@
     /* flex-wrap: wrap; */
     display: block;
   }
- 
+
   .navigation li:first-child {
     display: flex;
   }
@@ -47,7 +47,7 @@
   .navigation li {
     display: flex;
     /*  flex: 1 1 100%;  */
-    justify-content:       center;
+    justify-content: center;
   }
   nav ul {
     display: none;
@@ -97,7 +97,7 @@
     max-width: 600px;
     margin: 0.5rem auto;
     /*border: 10px solid #bbb;*/
-    background-color: #216EFA;
+    background-color: #216efa;
     display: flex;
     flex-wrap: wrap;
     border-radius: 10px;
@@ -146,7 +146,7 @@
     flex-direction: row;
     /* border: 1px solid #bbb;*/
     border-radius: 10px;
-    background-color: #216EFA;
+    background-color: #216efa;
   }
 
   article:nth-child(odd) {
@@ -155,11 +155,11 @@
 
   .articletext {
     color: white;
-    background-color: #216EFA;
+    background-color: #216efa;
     /*border-radius: 10px;*/
   }
   .data {
-    background-color: #216EFA;
+    background-color: #216efa;
     color: #fff;
   }
 
@@ -178,7 +178,7 @@
   .townclass {
     display: flex;
     border-radius: 10px;
-    background-color: #216EFA;
+    background-color: #216efa;
   }
 
   .townclass:nth-child(odd) {
@@ -202,8 +202,8 @@
   footer a {
     color: white;
   }
-}
 
-.businesscards {
-  grid-template-columns: 1fr 1fr 1fr;
+  .businesscards {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
 }

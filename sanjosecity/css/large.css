@@ -22,7 +22,7 @@
     flex: 1 100%;
     margin: 10px auto;
     position: relative;
-    border: 1px solid #216EFA;
+    border: 1px solid #216efa;
   }
   .hero {
     margin: 0 0 auto;
@@ -36,7 +36,7 @@
     grid-template-columns: 1fr 1fr 1fr;
     max-width: 1048px;
     /*background-color: chartreuse;*/
-    background-color: #216EFA;
+    background-color: #216efa;
   }
   .container {
     margin: 1rem auto;
@@ -46,7 +46,7 @@
 
   figcaption {
     font-size: smaller;
-    color: #216EFA;
+    color: #216efa;
     text-align: center;
   }
 
@@ -58,7 +58,7 @@
     grid-template-columns: 1fr 1fr 1fr;
     max-width: 1048px;
   }
- 
+
   .forecastsection {
     width: 8em;
   }
@@ -70,17 +70,17 @@
    */
     border: 1px solid #bbb;
     border-radius: 10px;
-    background-color: #216EFA;
+    background-color: #216efa;
     justify-content: center;
     text-align: center;
   }
   .articletext {
     color: white;
-    background-color: #216EFA;
+    background-color: #216efa;
     /*border-radius: 10px;*/
   }
   .data {
-    background-color: #216EFA;
+    background-color: #216efa;
     color: #fff;
   }
 
@@ -88,10 +88,10 @@
     display: block;
     margin: 10px auto;
     position: relative;
-    border: 1px solid #216EFA;
+    border: 1px solid #216efa;
     width: auto;
   }
-   
+
   .cardstown {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -101,7 +101,7 @@
     display: grid;
     border: 1px solid #bbb;
     border-radius: 10px;
-    background-color: #216EFA;
+    background-color: #216efa;
     justify-content: center;
     text-align: center;
   }
@@ -109,7 +109,7 @@
   .townclass:nth-child(odd) {
     flex-direction: row;
   }
- 
+
   .townimg {
     justify-content: center;
     height: 160px;
@@ -118,5 +118,9 @@
 
   .contactdiv {
     max-width: 1048px;
+  }
+
+  .businesscards {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
   }
 }
