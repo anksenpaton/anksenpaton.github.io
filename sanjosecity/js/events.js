@@ -6,7 +6,7 @@ fetch(apiURL_e)
   })
 
   .then(function (dataObject) {
-    console.log(dataObject)    
+    /* console.log(dataObject)  */  
     for (let i = 0; i < dataObject.towns.length; i++) {
       if (dataObject.towns[i].name.includes(town)) {
         let card = document.createElement('section')

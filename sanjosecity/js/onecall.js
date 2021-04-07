@@ -1,7 +1,8 @@
 let appid = 'cf6255e7d3643d472202cab287a3b281';
 // const apiURL = `https://api.openweathermap.org/data/2.5/onecall?lat=37.3382&lon=-121.8863&units=imperial&exclude=minutely,hourly&appid=cf6255e7d3643d472202cab287a3b281`;
 // const apiURL = `https://api.openweathermap.org/data/2.5/onecall?lat=${lat}&lon=${lon}&units=imperial&exclude=minutely,hourly&appid=${appid}`
- const apiURL = 'js/onecall.json'
+// const apiURL = 'js/onecall.json'
+const apiURL = 'js/onecall_with_alert.json'
 
 fetch(apiURL)
   .then(function (response) {
@@ -9,7 +10,7 @@ fetch(apiURL)
   })
 
   .then(function (dataObject) {
-    console.log(dataObject)
+    /* console.log(dataObject) */
     if (dataObject.daily.length > 1) {
 
       document.getElementById('current-temp').textContent = Math.round(dataObject.current.temp)
@@ -54,33 +55,33 @@ fetch(apiURL)
 
     /* check for alerts */
     if (dataObject.hasOwnProperty('alerts')) {
- 
-      console.log('alert exists')
- 
 
-     
+      /* console.log('alert exists') */
+
       for (let j = 0; j < dataObject.alerts.length; j++) {
         // console.log(dataObject.alerts[j].description)
-        document.getElementById("alerts").innerHTML = "<a href=\"#\" onclick=\"toggleAlerts()\">"
-         + "<p class='alerts'>"
-         + "<div class=alerttext>"
-         + dataObject.alerts[j].description 
-         + "</div></a>";
-         alert(dataObject.alerts[j].description)
+        document.getElementById("alerts").innerHTML = " "
+          + "<p class='alerts'>"
+          + "<div class=alerttext>"
+          + dataObject.alerts[j].description
+          + "<button onclick='toggleAlerts()'>Dismiss </button>"
+          + "</div>"; 
+        /* alert(dataObject.alerts[j].description) */
       }
 
     } else {
       // console.log('alert does not exist')
-      document.getElementById("alerts").innerHTML = "<a href=\"#\" onclick=\"toggleAlerts()\">"
-      + "<p class='alerts'>"
-      + "<div class=alerttext>"
-      + "There are no alerts today."
-      + "</div></a>";
+      document.getElementById("alerts").innerHTML = " "
+        + "<p class='alerts'>"
+        + "<div class=alerttext>"
+        + "There are no alerts today. &nbsp;"
+        + "<button onclick='toggleAlerts()'>Dismiss </button>"
+        + "</div>";
       // alert("There are no alerts today.")
     }
   })
 
 
-  function toggleAlerts() {
-    document.getElementById("alerts").classList.toggle("hideAlerts");
+function toggleAlerts() {
+  document.getElementById("alerts").classList.toggle("hideAlerts");
 }

@@ -687,18 +687,20 @@ footer a {
   margin: 30px auto;
   text-align: center;
   padding: 5px;
+  column-gap: 15px;
+  row-gap: 15px;
 }
 @media only screen and (min-width: 650px) {
   .businesscards {
     grid-template-columns: 1fr 1fr;
   }
 }
-@media only screen and (min-width: 750px) {
+@media only screen and (min-width: 770px) {
   .businesscards {
     grid-template-columns: 1fr 1fr 1fr;
   }
 }
-@media only screen and (min-width: 950px) {
+@media only screen and (min-width: 990px) {
   .businesscards {
     grid-template-columns: 1fr 1fr 1fr 1fr;
   }
@@ -709,7 +711,7 @@ footer a {
   height: 0 auto;
   display: grid;
   justify-content: center;
-  font-size: smaller;
+  /* font-size: smaller; */
   color: blue;
   box-shadow: 1px 1px 4px 1px #888;
   /* overflow: hidden; */
