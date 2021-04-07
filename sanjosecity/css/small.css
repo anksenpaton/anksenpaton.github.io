@@ -561,6 +561,10 @@ header {
 }
 
 .contactdiv {
+  display: grid;
+  grid-template-columns: 1fr;
+  max-width: 1048px;
+  border-width: 2px;
   margin: 10px auto;
   position: relative;
   padding: 10px;
@@ -578,6 +582,8 @@ header {
 }
 
 .contactimg {
+  display: grid;
+  grid-template-columns: 1fr;
   position: absolute;
   top: 10px;
   right: 40px;
