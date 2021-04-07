@@ -203,7 +203,5 @@
     color: white;
   }
 
-  .businesscards {
-    grid-template-columns: 1fr 1fr 1fr;
-  }
+
 }
