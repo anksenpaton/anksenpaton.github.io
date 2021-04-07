@@ -532,49 +532,8 @@ header {
   box-shadow: 0 0 20px rgb(0, 0, 0);
 }
 
-/*.cardstown {
-  margin: 1rem auto;
-  display: grid;
-  grid-template-columns: 1fr;
-  max-width: 650px;
-  border: 1px solid #216EFA;
-  border-radius: 1px;
-  max-width: 1048px;
-  padding: 0.3em;
-}
 
-.townclass {
-  display: grid;
-  flex-direction: row;
-  margin: 4px;
-  padding: 4px;
-}
 
-.towndata {
-  background-color: #216EFA;
-  color: #fff;
-  justify-content: center;
-  text-align: center;
-}
-
-.towntext {
-  color: white;
-  background-color: #216EFA;
-  border-radius: 10px;
-  text-align: center;
-}
-
-.townimg {
-  border-radius: 4px;
-  justify-content: center;
-  height: auto;
-  width: 300px;
-  padding: 0.6rem;
-  background-color: #216EFA;
-  box-shadow: 0 0 10px #1200b3;
-  border: 1px solid #216EFA;
-}
-*/
 .articlediv {
   display: block;
   flex: 1 100%;
@@ -634,7 +593,8 @@ header {
   float: right;
   position: absolute;
   top: 10px;
-  right: 40px;
+  right: 10px;
+  left: auto;
   width: 240px;
   height: 240px;
   padding: 0.5rem;
