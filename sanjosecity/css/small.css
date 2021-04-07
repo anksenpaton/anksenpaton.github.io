@@ -570,7 +570,8 @@ header {
 }
 .contactinfo {
   font-family: "Piazzolla", Helvetica, serif;
-  font-size: 1em;
+  /*font-size: 1em;*/
+  font-size: smaller;
   line-height: 1.1em;
   color: #216efa;
 }
