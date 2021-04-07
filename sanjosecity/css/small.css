@@ -272,8 +272,9 @@ a.active-page {
   position: absolute;
   top: 10px;
   left: 10px;
+  font-size: smaller;
   max-width: fit-content;
-  height: 250px;
+  height: 189px;
   padding: 0.5rem;
   box-shadow: 0 0 30px #1200b3;
   background-color: #daf3f7;
