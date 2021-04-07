@@ -1,8 +1,8 @@
 let appid = 'cf6255e7d3643d472202cab287a3b281';
 // const apiURL = `https://api.openweathermap.org/data/2.5/onecall?lat=37.3382&lon=-121.8863&units=imperial&exclude=minutely,hourly&appid=cf6255e7d3643d472202cab287a3b281`;
-// const apiURL = `https://api.openweathermap.org/data/2.5/onecall?lat=${lat}&lon=${lon}&units=imperial&exclude=minutely,hourly&appid=${appid}`
+ const apiURL = `https://api.openweathermap.org/data/2.5/onecall?lat=${lat}&lon=${lon}&units=imperial&exclude=minutely,hourly&appid=${appid}`
 // const apiURL = 'js/onecall.json'
-const apiURL = 'js/onecall_with_alert.json'
+// const apiURL = 'js/onecall_with_alert.json'
 
 fetch(apiURL)
   .then(function (response) {
