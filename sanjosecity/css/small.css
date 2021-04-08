@@ -648,7 +648,7 @@ footer a {
 }
 
 .businesscards {
-  height: 0 auto;
+  height: auto;
   display: grid;
   grid-template-columns: 1fr;
   justify-content: center;
@@ -678,7 +678,7 @@ footer a {
 
 .businesscard {
   width: 200px;
-  height: 0 auto;
+  height: auto;
   display: grid;
   justify-content: center;
   /* font-size: smaller; */
